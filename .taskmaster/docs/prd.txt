@@ -1,0 +1,187 @@
+# Product Requirements Document: UK Building Merchant Sector Marketing SaaS
+
+## Executive Summary
+
+### Purpose
+The platform aims to digitize and streamline special offer promotions across the UK Building Merchant sector into a comprehensive digital marketing solution that connects suppliers, merchants/retailers, and end consumers through special offers. Inspired by Toolbank's successful "Real Deals for You" promotion, the platform expands this proven model to serve the broader building merchant sector.
+
+### Target Market
+- **Suppliers:** Tool and building material manufacturers who distribute through Toolbank and various buying groups and trade associations (200+ brands including Stanley Black & Decker, Draper Tools, Faithfull Tools, and others)
+- **Merchants/Retailers:** Toolbank retailers, members of key buying groups and trade associations including NMBS (1,250+ merchants), IBC (220+ merchants), BMF (535+ merchant members), and independent retailers
+- **End consumers:** Both trade professionals and DIY customers
+
+### Key Value Propositions
+- **For Suppliers:** Easy digital platform to upload and promote monthly special offers across multiple distribution channels, with analytics to track performance
+- **For Merchants/Retailers:** Supports Toolbank's "Keeping the Tool Trade Local" ethos and similar values of other organizations by directing consumers to local merchants while providing easy digital marketing tools
+- **For Consumers:** Mobile-optimized Progressive Web App to discover time-limited special offers on quality tools and building materials
+- **For Toolbank and Other Buying Groups/Trade Associations:** Modernizes their promotional models while preserving their wholesale distribution business relationships
+
+### Technical Approach
+The platform will be developed using React 18, TypeScript, Tailwind CSS, and Supabase for the backend, making it a modern, scalable solution.
+
+## Vision Statement
+Digitally transform Toolbank's successful "Real Deals for You" promotion and special offer promotions across the UK Building Merchant sector into a seamless ecosystem that connects suppliers, local merchants, and consumers. The platform will preserve Toolbank's "Keeping the Tool Trade Local" ethos while also respecting the unique value propositions of each buying group and trade association including NMBS, IBC, and BMF.
+
+## Business Objectives
+
+### Primary Objectives
+- Create a unified yet customizable digital platform for special offers across the UK Building Merchant sector, building on Toolbank's successful promotional model
+- Modernize Toolbank's and other organizations' print-based promotion strategies with a digital solution that maintains brand identity for each organization
+- Increase supplier participation in promotional activities by simplifying the process of creating and distributing special offers across Toolbank and multiple buying groups
+- Drive foot traffic and online sales to local merchants and building retailers
+- Improve consumer discovery of professional-quality tools and building materials through targeted and timely special offers
+- Create measurable analytics and insights for suppliers, merchants, and buying groups to optimize promotional effectiveness
+
+## Core Features
+
+### Multi-Organization Architecture
+- Support for multiple buying groups and trade associations (Toolbank, NMBS, IBC, BMF)
+- Organization-specific branding and business rules
+- Configurable workflows and approval processes
+- Data isolation with configurable sharing between organizations
+
+### Supplier Portal
+- Comprehensive offer creation interface with rich media upload
+- Multi-step offer creation wizard
+- Organization selection for cross-organization campaigns
+- Performance analytics dashboard
+- Campaign management across multiple organizations
+
+### Merchant Experience
+- Consolidated offer feed from all affiliated organizations
+- Website integration widgets (JavaScript embeds)
+- Stock availability management
+- QR code generation for in-store displays
+- Performance tracking for selected offers
+
+### Consumer Progressive Web App
+- Mobile-optimized offer discovery
+- Location-based merchant finding
+- Saved offers collection with offline access
+- Push notifications for offer updates
+- Social sharing capabilities
+
+### Analytics & Reporting
+- Cross-organization performance metrics
+- Supplier engagement analytics
+- Merchant adoption tracking
+- Consumer behavior insights
+- Custom report generation
+
+## User Personas
+
+### Supplier Marketing Manager
+- **Age:** 30-50 years old
+- **Experience:** 5+ years in marketing, transitioning from traditional to digital
+- **Technical proficiency:** Moderate, comfortable with basic digital tools
+- **Goals:** Increase visibility across multiple merchant networks, generate higher sales volumes, build brand awareness, track ROI
+- **Pain Points:** Long lead times for print catalogs, managing promotions across multiple buying groups, limited visibility into merchant displays
+
+### Independent Merchant Owner/Manager
+- **Age:** 35-60 years old
+- **Experience:** Often family business owners with deep product knowledge but limited marketing expertise
+- **Technical proficiency:** Basic to moderate, familiar with basic e-commerce
+- **Business size:** Small to medium independent retailers with 1-5 locations
+- **Goals:** Drive foot traffic and online sales, compete with big box retailers, efficiently manage promotions from multiple buying groups
+- **Pain Points:** Difficulty predicting which promotional products will sell, limited website capabilities, time-consuming promotion updates
+
+### Trade Professional/DIY Consumer
+- **Age:** 25-65 years old
+- **Experience:** Range from apprentices to seasoned professionals or DIY enthusiasts
+- **Technical proficiency:** Increasingly digital-savvy, especially younger tradespeople
+- **Goals:** Find quality tools at best prices, discover special offers on trusted brands, purchase from local merchants
+- **Pain Points:** Difficulty tracking current promotions, frustration when promotional items are out of stock, time constraints limiting shopping around
+
+### Buying Group Marketing Director
+- **Age:** 35-55 years old
+- **Experience:** 10+ years in marketing with deep industry knowledge
+- **Technical proficiency:** Moderate to high, familiar with digital marketing platforms
+- **Goals:** Provide value-added services to member merchants, strengthen supplier-merchant relationships, differentiate from competing buying groups
+- **Pain Points:** Difficulty demonstrating ROI of promotional activities, limited visibility into promotion effectiveness, resource constraints for digital solutions
+
+## Technical Requirements
+
+### Platform Architecture
+- Multi-tenant architecture with organization-level isolation
+- Microservices design for scalability and maintainability
+- API-first approach to enable integrations and extensions
+- Cloud-native infrastructure for reliability and scalability
+- Responsive design supporting all device types and screen sizes
+- Progressive Web App (PWA) capabilities for mobile-first experience
+
+### Security Requirements
+- Role-based access control with fine-grained permissions
+- Data encryption in transit and at rest
+- Multi-factor authentication for administrative access
+- GDPR compliance for user data protection
+- Secure API authentication using industry standards
+- Audit logging for all system activities
+
+### Performance Requirements
+- Page load times under 2 seconds for consumer-facing interfaces
+- API response times under 500ms for 95% of requests
+- Scalability to handle 10,000+ concurrent users
+- High availability with 99.9% uptime SLA
+- Efficient image and video delivery through CDN
+
+### Integration Requirements
+- RESTful API for all platform functionality
+- Webhook support for event-driven integrations
+- OAuth 2.0 for secure third-party authentication
+- Bulk import/export capabilities for product and offer data
+- E-commerce platform connectors for major systems
+- Social media API integration for marketing automation
+
+## Implementation Roadmap
+
+### Phase 1: Foundation (Months 1-3)
+- Core platform architecture development
+- Multi-organization configuration system
+- Basic supplier portal for offer creation
+- Simple merchant interface for offer selection
+- Minimal viable consumer-facing PWA
+- Essential analytics for suppliers and merchants
+
+### Phase 2: Enhanced Features (Months 4-6)
+- Advanced offer management capabilities
+- Improved merchant website integration
+- Enhanced consumer discovery features
+- Cross-organization analytics dashboard
+- Initial API ecosystem for integrations
+- Social media sharing capabilities
+
+### Phase 3: Advanced Capabilities (Months 7-9)
+- Sophisticated targeting and personalization
+- Advanced analytics and reporting
+- Complete API documentation and developer portal
+- Enhanced third-party integrations
+- Performance optimization and scaling
+- Advanced merchant tools and customization
+
+### Phase 4: Optimization and Expansion (Months 10-12)
+- Machine learning for offer recommendations
+- Advanced consumer engagement features
+- Expanded integration capabilities
+- Performance and security hardening
+- Additional buying group onboarding
+- Platform extension capabilities
+
+## Success Criteria
+
+### Platform Adoption Metrics
+- 50% of target suppliers actively using the platform within 6 months
+- 30% of affiliated merchants implementing website integration within 6 months
+- 100,000 active users within 12 months
+- 40% of suppliers creating offers for multiple organizations within 9 months
+
+### Business Impact Metrics
+- 15% average increase in sales for promoted products
+- 50% reduction in print catalog reliance within 12 months
+- 80% positive feedback from merchant surveys
+- Demonstrable positive return on marketing investment for 75% of suppliers
+
+### Technical Performance Metrics
+- 99.9% uptime during business hours
+- All pages loading in under 2 seconds for 95% of users
+- 70% of consumer traffic via mobile devices
+- 25% of merchants implementing API integrations within 12 months
