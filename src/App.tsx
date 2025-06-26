@@ -7,8 +7,11 @@ import { AuthProvider } from './lib/contexts/AuthContext'
 import HomePage from './polymet/pages/home-page'
 import LoginPage from './polymet/pages/login-page'
 import DocumentationHub from './polymet/pages/documentation-hub'
-import MainLayout from './polymet/layouts/main-layout'
 import AuthLayout from './polymet/layouts/auth-layout'
+
+// Import header and footer directly for the home page
+import Header from './polymet/components/header'
+import Footer from './polymet/components/footer'
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -26,13 +29,15 @@ function App() {
         <OrganizationProvider>
           <Router>
             <Routes>
-              {/* Home page with main layout */}
+              {/* Home page without container wrapper for full-width sections */}
               <Route
                 path="/"
                 element={
-                  <MainLayout>
+                  <div className="min-h-screen bg-background">
+                    <Header />
                     <HomePage />
-                  </MainLayout>
+                    <Footer />
+                  </div>
                 }
               />
               
@@ -46,18 +51,21 @@ function App() {
                 }
               />
               
-              {/* Documentation with main layout */}
+              {/* Documentation with header/footer but no container padding */}
               <Route
                 path="/documentation"
                 element={
-                  <MainLayout>
-                    <DocumentationHub />
-                  </MainLayout>
+                  <div className="min-h-screen bg-background">
+                    <Header />
+                    <main>
+                      <DocumentationHub />
+                    </main>
+                    <Footer />
+                  </div>
                 }
               />
               
               {/* Future routes will be added here */}
-              {/* Supplier portal, merchant dashboard, consumer app, etc. */}
             </Routes>
           </Router>
         </OrganizationProvider>

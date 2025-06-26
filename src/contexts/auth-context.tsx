@@ -1,3 +1,2 @@
-// Temporary bridge file to maintain compatibility with Polymet imports
-// This re-exports the AuthContext from the correct location
-export { useAuth, AuthProvider } from '@/lib/contexts/AuthContext'
+// Re-export the auth context for compatibility with Polymet components
+export { AuthProvider, useAuth } from '../lib/contexts/AuthContext'
