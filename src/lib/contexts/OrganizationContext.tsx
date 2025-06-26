@@ -105,7 +105,7 @@ const ORGANIZATION_THEMES = {
 
 export function OrganizationProvider({ children }: { children: React.ReactNode }) {
   const [organization, setOrganization] = useState<Organization | null>(null)
-  const [organizations, setOrganizations] = useState<Organization[]>(DEFAULT_ORGANIZATIONS)
+  const [organizations, _setOrganizations] = useState<Organization[]>(DEFAULT_ORGANIZATIONS)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
