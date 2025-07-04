@@ -1,0 +1,16 @@
+<svg width="512" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- House outline -->
+  <path d="M367 50 L512 120 L512 130 L487 130 L487 140 L367 140 L247 140 L247 130 L222 130 L222 120 Z" fill="#E53E3E"/>
+  <!-- Chimney -->
+  <rect x="435" y="65" width="20" height="25" fill="#E53E3E"/>
+  
+  <!-- BMF Text -->
+  <text x="367" y="180" text-anchor="middle" font-family="Arial Black, Arial" font-size="48" font-weight="900" fill="#1E5C96">BMF</text>
+  
+  <!-- Subtitle -->
+  <text x="247" y="210" font-family="Arial" font-size="16" font-weight="bold" fill="#1E5C96">Builders Merchants</text>
+  <text x="426" y="230" font-family="Arial" font-size="16" font-weight="bold" fill="#1E5C96">Federation</text>
+  
+  <!-- Red bar at bottom -->
+  <rect x="222" y="240" width="290" height="8" fill="#E53E3E"/>
+</svg>

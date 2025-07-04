@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { MoonIcon, SunIcon, MenuIcon, XIcon, LogOutIcon } from "lucide-react";
-import { useAuth } from "@/contexts/auth-context";
+import { useAuth } from "@/lib/contexts/AuthContext";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -51,27 +51,32 @@ export default function Header() {
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
             <div className="mr-2 h-8 w-8 rounded-full bg-primary"></div>
-            <span className="text-xl font-bold">BuildConnect</span>
+            <span className="text-xl font-bold">MerchantDeals.ai</span>
           </Link>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden items-center space-x-6 md:flex">
-          <Link to="/features" className="text-sm font-medium hover:text-primary">
+          <Link to="/features" className="text-sm font-medium hover:text-primary transition-colors">
             Features
           </Link>
-          <Link to="/organizations" className="text-sm font-medium hover:text-primary">
+          <Link to="/organizations" className="text-sm font-medium hover:text-primary transition-colors">
             Organizations
           </Link>
-          <Link to="/pricing" className="text-sm font-medium hover:text-primary">
+          <Link to="/pricing" className="text-sm font-medium hover:text-primary transition-colors">
             Pricing
           </Link>
-          <Link to="/about" className="text-sm font-medium hover:text-primary">
+          <Link to="/about" className="text-sm font-medium hover:text-primary transition-colors">
             About
           </Link>
-          <Link to="/contact" className="text-sm font-medium hover:text-primary">
+          <Link to="/contact" className="text-sm font-medium hover:text-primary transition-colors">
             Contact
           </Link>
+          {user && (
+            <Link to="/dashboard" className="text-sm font-medium text-primary hover:opacity-80 transition-opacity">
+              Dashboard
+            </Link>
+          )}
         </nav>
 
         <div className="flex items-center space-x-4">
@@ -107,7 +112,7 @@ export default function Header() {
                       <Link to="/login">Log In</Link>
                     </Button>
                     <Button asChild>
-                      <Link to="/register-page">Sign Up</Link>
+                      <Link to="/register">Sign Up</Link>
                     </Button>
                   </>
                 )}
@@ -134,37 +139,51 @@ export default function Header() {
       {/* Mobile Navigation */}
       {isMenuOpen && (
         <div className="container mx-auto px-4 pb-4 md:hidden">
-          <nav className="flex flex-col space-y-4">
+          <nav className="flex flex-col space-y-2">
             <Link
               to="/features"
-              className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
+              className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
+              onClick={() => setIsMenuOpen(false)}
             >
               Features
             </Link>
             <Link
               to="/organizations"
-              className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
+              className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
+              onClick={() => setIsMenuOpen(false)}
             >
               Organizations
             </Link>
             <Link
               to="/pricing"
-              className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
+              className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
+              onClick={() => setIsMenuOpen(false)}
             >
               Pricing
             </Link>
             <Link
               to="/about"
-              className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
+              className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
+              onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
             <Link
               to="/contact"
-              className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
+              className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
+              onClick={() => setIsMenuOpen(false)}
             >
               Contact
             </Link>
+            {user && (
+              <Link
+                to="/dashboard"
+                className="rounded-md px-3 py-2 text-sm font-medium text-primary hover:bg-accent hover:text-accent-foreground transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Dashboard
+              </Link>
+            )}
             <div className="flex flex-col space-y-2 pt-2">
               {!loading && (
                 <>
@@ -184,7 +203,7 @@ export default function Header() {
                         <Link to="/login">Log In</Link>
                       </Button>
                       <Button className="w-full" asChild>
-                        <Link to="/register-page">Sign Up</Link>
+                        <Link to="/register">Sign Up</Link>
                       </Button>
                     </>
                   )}

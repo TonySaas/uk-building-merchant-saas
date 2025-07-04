@@ -44,7 +44,7 @@ const organizationThemes = {
     fontFamily: "Inter, sans-serif",
   },
   ibc: {
-    name: "IBC",
+    name: "BMN",
     primary: "emerald-700",
     secondary: "emerald-500",
     accent: "sky-500",

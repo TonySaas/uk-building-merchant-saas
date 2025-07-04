@@ -56,13 +56,13 @@ export default function HeaderAccessible() {
           <Link
             to="/"
             className="flex items-center"
-            aria-label="BuildConnect Home"
+            aria-label="MerchantDeals.ai Home"
           >
             <div
               className="mr-2 h-8 w-8 rounded-full bg-primary"
               aria-hidden="true"
             ></div>
-            <span className="text-xl font-bold">BuildConnect</span>
+            <span className="text-xl font-bold">MerchantDeals.ai</span>
           </Link>
         </div>
 

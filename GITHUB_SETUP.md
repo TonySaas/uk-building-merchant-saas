@@ -78,14 +78,14 @@ Once successfully pushed, your repository will contain:
 
 ### Critical Rules for Development
 - **NEVER modify** existing Polymet components in `/src/polymet/`
-- **ALWAYS support** multi-organization architecture (Toolbank, NMBS, IBC, BMF)
+- **ALWAYS support** multi-organization architecture (Toolbank, NMBS, BMN, BMF)
 - **USE Supabase** for all data operations
 - **FOLLOW** the comprehensive rules in `/docs/claude-code-rules.md`
 
 ### Organizations Supported
 - **Toolbank** (Wholesaler): "Keeping the Tool Trade Local"
 - **NMBS** (Buying Group): 1,250+ merchant members
-- **IBC** (Buying Group): 220+ merchants, 300+ locations  
+- **BMN** (News Organization): Builders' Merchants News  
 - **BMF** (Trade Association): 1,020+ companies
 
 ## 🎉 Project Ready Status

@@ -160,7 +160,7 @@ CREATE INDEX IF NOT EXISTS idx_org_roles_org ON organization_roles(organization_
 INSERT INTO organizations (name, type, description, is_active) VALUES
 ('Toolbank', 'wholesaler', 'UK''s leading tool wholesaler with "Keeping the Tool Trade Local" ethos', true),
 ('NMBS', 'buying_group', 'National Merchant Buying Society - 1,250+ merchant members empowering independent merchants', true),
-('IBC', 'buying_group', 'Independent Builders Merchant Buying Group - UK''s largest builders'' merchant buying group', true),
+('BMN', 'buying_group', 'Builders'' Merchants News', true),
 ('BMF', 'trade_association', 'Builders Merchants Federation - Trade association representing 1,020+ companies', true)
 ON CONFLICT (name) DO NOTHING;
 
@@ -171,25 +171,25 @@ SELECT
     CASE o.name
         WHEN 'Toolbank' THEN '/logos/toolbank-logo.png'
         WHEN 'NMBS' THEN '/logos/nmbs-logo.png'
-        WHEN 'IBC' THEN '/logos/ibc-logo.png'
+        WHEN 'BMN' THEN '/logos/ibc-logo.png'
         WHEN 'BMF' THEN '/logos/bmf-logo.png'
     END,
     CASE o.name
         WHEN 'Toolbank' THEN '#3b82f6'
         WHEN 'NMBS' THEN '#22c55e'
-        WHEN 'IBC' THEN '#a855f7'
+        WHEN 'BMN' THEN '#a855f7'
         WHEN 'BMF' THEN '#f97316'
     END,
     CASE o.name
         WHEN 'Toolbank' THEN '#1d4ed8'
         WHEN 'NMBS' THEN '#15803d'
-        WHEN 'IBC' THEN '#7c3aed'
+        WHEN 'BMN' THEN '#7c3aed'
         WHEN 'BMF' THEN '#c2410c'
     END,
     CASE o.name
         WHEN 'Toolbank' THEN 'Keeping the Tool Trade Local'
         WHEN 'NMBS' THEN 'Empowering Independent Merchants'
-        WHEN 'IBC' THEN 'UK''s Largest Builders'' Merchant Buying Group'
+        WHEN 'BMN' THEN 'Builders'' Merchants News'
         WHEN 'BMF' THEN 'Representing the Building Materials Industry'
     END
 FROM organizations o

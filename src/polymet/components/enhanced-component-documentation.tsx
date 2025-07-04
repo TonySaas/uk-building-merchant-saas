@@ -406,10 +406,10 @@ return (
     <div className="container mx-auto p-6">
       <div className="prose prose-sm sm:prose lg:prose-lg dark:prose-invert max-w-none">
         <h1 className="text-3xl font-bold mb-6">
-          BuildConnect Component API Documentation
+          MerchantDeals.ai Component API Documentation
         </h1>
         <p className="text-muted-foreground mb-6">
-          Comprehensive API documentation for all components in the BuildConnect
+          Comprehensive API documentation for all components in the MerchantDeals.ai
           application, including props, state management, theme customization,
           and accessibility considerations.
         </p>

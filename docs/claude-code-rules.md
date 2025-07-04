@@ -24,7 +24,7 @@
 ```
 ✅ ALWAYS implement organization context in new features
 ✅ ENSURE data isolation between organizations
-✅ SUPPORT Toolbank, NMBS, IBC, BMF branding
+✅ SUPPORT Toolbank, NMBS, BMN, BMF branding
 ✅ MAINTAIN organization-specific business rules
 ✅ IMPLEMENT proper role-based access control
 ```

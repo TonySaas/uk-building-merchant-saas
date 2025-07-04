@@ -171,7 +171,7 @@ export default function LoginForm() {
                 <div className="space-y-4">
                   <p>
                     BuildConnect supports multiple organizations (Toolbank,
-                    NMBS, IBC, BMF) with unique branding while maintaining a
+                    NMBS, BMN, BMF) with unique branding while maintaining a
                     consistent user experience.
                   </p>
                   <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
@@ -185,7 +185,7 @@ export default function LoginForm() {
                     </div>
                     <div className="flex flex-col items-center rounded-md border p-4">
                       <div className="h-8 w-8 rounded-full bg-emerald-700"></div>
-                      <span className="mt-2 text-sm font-medium">IBC</span>
+                      <span className="mt-2 text-sm font-medium">BMN</span>
                     </div>
                     <div className="flex flex-col items-center rounded-md border p-4">
                       <div className="h-8 w-8 rounded-full bg-orange-700"></div>

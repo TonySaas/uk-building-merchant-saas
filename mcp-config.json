@@ -1,0 +1,7 @@
+{
+  "supabase": {
+    "url": "YOUR_SUPABASE_URL",
+    "anonKey": "YOUR_ANON_KEY",
+    "serviceRoleKey": "YOUR_SERVICE_ROLE_KEY"
+  }
+}

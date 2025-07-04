@@ -1,0 +1,61 @@
+import React from "react";
+import { cn } from "@/lib/utils";
+
+export interface OrganizationsHeroSectionProps {
+  title: string;
+  subtitle: string;
+  className?: string;
+}
+
+export default function OrganizationsHeroSection({
+  title,
+  subtitle,
+  className,
+}: OrganizationsHeroSectionProps) {
+  return (
+    <section
+      className={cn(
+        "relative overflow-hidden bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 py-16 md:py-24",
+        className
+      )}
+    >
+      {/* Background Pattern */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/pattern123/1200/800')] bg-repeat opacity-20"></div>
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-blue-900 to-transparent"></div>
+      </div>
+
+      <div className="container relative z-10 mx-auto px-4 text-center">
+        <div className="mx-auto max-w-3xl">
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl">
+            {title}
+          </h1>
+          <h2 className="mb-6 text-xl font-semibold text-blue-100 md:text-2xl">
+            {subtitle}
+          </h2>
+        </div>
+      </div>
+
+      <style jsx>
+        {`
+          .bg-grid-pattern-light {
+            background-image: radial-gradient(
+              circle,
+              #00000010 1px,
+              transparent 1px
+            );
+            background-size: 30px 30px;
+          }
+          .bg-grid-pattern-dark {
+            background-image: radial-gradient(
+              circle,
+              #ffffff10 1px,
+              transparent 1px
+            );
+            background-size: 30px 30px;
+          }
+        `}
+      </style>
+    </section>
+  );
+}

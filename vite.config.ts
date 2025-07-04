@@ -10,9 +10,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
-        name: 'UK Building Merchant SaaS',
-        short_name: 'BuildConnect',
-        description: 'Digital marketing platform for UK Building Merchant sector',
+        name: 'MerchantDeals.ai',
+        short_name: 'MerchantDeals',
+        description: 'AI-powered digital marketing platform for UK Building Merchant sector',
         theme_color: '#1e40af',
         background_color: '#ffffff',
         display: 'standalone',
@@ -57,7 +57,7 @@ export default defineConfig({
   },
   server: {
     port: 5173,
-    host: true
+    host: '0.0.0.0'
   },
   build: {
     target: 'esnext',

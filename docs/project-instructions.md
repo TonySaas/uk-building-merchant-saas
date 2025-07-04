@@ -154,7 +154,7 @@ VITE_STRIPE_PUBLISHABLE_KEY=your_stripe_key
 ### Organization Management
 - **Toolbank**: "Keeping the Tool Trade Local" ethos, wholesale distribution model
 - **NMBS**: 1,250+ merchant members, empowering independent merchants
-- **IBC**: 220+ merchants, UK's largest builders' merchant buying group
+- **BMN**: Builders' Merchants News
 - **BMF**: Trade association representing 1,020+ companies
 
 ### User Role Definitions

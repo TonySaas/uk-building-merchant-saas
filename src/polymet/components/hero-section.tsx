@@ -30,7 +30,7 @@ export default function HeroSection({ title, subtitle }: HeroSectionProps) {
           <Button
             size="lg"
             variant="outline"
-            className="border-white text-black dark:text-white hover:bg-white/10"
+            className="border-white text-black hover:bg-white/90 dark:bg-black dark:text-white dark:hover:bg-gray-900"
           >
             Learn More
           </Button>

@@ -88,7 +88,7 @@ uk-building-merchant-saas/
 
 ### 🔧 Ready for Development
 - **React 18 + TypeScript + Tailwind CSS**
-- **Multi-organization architecture** (Toolbank, NMBS, IBC, BMF)
+- **Multi-organization architecture** (Toolbank, NMBS, BMN, BMF)
 - **Supabase integration** configured
 - **Progressive Web App** ready
 - **Claude Code development rules** in place
@@ -104,7 +104,7 @@ uk-building-merchant-saas/
 ## 🚨 Critical Development Rules
 
 - **NEVER modify** existing Polymet components in `/src/polymet/`
-- **ALWAYS support** all 4 organizations (Toolbank, NMBS, IBC, BMF)
+- **ALWAYS support** all 4 organizations (Toolbank, NMBS, BMN, BMF)
 - **USE Supabase** for all data operations
 - **FOLLOW** the comprehensive rules in `/docs/claude-code-rules.md`
 

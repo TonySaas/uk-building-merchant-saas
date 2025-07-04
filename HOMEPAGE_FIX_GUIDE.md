@@ -5,7 +5,7 @@
 The homepage should now display the beautiful BuildConnect interface you showed with:
 - **Blue gradient hero section**
 - **"Connecting the UK Building Merchant Ecosystem" title**
-- **Organization selection cards** (Toolbank, NMBS, IBC, BMF)
+- **Organization selection cards** (Toolbank, NMBS, BMN, BMF)
 - **Get Started and Learn More buttons**
 
 ## 🚀 **To Start the Server:**
@@ -50,7 +50,7 @@ npm run dev
 - **Four organization cards:**
   1. **Toolbank** - UK's leading tool wholesaler - Keeping the Tool Trade Local
   2. **NMBS** - National Merchant Buying Society - 1,250+ merchant members
-  3. **IBC** - Independent Builders Merchant Buying Group - 220+ merchants
+  3. **BMN** - Builders' Merchants News
   4. **BMF** - Builders Merchants Federation - Trade association
 
 ## 🚨 **If You Still Have Issues:**
@@ -84,7 +84,7 @@ npm run dev
 The homepage automatically applies organization-specific theming:
 - **Toolbank**: Blue theme (#3b82f6)
 - **NMBS**: Green theme (#22c55e)
-- **IBC**: Purple theme (#a855f7)
+- **BMN**: Purple theme (#a855f7)
 - **BMF**: Orange theme (#f97316)
 
 ## 📱 **Mobile Responsive:**

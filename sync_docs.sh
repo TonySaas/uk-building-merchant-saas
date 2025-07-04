@@ -1,0 +1,1 @@
+cp CLAUDE.md GEMINI.md

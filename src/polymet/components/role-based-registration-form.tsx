@@ -49,7 +49,7 @@ interface RegistrationData {
 const organizations = [
   { id: 'toolbank', name: 'Toolbank', description: 'Keeping the Tool Trade Local' },
   { id: 'nmbs', name: 'NMBS', description: 'National Merchant Buying Society' },
-  { id: 'ibc', name: 'IBC', description: 'Independent Builders Merchant' },
+  { id: 'ibc', name: 'BMN', description: 'Builders\' Merchants News' },
   { id: 'bmf', name: 'BMF', description: 'Builders Merchants Federation' },
 ];
 

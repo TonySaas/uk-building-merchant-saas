@@ -46,7 +46,7 @@ const organizationThemes = {
     fontFamily: "Inter, sans-serif",
   },
   ibc: {
-    name: "IBC",
+    name: "BMN",
     primary: "#047857",
     secondary: "#1F2937",
     accent: "#7C3AED",

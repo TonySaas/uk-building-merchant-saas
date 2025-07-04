@@ -52,7 +52,7 @@ export const MERCHANT_OFFERS = [
     image: "https://picsum.photos/seed/makita/400/300",
     organization: {
       id: "ibc",
-      name: "IBC",
+      name: "BMN",
       logo: "https://picsum.photos/seed/ibc/200/200",
     },
     category: "Power Tools",
@@ -136,7 +136,7 @@ export const MERCHANT_OFFERS = [
     endDate: "2023-08-05",
     organization: {
       id: "ibc",
-      name: "IBC",
+      name: "BMN",
       logo: "https://picsum.photos/seed/ibc/200/200",
     },
     category: "Measuring Tools",
@@ -220,7 +220,7 @@ export const MERCHANT_OFFERS = [
     endDate: "2023-09-10",
     organization: {
       id: "ibc",
-      name: "IBC",
+      name: "BMN",
       logo: "https://picsum.photos/seed/ibc/200/200",
     },
     category: "Hand Tools",
@@ -304,7 +304,7 @@ export const MERCHANT_OFFERS = [
     endDate: "2023-09-30",
     organization: {
       id: "ibc",
-      name: "IBC",
+      name: "BMN",
       logo: "https://picsum.photos/seed/ibc/200/200",
     },
     category: "Measuring Tools",
@@ -388,7 +388,7 @@ export const MERCHANT_OFFERS = [
     endDate: "2023-09-15",
     organization: {
       id: "ibc",
-      name: "IBC",
+      name: "BMN",
       logo: "https://picsum.photos/seed/ibc/200/200",
     },
     category: "Building Materials",

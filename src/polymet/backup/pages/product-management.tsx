@@ -64,7 +64,7 @@ const mockProducts = [
     stock: 8,
     status: "low_stock",
     createdAt: "2023-04-08T11:15:00",
-    organization: "IBC",
+    organization: "BMN",
   },
   {
     id: "4",
@@ -102,7 +102,7 @@ const organizations = [
   },
   {
     id: "ibc",
-    name: "IBC",
+    name: "BMN",
     logo: "https://picsum.photos/seed/ibc/200/200",
   },
   {

@@ -1,77 +1,80 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { OrganizationProvider } from './lib/contexts/OrganizationContext'
 import { AuthProvider } from './lib/contexts/AuthContext'
-
-// Import Polymet components - NEVER MODIFY THESE
+import { ProtectedRoute } from './components/ProtectedRoute'
+import { RoleBasedRouter } from './components/RoleBasedRouter'
 import HomePage from './polymet/pages/home-page'
+import RegisterPage from './polymet/pages/register-page'
 import LoginPage from './polymet/pages/login-page'
-import DocumentationHub from './polymet/pages/documentation-hub'
-import AuthLayout from './polymet/layouts/auth-layout'
-
-// Import header and footer directly for the home page
+import FeaturesPage from './polymet/pages/features-page'
+import OrganizationsPage from './polymet/pages/organizations-page'
+import PricingPage from './polymet/pages/pricing-page'
+import AboutPage from './polymet/pages/about-page'
+import ContactPage from './polymet/pages/contact-page'
+import SupplierDashboard from './polymet/pages/dashboard-supplier'
+import MerchantDashboard from './polymet/pages/dashboard-merchant'
+import ConsumerDashboard from './polymet/pages/dashboard-consumer'
+import UnauthorizedPage from './polymet/pages/unauthorized'
 import Header from './polymet/components/header'
-import Footer from './polymet/components/footer'
-
-const queryClient = new QueryClient({
-  defaultOptions: {
-    queries: {
-      staleTime: 1000 * 60 * 5, // 5 minutes
-      cacheTime: 1000 * 60 * 30, // 30 minutes
-    },
-  },
-})
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <AuthProvider>
-        <OrganizationProvider>
-          <Router>
-            <Routes>
-              {/* Home page without container wrapper for full-width sections */}
-              <Route
-                path="/"
-                element={
-                  <div className="min-h-screen bg-background">
-                    <Header />
-                    <HomePage />
-                    <Footer />
-                  </div>
-                }
-              />
-              
-              {/* Authentication page with auth layout */}
-              <Route
-                path="/login"
-                element={
-                  <AuthLayout>
-                    <LoginPage />
-                  </AuthLayout>
-                }
-              />
-              
-              {/* Documentation with header/footer but no container padding */}
-              <Route
-                path="/documentation"
-                element={
-                  <div className="min-h-screen bg-background">
-                    <Header />
-                    <main>
-                      <DocumentationHub />
-                    </main>
-                    <Footer />
-                  </div>
-                }
-              />
-              
-              {/* Future routes will be added here */}
-            </Routes>
-          </Router>
-        </OrganizationProvider>
-      </AuthProvider>
-    </QueryClientProvider>
+    <AuthProvider>
+      <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+        <Header />
+        <Routes>
+          {/* Public routes */}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/features" element={<FeaturesPage />} />
+          <Route path="/organizations" element={<OrganizationsPage />} />
+          <Route path="/pricing" element={<PricingPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          
+          {/* Protected dashboard routes */}
+          <Route 
+            path="/dashboard" 
+            element={
+              <ProtectedRoute>
+                <RoleBasedRouter />
+              </ProtectedRoute>
+            } 
+          />
+          
+          <Route 
+            path="/dashboard/supplier" 
+            element={
+              <ProtectedRoute requiredRole="supplier">
+                <SupplierDashboard />
+              </ProtectedRoute>
+            } 
+          />
+          
+          <Route 
+            path="/dashboard/merchant" 
+            element={
+              <ProtectedRoute requiredRole="merchant">
+                <MerchantDashboard />
+              </ProtectedRoute>
+            } 
+          />
+          
+          <Route 
+            path="/dashboard/consumer" 
+            element={
+              <ProtectedRoute requiredRole="consumer">
+                <ConsumerDashboard />
+              </ProtectedRoute>
+            } 
+          />
+          
+          {/* Error pages */}
+          <Route path="/unauthorized" element={<UnauthorizedPage />} />
+        </Routes>
+      </Router>
+    </AuthProvider>
   )
 }
 
-export default App;
+export default App

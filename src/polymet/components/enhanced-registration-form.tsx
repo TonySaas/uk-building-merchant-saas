@@ -1,731 +1,444 @@
-import React, { useState, useEffect } from 'react';
-import { useRegistration } from '@/hooks/useRegistration';
-import { UserRegistrationData } from '@/services/registration';
+import { useState, useEffect } from "react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Button } from "@/components/ui/button";
+import { EyeIcon, EyeOffIcon, CheckIcon, XIcon, LoaderIcon } from "lucide-react";
+import { userInfoSchema, passwordSchema, type UserInfo, type PasswordData } from "@/lib/validations/registration";
+import { RegistrationService } from "@/services/registration-service";
+import { toast } from "sonner";
+import { cn } from "@/lib/utils";
 
 interface EnhancedRegistrationFormProps {
-  onSuccess?: (userData: any) => void;
-  onError?: (error: string) => void;
+  formData: {
+    userType: string;
+    organizationIds: string[];
+    role: string;
+    firstName: string;
+    lastName: string;
+    email: string;
+    password: string;
+    companyName: string;
+    jobTitle: string;
+    phone: string;
+    termsAccepted: boolean;
+    privacyAccepted: boolean;
+  };
+  onChange: (data: any) => void;
+  userType: string;
+  role?: string;
+  onValidationChange?: (isValid: boolean) => void;
+}
+
+type FormData = UserInfo & PasswordData & {
+  confirmPassword: string;
+  termsAccepted: boolean;
+  privacyAccepted: boolean;
+  companyName?: string;
+  jobTitle?: string;
 }
 
 export default function EnhancedRegistrationForm({
-  onSuccess,
-  onError
+  formData,
+  onChange,
+  userType,
+  role,
+  onValidationChange,
 }: EnhancedRegistrationFormProps) {
-  console.log('EnhancedRegistrationForm mounting...');
-  
+  const [showPassword, setShowPassword] = useState(false);
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+  const [emailCheckStatus, setEmailCheckStatus] = useState<'idle' | 'checking' | 'available' | 'taken'>('idle');
+  const [isBusinessUser, setIsBusinessUser] = useState(false);
+
   const {
-    isLoading,
-    isSubmitting,
-    error,
-    success,
-    organizations,
-    emailAvailable,
-    currentStep,
-    updateFormData,
-    setCurrentStep,
-    loadOrganizations,
-    checkEmail,
-    submitRegistration,
-    clearError
-  } = useRegistration();
-
-  console.log('Hook data loaded, currentStep:', currentStep);
-
-  // Local form state that matches your existing UI exactly
-  const [localFormData, setLocalFormData] = useState({
-    userType: '',
-    selectedOrganizations: [] as string[],
-    role: '',
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    jobTitle: '',
-    companyName: '',
-    password: '',
-    confirmPassword: '',
-    termsAccepted: false,
-    privacyAccepted: false
+    register,
+    handleSubmit,
+    formState: { errors, isValid, isDirty },
+    watch,
+    setValue,
+    trigger,
+    clearErrors
+  } = useForm<FormData>({
+    resolver: zodResolver(
+      userInfoSchema
+        .merge(passwordSchema)
+        .extend({
+          confirmPassword: passwordSchema.shape.password,
+          termsAccepted: userInfoSchema.shape.firstName.transform(() => true),
+          privacyAccepted: userInfoSchema.shape.firstName.transform(() => true),
+          companyName: userInfoSchema.shape.firstName.optional(),
+          jobTitle: userInfoSchema.shape.firstName.optional(),
+        })
+        .refine((data) => data.password === data.confirmPassword, {
+          message: "Passwords don't match",
+          path: ["confirmPassword"]
+        })
+        .refine((data) => data.termsAccepted === true, {
+          message: "You must accept the terms and conditions",
+          path: ["termsAccepted"]
+        })
+        .refine((data) => data.privacyAccepted === true, {
+          message: "You must accept the privacy policy",
+          path: ["privacyAccepted"]
+        })
+    ),
+    defaultValues: {
+      firstName: formData.firstName,
+      lastName: formData.lastName,
+      email: formData.email,
+      password: formData.password,
+      confirmPassword: '',
+      phone: formData.phone,
+      termsAccepted: formData.termsAccepted,
+      privacyAccepted: formData.privacyAccepted,
+      companyName: formData.companyName,
+      jobTitle: formData.jobTitle,
+    },
+    mode: 'onChange'
   });
 
-  // Load organizations on component mount
+  const watchedEmail = watch('email');
+  const watchedPassword = watch('password');
+
+  // Determine if user is business type
   useEffect(() => {
-    loadOrganizations();
-  }, [loadOrganizations]);
+    setIsBusinessUser(userType === 'supplier' || userType === 'merchant');
+  }, [userType]);
 
-  // Handle form field changes
-  const handleFieldChange = (field: string, value: any) => {
-    setLocalFormData(prev => ({
-      ...prev,
-      [field]: value
-    }));
-
-    // Check email availability when email changes
-    if (field === 'email' && value && value.includes('@')) {
-      checkEmail(value);
+  // Notify parent of validation status
+  useEffect(() => {
+    if (onValidationChange) {
+      onValidationChange(isValid && isDirty);
     }
-  };
+  }, [isValid, isDirty, onValidationChange]);
 
-  // Handle user type selection (matches your screenshot exactly)
-  const handleUserTypeSelect = (userType: string) => {
-    const role = userType === 'supplier' ? 'supplier_user' : 
-                 userType === 'merchant' ? 'merchant_user' : 'consumer_user';
-    
-    handleFieldChange('userType', userType);
-    handleFieldChange('role', role);
-    setCurrentStep(2);
-  };
-
-  // Handle organization selection (matches your screenshot exactly)
-  const handleOrganizationToggle = (orgId: string) => {
-    const current = localFormData.selectedOrganizations;
-    const updated = current.includes(orgId)
-      ? current.filter(id => id !== orgId)
-      : [...current, orgId];
-    
-    handleFieldChange('selectedOrganizations', updated);
-  };
-
-  // Handle role selection (matches your screenshot exactly)
-  const handleRoleSelect = (role: string) => {
-    handleFieldChange('role', role);
-    setCurrentStep(4); // Skip to form details
-  };
-
-  // Handle email availability check
-  const checkEmailAvailability = () => {
-    if (localFormData.email) {
-      checkEmail(localFormData.email);
-    }
-  };
-
-  // Navigation functions
-  const nextStep = () => {
-    if (currentStep < 4) {
-      setCurrentStep(currentStep + 1);
-    }
-  };
-
-  const previousStep = () => {
-    if (currentStep > 1) {
-      setCurrentStep(currentStep - 1);
-    }
-  };
-
-  // Validate current step
-  const validateStep = () => {
-    switch (currentStep) {
-      case 1:
-        return !!localFormData.userType;
-      case 2:
-        return localFormData.selectedOrganizations.length > 0;
-      case 3:
-        return !!localFormData.role;
-      case 4:
-        return (
-          localFormData.firstName &&
-          localFormData.lastName &&
-          localFormData.email &&
-          localFormData.companyName &&
-          localFormData.password &&
-          localFormData.password === localFormData.confirmPassword &&
-          localFormData.termsAccepted &&
-          localFormData.privacyAccepted &&
-          emailAvailable !== false
-        );
-      default:
-        return false;
-    }
-  };
-  // Handle form submission
-  const handleSubmit = async () => {
-    if (!validateStep()) return;
-
-    const registrationData: UserRegistrationData = {
-      userType: localFormData.userType as 'supplier' | 'merchant' | 'consumer',
-      organizations: localFormData.selectedOrganizations,
-      role: localFormData.role as any,
-      personalInfo: {
-        firstName: localFormData.firstName,
-        lastName: localFormData.lastName,
-        email: localFormData.email,
-        phone: localFormData.phone,
-        jobTitle: localFormData.jobTitle
-      },
-      companyInfo: {
-        companyName: localFormData.companyName
-      },
-      password: localFormData.password,
-      termsAccepted: localFormData.termsAccepted,
-      privacyAccepted: localFormData.privacyAccepted
-    };
-
-    try {
-      const result = await submitRegistration(registrationData);
-      if (result.success) {
-        if (result.data?.needsEmailConfirmation) {
-          // Show email confirmation message
-          console.log('Registration successful, email confirmation required');
-          setCurrentStep(5); // Show email confirmation step
-        } else {
-          // Registration completed immediately
-          onSuccess?.(result.data);
+  // Email availability check
+  useEffect(() => {
+    const checkEmailAvailability = async () => {
+      if (watchedEmail && watchedEmail.length > 5 && !errors.email) {
+        setEmailCheckStatus('checking');
+        try {
+          const result = await RegistrationService.checkEmailAvailability(watchedEmail);
+          setEmailCheckStatus(result.available ? 'available' : 'taken');
+          
+          if (!result.available) {
+            // This will be handled by the form validation
+            toast.error('This email is already registered');
+          }
+        } catch (error) {
+          console.error('Email check failed:', error);
+          setEmailCheckStatus('idle');
         }
       } else {
-        onError?.(result.error || 'Registration failed');
+        setEmailCheckStatus('idle');
       }
-    } catch (error) {
-      onError?.(error instanceof Error ? error.message : 'Registration failed');
+    };
+
+    const timeoutId = setTimeout(checkEmailAvailability, 500);
+    return () => clearTimeout(timeoutId);
+  }, [watchedEmail, errors.email]);
+
+  const handleFieldChange = (field: string, value: any) => {
+    setValue(field as keyof FormData, value, { shouldValidate: true, shouldDirty: true });
+    onChange({ [field]: value });
+  };
+
+  const getEmailStatusIcon = () => {
+    switch (emailCheckStatus) {
+      case 'checking':
+        return <LoaderIcon className="h-4 w-4 animate-spin text-blue-500" />;
+      case 'available':
+        return <CheckIcon className="h-4 w-4 text-green-500" />;
+      case 'taken':
+        return <XIcon className="h-4 w-4 text-red-500" />;
+      default:
+        return null;
     }
   };
 
-  // STEP 1: User Type Selection (exactly matches your screenshot)
-  const renderUserTypeStep = () => (
-    <div className="max-w-4xl mx-auto p-6">
-      <div className="bg-white rounded-2xl p-8 shadow-sm border">
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Select User Type</h1>
-          <div className="h-2 bg-gray-200 rounded-full mb-6">
-            <div className="h-2 bg-black rounded-full w-1/4"></div>
-          </div>
-          <p className="text-gray-600">Select the option that best describes you:</p>
-        </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          {/* Consumer */}
-          <button
-            onClick={() => handleUserTypeSelect('consumer')}
-            className={`p-8 border-2 rounded-2xl text-center transition-all hover:shadow-lg ${
-              localFormData.userType === 'consumer'
-                ? 'border-gray-900 bg-gray-50'
-                : 'border-gray-200 hover:border-gray-300'
-            }`}
-          >
-            <div className="w-16 h-16 mx-auto mb-6 bg-gray-200 rounded-full flex items-center justify-center">
-              <svg className="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-3">Consumer</h3>
-            <p className="text-gray-600">I'm looking for deals and offers</p>
-          </button>
+  const getPasswordStrength = (password: string) => {
+    let strength = 0;
+    if (password.length >= 8) strength++;
+    if (/[a-z]/.test(password)) strength++;
+    if (/[A-Z]/.test(password)) strength++;
+    if (/\d/.test(password)) strength++;
+    if (/[@$!%*?&]/.test(password)) strength++;
+    return strength;
+  };
 
-          {/* Supplier */}
-          <button
-            onClick={() => handleUserTypeSelect('supplier')}
-            className={`p-8 border-2 rounded-2xl text-center transition-all hover:shadow-lg relative ${
-              localFormData.userType === 'supplier'
-                ? 'border-gray-900 bg-gray-50'
-                : 'border-gray-200 hover:border-gray-300'
-            }`}
-          >
-            <div className="w-16 h-16 mx-auto mb-6 bg-gray-200 rounded-full flex items-center justify-center">
-              <svg className="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-3">Supplier</h3>
-            <p className="text-gray-600">I want to create and promote offers</p>
-            {localFormData.userType === 'supplier' && (
-              <div className="absolute top-4 right-4 text-black font-semibold bg-white px-3 py-1 rounded-full text-sm border">
-                Selected
-              </div>
-            )}
-          </button>
+  const passwordStrength = getPasswordStrength(watchedPassword || '');
 
-          {/* Merchant */}
-          <button
-            onClick={() => handleUserTypeSelect('merchant')}
-            className={`p-8 border-2 rounded-2xl text-center transition-all hover:shadow-lg ${
-              localFormData.userType === 'merchant'
-                ? 'border-gray-900 bg-gray-50'
-                : 'border-gray-200 hover:border-gray-300'
-            }`}
-          >
-            <div className="w-16 h-16 mx-auto mb-6 bg-gray-200 rounded-full flex items-center justify-center">
-              <svg className="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 2L3 7v11a1 1 0 001 1h12a1 1 0 001-1V7l-7-5z" clipRule="evenodd" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-3">Merchant</h3>
-            <p className="text-gray-600">I want to select offers for my store</p>
-          </button>
-        </div>
-
-        {localFormData.userType && (
-          <div className="flex justify-end">
-            <button
-              onClick={nextStep}
-              className="px-8 py-3 bg-black text-white rounded-lg hover:bg-gray-800 flex items-center gap-2 font-medium"
-            >
-              Continue
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
-          </div>
-        )}
+  return (
+    <div className="space-y-6">
+      <div className="text-center space-y-2 mb-8">
+        <h2 className="text-2xl font-semibold">Complete Registration</h2>
+        <p className="text-muted-foreground">
+          Fill out your details to create your MerchantDeals.ai account
+        </p>
       </div>
-    </div>
-  );
-  // STEP 2: Organization Selection (exactly matches your screenshot)
-  const renderOrganizationStep = () => (
-    <div className="max-w-4xl mx-auto p-6">
-      <div className="bg-white rounded-2xl p-8 shadow-sm border">
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Select Organizations</h1>
-          <div className="h-2 bg-gray-200 rounded-full mb-6">
-            <div className="h-2 bg-black rounded-full w-1/2"></div>
+
+      <form className="space-y-4">
+        {/* Personal Information */}
+        <div className="grid grid-cols-2 gap-4">
+          <div className="space-y-2">
+            <Label htmlFor="firstName">First Name *</Label>
+            <Input
+              id="firstName"
+              {...register('firstName')}
+              onChange={(e) => handleFieldChange('firstName', e.target.value)}
+              placeholder="Enter your first name"
+              className={cn(errors.firstName && "border-red-500")}
+            />
+            {errors.firstName && (
+              <p className="text-sm text-red-500">{errors.firstName.message}</p>
+            )}
           </div>
-          <p className="text-gray-600">Select the organizations you're affiliated with:</p>
+          
+          <div className="space-y-2">
+            <Label htmlFor="lastName">Last Name *</Label>
+            <Input
+              id="lastName"
+              {...register('lastName')}
+              onChange={(e) => handleFieldChange('lastName', e.target.value)}
+              placeholder="Enter your last name"
+              className={cn(errors.lastName && "border-red-500")}
+            />
+            {errors.lastName && (
+              <p className="text-sm text-red-500">{errors.lastName.message}</p>
+            )}
+          </div>
         </div>
 
-        {isLoading ? (
-          <div className="text-center py-12">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-black mx-auto"></div>
-            <p className="mt-4 text-gray-600">Loading organizations...</p>
+        {/* Email */}
+        <div className="space-y-2">
+          <Label htmlFor="email">Email Address *</Label>
+          <div className="relative">
+            <Input
+              id="email"
+              type="email"
+              {...register('email')}
+              onChange={(e) => handleFieldChange('email', e.target.value)}
+              placeholder="Enter your email address"
+              className={cn(
+                errors.email && "border-red-500",
+                emailCheckStatus === 'taken' && "border-red-500",
+                emailCheckStatus === 'available' && "border-green-500",
+                "pr-10"
+              )}
+            />
+            <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
+              {getEmailStatusIcon()}
+            </div>
           </div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            {organizations.map((org) => (
-              <button
-                key={org.id}
-                onClick={() => handleOrganizationToggle(org.id)}
-                className={`p-6 border-2 rounded-2xl text-left transition-all hover:shadow-lg ${
-                  localFormData.selectedOrganizations.includes(org.id)
-                    ? 'border-gray-900 bg-gray-50'
-                    : 'border-gray-200 hover:border-gray-300'
-                }`}
-              >
-                <div className="flex items-start gap-4">
-                  <div className="w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <span className="text-gray-500 font-bold text-lg">{org.name.charAt(0)}</span>
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex items-center justify-between mb-2">
-                      <h3 className="font-bold text-xl">{org.name}</h3>
-                      {localFormData.selectedOrganizations.includes(org.id) && (
-                        <svg className="w-6 h-6 text-black" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                        </svg>
-                      )}
-                    </div>
-                    <p className="text-gray-600 text-sm">{org.description}</p>
-                  </div>
-                </div>
-              </button>
-            ))}
-          </div>
-        )}
-
-        {localFormData.selectedOrganizations.length > 0 && (
-          <div className="mb-6 text-sm text-gray-600">
-            Selected: {localFormData.selectedOrganizations.length} organization{localFormData.selectedOrganizations.length !== 1 ? 's' : ''}
-          </div>
-        )}
-
-        <div className="flex justify-between">
-          <button
-            onClick={previousStep}
-            className="px-6 py-3 border-2 border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 flex items-center gap-2"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-            Back
-          </button>
-          
-          {localFormData.selectedOrganizations.length > 0 && (
-            <button
-              onClick={nextStep}
-              className="px-8 py-3 bg-black text-white rounded-lg hover:bg-gray-800 flex items-center gap-2 font-medium"
-            >
-              Continue
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
+          {errors.email && (
+            <p className="text-sm text-red-500">{errors.email.message}</p>
+          )}
+          {emailCheckStatus === 'taken' && (
+            <p className="text-sm text-red-500">This email is already registered</p>
+          )}
+          {emailCheckStatus === 'available' && (
+            <p className="text-sm text-green-500">Email is available</p>
           )}
         </div>
-      </div>
-    </div>
-  );
 
-  // STEP 3: Role Selection (exactly matches your screenshot)
-  const renderRoleStep = () => {
-    if (localFormData.userType !== 'supplier') {
-      // Auto-advance for non-suppliers
-      React.useEffect(() => {
-        setCurrentStep(4);
-      }, []);
-      return null;
-    }
-
-    return (
-      <div className="max-w-4xl mx-auto p-6">
-        <div className="bg-white rounded-2xl p-8 shadow-sm border">
-          <div className="mb-8">
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">Select Role</h1>
-            <div className="h-2 bg-gray-200 rounded-full mb-6">
-              <div className="h-2 bg-black rounded-full w-3/4"></div>
+        {/* Password */}
+        <div className="space-y-2">
+          <Label htmlFor="password">Password *</Label>
+          <div className="relative">
+            <Input
+              id="password"
+              type={showPassword ? "text" : "password"}
+              {...register('password')}
+              onChange={(e) => handleFieldChange('password', e.target.value)}
+              placeholder="Create a secure password"
+              className={cn(errors.password && "border-red-500", "pr-10")}
+            />
+            <button
+              type="button"
+              onClick={() => setShowPassword(!showPassword)}
+              className="absolute right-3 top-1/2 transform -translate-y-1/2 text-muted-foreground hover:text-foreground"
+            >
+              {showPassword ? (
+                <EyeOffIcon className="h-4 w-4" />
+              ) : (
+                <EyeIcon className="h-4 w-4" />
+              )}
+            </button>
+          </div>
+          
+          {/* Password strength indicator */}
+          {watchedPassword && (
+            <div className="space-y-2">
+              <div className="flex space-x-1">
+                {[...Array(5)].map((_, i) => (
+                  <div
+                    key={i}
+                    className={cn(
+                      "h-1 flex-1 rounded",
+                      i < passwordStrength 
+                        ? passwordStrength <= 2 
+                          ? "bg-red-500" 
+                          : passwordStrength <= 3 
+                          ? "bg-yellow-500" 
+                          : "bg-green-500"
+                        : "bg-gray-200"
+                    )}
+                  />
+                ))}
+              </div>
+              <p className="text-xs text-muted-foreground">
+                Password strength: {
+                  passwordStrength <= 2 ? 'Weak' : 
+                  passwordStrength <= 3 ? 'Medium' : 
+                  passwordStrength <= 4 ? 'Strong' : 'Very Strong'
+                }
+              </p>
             </div>
-            <p className="text-gray-600">Select your role in the organization:</p>
-          </div>
+          )}
+          
+          {errors.password && (
+            <p className="text-sm text-red-500">{errors.password.message}</p>
+          )}
+        </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            {/* Supplier Admin */}
+        {/* Confirm Password */}
+        <div className="space-y-2">
+          <Label htmlFor="confirmPassword">Confirm Password *</Label>
+          <div className="relative">
+            <Input
+              id="confirmPassword"
+              type={showConfirmPassword ? "text" : "password"}
+              {...register('confirmPassword')}
+              placeholder="Confirm your password"
+              className={cn(errors.confirmPassword && "border-red-500", "pr-10")}
+            />
             <button
-              onClick={() => handleRoleSelect('supplier_admin')}
-              className={`p-6 border-2 rounded-2xl text-left transition-all hover:shadow-lg ${
-                localFormData.role === 'supplier_admin'
-                  ? 'border-gray-900 bg-gray-50'
-                  : 'border-gray-200 hover:border-gray-300'
-              }`}
+              type="button"
+              onClick={() => setShowConfirmPassword(!showConfirmPassword)}
+              className="absolute right-3 top-1/2 transform -translate-y-1/2 text-muted-foreground hover:text-foreground"
             >
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                  <svg className="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M18 8a6 6 0 01-7.743 5.743L10 14l-0.257-0.257A6 6 0 1118 8z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-bold text-xl mb-2">Supplier Admin</h3>
-                  <p className="text-gray-600 text-sm mb-4">Manage company settings, users, and all offers</p>
-                </div>
-              </div>
-              
-              <div className="border-t pt-4">
-                <p className="font-medium text-sm mb-2">Permissions:</p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Manage company profile</li>
-                  <li>• Invite team members</li>
-                  <li>• Create and manage all offers</li>
-                  <li>• Access analytics</li>
-                </ul>
-              </div>
-            </button>
-
-            {/* Supplier User */}
-            <button
-              onClick={() => handleRoleSelect('supplier_user')}
-              className={`p-6 border-2 rounded-2xl text-left transition-all hover:shadow-lg ${
-                localFormData.role === 'supplier_user'
-                  ? 'border-gray-900 bg-gray-50'
-                  : 'border-gray-200 hover:border-gray-300'
-              }`}
-            >
-              <div className="flex items-start gap-4 mb-4">
-                <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center">
-                  <svg className="w-6 h-6 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="font-bold text-xl mb-2">Supplier User</h3>
-                  <p className="text-gray-600 text-sm mb-4">Create and manage offers for your company</p>
-                </div>
-              </div>
-              
-              <div className="border-t pt-4">
-                <p className="font-medium text-sm mb-2">Permissions:</p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Create and manage your offers</li>
-                  <li>• View company offers</li>
-                  <li>• Access basic analytics</li>
-                </ul>
-              </div>
+              {showConfirmPassword ? (
+                <EyeOffIcon className="h-4 w-4" />
+              ) : (
+                <EyeIcon className="h-4 w-4" />
+              )}
             </button>
           </div>
+          {errors.confirmPassword && (
+            <p className="text-sm text-red-500">{errors.confirmPassword.message}</p>
+          )}
+        </div>
 
-          <div className="flex justify-between">
-            <button
-              onClick={previousStep}
-              className="px-6 py-3 border-2 border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 flex items-center gap-2"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-              </svg>
-              Back
-            </button>
-            
-            {localFormData.role && (
-              <button
-                onClick={() => setCurrentStep(4)}
-                className="px-8 py-3 bg-black text-white rounded-lg hover:bg-gray-800 flex items-center gap-2 font-medium"
-              >
-                Continue
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </button>
-            )}
-          </div>
-        </div>
-      </div>
-    );
-  };
-
-  const renderFormStep = () => (
-    <div className="max-w-4xl mx-auto p-6">
-      <div className="text-center mb-8">
-        <h2 className="text-3xl font-bold mb-2">Personal Details</h2>
-        <div className="h-2 bg-gray-200 rounded-full mb-6">
-          <div className="h-2 bg-black rounded-full w-full"></div>
-        </div>
-        <p className="text-gray-600">Complete your profile information:</p>
-      </div>
-
-      <form onSubmit={handleSubmit} className="max-w-2xl mx-auto space-y-6">
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">First Name *</label>
-          <input
-            type="text"
-            value={localFormData.firstName || ''}
-            onChange={(e) => handleFieldChange('firstName', e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            required
-          />
-        </div>
-        
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">Last Name *</label>
-          <input
-            type="text"
-            value={localFormData.lastName || ''}
-            onChange={(e) => handleFieldChange('lastName', e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            required
-          />
-        </div>
-        
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">Phone</label>
-          <input
+        {/* Phone (Optional) */}
+        <div className="space-y-2">
+          <Label htmlFor="phone">Phone Number</Label>
+          <Input
+            id="phone"
             type="tel"
-            value={localFormData.phone || ''}
+            {...register('phone')}
             onChange={(e) => handleFieldChange('phone', e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder="Enter your phone number (optional)"
+            className={cn(errors.phone && "border-red-500")}
           />
-        </div>
-        
-        {(localFormData.userType === 'supplier' || localFormData.userType === 'merchant') && (
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Job Title</label>
-            <input
-              type="text"
-              value={localFormData.jobTitle || ''}
-              onChange={(e) => handleFieldChange('jobTitle', e.target.value)}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-          </div>
-        )}
-        
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">Email *</label>
-          <input
-            type="email"
-            value={localFormData.email || ''}
-            onChange={(e) => handleFieldChange('email', e.target.value)}
-            onBlur={checkEmailAvailability}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            required
-          />
-          {emailAvailable === false && (
-            <p className="text-red-600 text-sm mt-1">This email is already registered</p>
-          )}
-          {emailAvailable === true && (
-            <p className="text-green-600 text-sm mt-1">Email is available</p>
-          )}
-        </div>
-        
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">Company Name *</label>
-          <input
-            type="text"
-            value={localFormData.companyName || ''}
-            onChange={(e) => handleFieldChange('companyName', e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            required
-          />
-        </div>
-        
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">Password *</label>
-          <input
-            type="password"
-            value={localFormData.password || ''}
-            onChange={(e) => handleFieldChange('password', e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            required
-            minLength={8}
-          />
-        </div>
-        
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">Confirm Password *</label>
-          <input
-            type="password"
-            value={localFormData.confirmPassword || ''}
-            onChange={(e) => handleFieldChange('confirmPassword', e.target.value)}
-            className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-              localFormData.password && localFormData.confirmPassword && 
-              localFormData.password !== localFormData.confirmPassword
-                ? 'border-red-300'
-                : 'border-gray-300'
-            }`}
-            required
-          />
-          {localFormData.password && localFormData.confirmPassword && 
-           localFormData.password !== localFormData.confirmPassword && (
-            <p className="text-red-600 text-xs mt-1">Passwords do not match</p>
+          {errors.phone && (
+            <p className="text-sm text-red-500">{errors.phone.message}</p>
           )}
         </div>
 
-        <div className="space-y-3">
-          <label className="flex items-start gap-3">
-            <input
-              type="checkbox"
-              checked={localFormData.termsAccepted || false}
-              onChange={(e) => handleFieldChange('termsAccepted', e.target.checked)}
-              className="mt-1 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-              required
-            />
-            <span className="text-sm text-gray-700">
-              I accept the{' '}
-              <a href="#" className="text-blue-600 hover:underline">Terms and Conditions</a> *
-            </span>
-          </label>
-          <label className="flex items-start gap-3">
-            <input
-              type="checkbox"
-              checked={localFormData.privacyAccepted || false}
-              onChange={(e) => handleFieldChange('privacyAccepted', e.target.checked)}
-              className="mt-1 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-              required
-            />
-            <span className="text-sm text-gray-700">
-              I accept the{' '}
-              <a href="#" className="text-blue-600 hover:underline">Privacy Policy</a> *
-            </span>
-          </label>
-        </div>
-
-        {error && (
-          <div className="bg-red-50 border border-red-200 rounded-md p-4">
-            <div className="flex">
-              <svg className="h-5 w-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
-              </svg>
-              <div className="ml-3">
-                <h3 className="text-sm font-medium text-red-800">Registration Error</h3>
-                <p className="text-sm text-red-700 mt-1">{error}</p>
-              </div>
+        {/* Business Information */}
+        {isBusinessUser && (
+          <>
+            <div className="space-y-2">
+              <Label htmlFor="companyName">Company Name *</Label>
+              <Input
+                id="companyName"
+                {...register('companyName')}
+                onChange={(e) => handleFieldChange('companyName', e.target.value)}
+                placeholder="Enter your company name"
+                className={cn(errors.companyName && "border-red-500")}
+              />
+              {errors.companyName && (
+                <p className="text-sm text-red-500">{errors.companyName.message}</p>
+              )}
             </div>
-          </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="jobTitle">Job Title</Label>
+              <Input
+                id="jobTitle"
+                {...register('jobTitle')}
+                onChange={(e) => handleFieldChange('jobTitle', e.target.value)}
+                placeholder="Enter your job title (optional)"
+                className={cn(errors.jobTitle && "border-red-500")}
+              />
+              {errors.jobTitle && (
+                <p className="text-sm text-red-500">{errors.jobTitle.message}</p>
+              )}
+            </div>
+          </>
         )}
 
-        <div className="flex justify-between">
-          <button
-            type="button"
-            onClick={previousStep}
-            className="px-6 py-3 border-2 border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 flex items-center gap-2"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-            Back
-          </button>
-          
-          <button
-            type="submit"
-            disabled={!validateStep() || isSubmitting}
-            className={`px-8 py-3 rounded-lg flex items-center gap-2 font-medium ${
-              validateStep() && !isSubmitting
-                ? 'bg-black text-white hover:bg-gray-800'
-                : 'bg-gray-300 text-gray-500 cursor-not-allowed'
-            }`}
-          >
-            {isSubmitting ? (
-              <>
-                <svg className="animate-spin h-4 w-4" fill="none" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                </svg>
-                Creating Account...
-              </>
-            ) : (
-              <>
-                Complete Registration
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-              </>
-            )}
-          </button>
+        {/* Terms and Privacy */}
+        <div className="space-y-4 pt-4 border-t">
+          <div className="flex items-start space-x-2">
+            <Checkbox
+              id="termsAccepted"
+              checked={formData.termsAccepted}
+              onCheckedChange={(checked) => {
+                handleFieldChange('termsAccepted', checked);
+                setValue('termsAccepted', !!checked, { shouldValidate: true });
+              }}
+            />
+            <Label
+              htmlFor="termsAccepted"
+              className="text-sm leading-relaxed cursor-pointer"
+            >
+              I agree to the{" "}
+              <a
+                href="/terms"
+                target="_blank"
+                className="text-primary hover:underline"
+              >
+                Terms and Conditions
+              </a>{" "}
+              *
+            </Label>
+          </div>
+          {errors.termsAccepted && (
+            <p className="text-sm text-red-500 ml-6">{errors.termsAccepted.message}</p>
+          )}
+
+          <div className="flex items-start space-x-2">
+            <Checkbox
+              id="privacyAccepted"
+              checked={formData.privacyAccepted}
+              onCheckedChange={(checked) => {
+                handleFieldChange('privacyAccepted', checked);
+                setValue('privacyAccepted', !!checked, { shouldValidate: true });
+              }}
+            />
+            <Label
+              htmlFor="privacyAccepted"
+              className="text-sm leading-relaxed cursor-pointer"
+            >
+              I agree to the{" "}
+              <a
+                href="/privacy"
+                target="_blank"
+                className="text-primary hover:underline"
+              >
+                Privacy Policy
+              </a>{" "}
+              *
+            </Label>
+          </div>
+          {errors.privacyAccepted && (
+            <p className="text-sm text-red-500 ml-6">{errors.privacyAccepted.message}</p>
+          )}
         </div>
       </form>
-    </div>
-  );
-
-  // Email confirmation step
-  const renderEmailConfirmationStep = () => (
-    <div className="max-w-4xl mx-auto p-6">
-      <div className="bg-white rounded-2xl p-8 shadow-sm border text-center">
-        <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-blue-100 mb-6">
-          <svg className="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-          </svg>
-        </div>
-        <h2 className="text-2xl font-bold text-gray-900 mb-2">Check Your Email</h2>
-        <p className="text-gray-600 mb-6">
-          We've sent a verification email to <strong>{localFormData.email}</strong>.
-          Please click the link in the email to verify your account.
-        </p>
-        <div className="bg-blue-50 p-4 rounded-lg mb-6">
-          <p className="text-sm text-blue-800">
-            Your registration will be completed automatically after email verification.
-            All your profile information and organization affiliations will be set up once you verify your email.
-          </p>
-        </div>
-        <p className="text-sm text-gray-500">
-          Didn't receive the email? Check your spam folder or contact support.
-        </p>
-      </div>
-    </div>
-  );
-
-  // Success step
-  const renderSuccessStep = () => (
-    <div className="max-w-4xl mx-auto p-6">
-      <div className="bg-white rounded-2xl p-8 shadow-sm border text-center">
-        <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-green-100 mb-6">
-          <svg className="h-6 w-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-          </svg>
-        </div>
-        <h2 className="text-2xl font-bold text-gray-900 mb-2">Registration Successful!</h2>
-        <p className="text-gray-600 mb-6">Your account has been created successfully.</p>
-        <div className="bg-blue-50 p-4 rounded-lg">
-          <p className="text-sm text-blue-800">
-            Your organization affiliation{localFormData.selectedOrganizations.length > 1 ? 's are' : ' is'} pending approval.
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-
-  // Main render - exactly matches your screenshot flow
-  return (
-    <div className="min-h-screen bg-gray-50">
-      {success ? renderSuccessStep() : (
-        <>
-          {currentStep === 1 && renderUserTypeStep()}
-          {currentStep === 2 && renderOrganizationStep()}
-          {currentStep === 3 && renderRoleStep()}
-          {currentStep === 4 && renderFormStep()}
-          {currentStep === 5 && renderEmailConfirmationStep()}
-        </>
-      )}
     </div>
   );
 }

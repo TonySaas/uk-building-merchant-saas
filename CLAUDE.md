@@ -1,10 +1,10 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+***This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
 
-This is a multi-organization SaaS platform for the UK Building Merchant sector, digitizing special offer promotions across suppliers, merchants, and consumers. It serves multiple organizations (Toolbank, NMBS, IBC, BMF) while preserving their unique identities and business rules.
+MerchantDeals.ai is a multi-organization SaaS platform for the UK Building Merchant sector, digitizing special offer promotions across suppliers, merchants, and consumers. It serves multiple organizations (Toolbank, NMBS, BMN, BMF) while preserving their unique identities and business rules.
 
 ## Key Architecture Principles
 
@@ -12,7 +12,7 @@ This is a multi-organization SaaS platform for the UK Building Merchant sector, 
 - All features must support organization-specific branding and business rules
 - Data isolation with configurable cross-organization sharing
 - Organization context is required for all user operations
-- Support for Toolbank, NMBS, IBC, and BMF with unique value propositions
+- Support for Toolbank, NMBS, BMN, and BMF with unique value propositions
 
 ### Polymet Component System - CRITICAL RULES
 **NEVER modify existing Polymet components in `/src/polymet/`**
@@ -79,6 +79,13 @@ npm run db:reset        # Reset database (development only)
 ### Sacred Directories (DO NOT MODIFY)
 - `/src/polymet/` - Complete UI component system, layouts, and prototypes
 
+### Polymet Navigation Guide
+**IMPORTANT**: Always refer to `/polymet-navigation-rules.md` for:
+- Component discovery and location guidance
+- Proper import paths and component hierarchies
+- Available rich components before creating basic ones
+- Troubleshooting missing components and dependencies
+
 ### Development Directories
 - `/src/components/` - New components that extend Polymet components
 - `/src/pages/` - Application pages
@@ -90,6 +97,7 @@ npm run db:reset        # Reset database (development only)
 ### Importing Patterns
 ```typescript
 // Always import from polymet for existing components
+// See /polymet-navigation-rules.md for component discovery
 import { ComponentName } from '@/polymet/components/component-name'
 
 // Organization context (required for all features)
@@ -157,7 +165,7 @@ SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 ### Core Organizations
 - **Toolbank**: Wholesale distribution, "Keeping the Tool Trade Local"
 - **NMBS**: 1,250+ merchant members, empowering independent merchants  
-- **IBC**: 220+ merchants, UK's largest builders' merchant buying group
+- **BMN**: Builders' Merchants News
 - **BMF**: Trade association representing 1,020+ companies
 
 ### User Roles
@@ -184,13 +192,14 @@ SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 ## Critical Development Rules
 
 1. **Never modify files in `/src/polymet/`**
-2. **Always implement organization context in new features**
-3. **Use Supabase for all data operations**
-4. **Follow mobile-first responsive design**
-5. **Implement proper error handling and loading states**
-6. **Write comprehensive tests for business logic**
-7. **Maintain TypeScript type safety**
-8. **Follow established component composition patterns**
+2. **Always refer to `/polymet-navigation-rules.md` for component discovery**
+3. **Always implement organization context in new features**
+4. **Use Supabase for all data operations**
+5. **Follow mobile-first responsive design**
+6. **Implement proper error handling and loading states**
+7. **Write comprehensive tests for business logic**
+8. **Maintain TypeScript type safety**
+9. **Follow established component composition patterns**
 
 ## Testing Strategy
 

@@ -39,7 +39,7 @@ export default function MerchantDashboard() {
     },
     {
       id: "ibc",
-      name: "IBC",
+      name: "BMN",
       logo: "https://picsum.photos/seed/ibc/200/200",
     },
     {

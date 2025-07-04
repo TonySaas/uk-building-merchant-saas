@@ -7,7 +7,7 @@ npm run dev
 ### **Homepage Display:**
 - ✅ Beautiful blue gradient hero section
 - ✅ "Connecting the UK Building Merchant Ecosystem" title
-- ✅ Organization selection cards (Toolbank, NMBS, IBC, BMF)
+- ✅ Organization selection cards (Toolbank, NMBS, BMN, BMF)
 - ✅ Get Started and Learn More buttons
 - ✅ Responsive mobile design
 
@@ -20,7 +20,7 @@ npm run dev
 ### **Organization Cards:**
 - ✅ **Toolbank** - Blue theme, "Keeping the Tool Trade Local"
 - ✅ **NMBS** - Green theme, "1,250+ merchant members" 
-- ✅ **IBC** - Purple theme, "220+ merchants"
+- ✅ **BMN** - Purple theme, "Builders' Merchants News"
 - ✅ **BMF** - Orange theme, "Trade association"
 
 ## 🔧 **What Was Causing the Errors:**

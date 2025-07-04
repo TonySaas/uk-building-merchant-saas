@@ -17,16 +17,16 @@ export const ORGANIZATIONS = [
   },
   {
     id: "ibc",
-    name: "IBC",
-    logo: "https://picsum.photos/seed/ibc/200/200",
-    description: "Independent buying consortium",
-    website: "https://www.ibcbuying.co.uk",
+    name: "BMN",
+    logo: "/bmn-logo.svg",
+    description: "Builders' Merchants News",
+    website: "https://www.buildersmerchantnews.co.uk",
     campaigns: ["Member Specials", "Seasonal Deals"],
   },
   {
     id: "bmf",
     name: "BMF",
-    logo: "https://picsum.photos/seed/bmf/200/200",
+    logo: "/bmf-logo.svg",
     description: "Builders Merchants Federation",
     website: "https://www.bmf.org.uk",
     campaigns: ["Industry Connect", "Trade Advantage"],
@@ -134,7 +134,7 @@ export const FEATURES = [
   {
     title: "Multi-Organization Support",
     description:
-      "Support for Toolbank, NMBS, IBC, BMF and other industry organizations",
+      "Support for Toolbank, NMBS, BMN, BMF and other industry organizations",
     icon: "CheckCircleIcon",
   },
 ];

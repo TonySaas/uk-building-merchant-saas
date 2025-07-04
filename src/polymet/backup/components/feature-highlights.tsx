@@ -35,7 +35,7 @@ export default function FeatureHighlights() {
     {
       title: "Multi-Organization Support",
       description:
-        "Support for Toolbank, NMBS, IBC, BMF and other industry organizations",
+        "Support for Toolbank, NMBS, BMN, BMF and other industry organizations",
       icon: <CheckCircleIcon className="h-8 w-8 text-orange-500" />,
     },
   ];

@@ -57,7 +57,7 @@ export default function DashboardPage() {
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">BuildConnect Dashboard</h1>
+              <h1 className="text-2xl font-bold text-gray-900">MerchantDeals.ai Dashboard</h1>
               <p className="text-gray-600">UK Building Merchant Platform</p>
             </div>
             <Button variant="outline" onClick={signOut}>

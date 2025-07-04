@@ -64,7 +64,7 @@ export default function OrganizationThemeDocumentation() {
             <CardContent className="space-y-6">
               <p>
                 BuildConnect supports multiple organizations (Toolbank, NMBS,
-                IBC, BMF) with unique branding while maintaining a consistent
+                BMN, BMF) with unique branding while maintaining a consistent
                 user experience. The theming system allows each organization to
                 maintain its brand identity throughout the application.
               </p>
@@ -459,9 +459,9 @@ function Button({ variant = "primary", children, ...props }) {
   },
   
   ibc: {
-    primary: '#047857',    // IBC green
-    secondary: '#1F2937',  // IBC dark gray
-    accent: '#7C3AED',     // IBC purple
+    primary: '#047857',    // BMN green
+    secondary: '#1F2937',  // BMN dark gray
+    accent: '#7C3AED',     // BMN purple
     error: '#EF4444',
     warning: '#F59E0B',
     success: '#10B981',

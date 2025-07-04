@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
+import { ShieldCheckIcon } from "lucide-react";
 
 interface AuthLayoutProps {
   children: ReactNode;
@@ -14,7 +15,7 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
         <div className="flex h-full flex-col items-center justify-center p-8 text-white">
           <div className="mb-8 flex items-center">
             <div className="mr-2 h-12 w-12 rounded-full bg-white"></div>
-            <span className="text-3xl font-bold">BuildConnect</span>
+            <span className="text-3xl font-bold">MerchantDeals.ai</span>
           </div>
           <h1 className="mb-6 text-center text-4xl font-extrabold tracking-tight">
             Connecting the UK Building Merchant Ecosystem
@@ -45,11 +46,11 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
             <div className="flex flex-col items-center rounded-lg bg-white/10 p-4 backdrop-blur-sm">
               <img
                 src="https://picsum.photos/seed/ibc/200/200"
-                alt="IBC logo"
+                alt="BMN logo"
                 className="mb-2 h-12 w-auto"
               />
 
-              <span className="text-sm font-medium">IBC</span>
+              <span className="text-sm font-medium">BMN</span>
             </div>
             <div className="flex flex-col items-center rounded-lg bg-white/10 p-4 backdrop-blur-sm">
               <img
@@ -70,12 +71,17 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
           <div className="mb-6 flex items-center justify-center md:hidden">
             <Link to="/" className="flex items-center">
               <div className="mr-2 h-8 w-8 rounded-full bg-primary"></div>
-              <span className="text-xl font-bold">BuildConnect</span>
+              <span className="text-xl font-bold">MerchantDeals.ai</span>
             </Link>
           </div>
           {children}
           <div className="mt-8 text-center text-sm text-muted-foreground">
-            <p>
+            <div className="flex items-center justify-center space-x-2">
+              <ShieldCheckIcon className="h-4 w-4 text-green-500" />
+
+              <span>Secure Platform</span>
+            </div>
+            <p className="mt-4">
               Need help?{" "}
               <Link to="#" className="text-primary hover:underline">
                 Contact support

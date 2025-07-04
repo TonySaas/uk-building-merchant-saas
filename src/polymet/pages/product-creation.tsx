@@ -120,9 +120,9 @@ const organizations = [
   },
   {
     id: "ibc",
-    label: "IBC",
+    label: "BMN",
     value: "ibc",
-    description: "Independent buying consortium",
+    description: "Builders' Merchants News",
   },
   {
     id: "bmf",

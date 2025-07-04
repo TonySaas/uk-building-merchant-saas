@@ -1,0 +1,21 @@
+<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- House shape -->
+  <g transform="translate(100, 20)">
+    <!-- Roof -->
+    <polygon points="-25,0 0,-15 25,0" fill="#E53E3E" stroke="#E53E3E" stroke-width="1"/>
+    <!-- House body -->
+    <rect x="-20" y="0" width="40" height="25" fill="white" stroke="#E53E3E" stroke-width="1"/>
+    <!-- Door -->
+    <rect x="-5" y="15" width="10" height="10" fill="#E53E3E"/>
+  </g>
+  
+  <!-- BMF Text -->
+  <text x="100" y="65" text-anchor="middle" fill="#1E40AF" font-family="Arial, sans-serif" font-size="28" font-weight="bold">BMF</text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="85" text-anchor="middle" fill="#1E40AF" font-family="Arial, sans-serif" font-size="10" font-weight="normal">Builders Merchants</text>
+  <text x="100" y="100" text-anchor="middle" fill="#1E40AF" font-family="Arial, sans-serif" font-size="10" font-weight="normal">Federation</text>
+  
+  <!-- Red underline -->
+  <rect x="40" y="105" width="120" height="3" fill="#E53E3E"/>
+</svg>

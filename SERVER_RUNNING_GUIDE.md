@@ -18,7 +18,7 @@
 Your beautiful BuildConnect homepage with:
 - ✅ Blue gradient hero section
 - ✅ "Connecting the UK Building Merchant Ecosystem" title  
-- ✅ Organization cards (Toolbank, NMBS, IBC, BMF)
+- ✅ Organization cards (Toolbank, NMBS, BMN, BMF)
 - ✅ Professional navigation header
 - ✅ Responsive mobile design
 

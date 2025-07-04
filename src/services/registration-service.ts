@@ -63,19 +63,19 @@ export class RegistrationService {
       if (data.organizationIds && data.organizationIds.length > 0) {
         const { data: completionData, error: completionError } = await supabase
           .rpc('complete_user_registration', {
-            p_user_id: authData.user.id,
-            p_role: data.role,
-            p_organization_ids: data.organizationIds,
-            p_first_name: data.firstName,
-            p_last_name: data.lastName,
-            p_company_name: data.companyName,
-            p_phone: data.phone,
-            p_address_line_1: data.address?.line1,
-            p_address_line_2: data.address?.line2,
-            p_city: data.address?.city,
-            p_county: data.address?.county,
-            p_postal_code: data.address?.postalCode,
-            p_country: data.address?.country || 'United Kingdom'
+            user_id: authData.user.id,
+            email_param: data.email,
+            first_name_param: data.firstName,
+            last_name_param: data.lastName,
+            role_param: data.role,
+            company_name_param: data.companyName,
+            phone_param: data.phone,
+            address_line_1_param: data.address?.line1,
+            address_line_2_param: data.address?.line2,
+            city_param: data.address?.city,
+            county_param: data.address?.county,
+            postal_code_param: data.address?.postalCode,
+            organization_ids: data.organizationIds
           });
 
         if (completionError) {

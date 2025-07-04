@@ -19,7 +19,7 @@ export default function OrganizationTheming() {
         Organization Theming System
       </h1>
       <p className="mb-8 text-lg text-muted-foreground">
-        BuildConnect supports multiple organizations (Toolbank, NMBS, IBC, BMF)
+        BuildConnect supports multiple organizations (Toolbank, NMBS, BMN, BMF)
         with unique branding while maintaining a consistent user experience.
       </p>
 

@@ -130,10 +130,10 @@ export default function DocumentationDownload() {
   };
 
   const getComponentDocContent = () => {
-    return `# BuildConnect Component Documentation
+    return `# MerchantDeals.ai Component Documentation
 
 ## Overview
-This document provides a comprehensive overview of all components, pages, layouts, and their dependencies in the BuildConnect application. The documentation is organized by component type and includes details about each component's purpose, location, dependencies, and description.
+This document provides a comprehensive overview of all components, pages, layouts, and their dependencies in the MerchantDeals.ai application. The documentation is organized by component type and includes details about each component's purpose, location, dependencies, and description.
 
 ## Table of Contents
 - [Layouts](#layouts)
@@ -353,7 +353,7 @@ supplier-selector
   };
 
   const getPageDocContent = () => {
-    return `# BuildConnect Page Documentation
+    return `# MerchantDeals.ai Page Documentation
 
 ## Overview
 This document provides detailed documentation for all pages in the BuildConnect application, including their purpose, components, data dependencies, and routing information.

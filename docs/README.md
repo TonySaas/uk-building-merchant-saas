@@ -49,7 +49,7 @@
 The platform must support:
 - **Toolbank**: "Keeping the Tool Trade Local" ethos
 - **NMBS**: 1,250+ merchant members
-- **IBC**: 220+ merchants across 300+ locations
+- **BMN**: Builders' Merchants News
 - **BMF**: 1,020+ merchant, supplier and service companies
 
 ### User Personas
@@ -107,7 +107,7 @@ These documents should be updated when:
 ### Organizations Supported
 - Toolbank (Wholesaler)
 - NMBS (Buying Group) 
-- IBC (Buying Group)
+- BMN (News Organization)
 - BMF (Trade Association)
 
 ### Core User Flows

@@ -52,10 +52,10 @@ export default function RegisterPage() {
           {/* Header Section */}
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold text-white">
-              Join BuildConnect
+              Join MerchantDeals.ai
             </h1>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Connect suppliers, merchants, and consumers in the UK Building Merchant sector
+              AI-powered digital marketing platform connecting suppliers, merchants, and consumers in the UK Building Merchant sector
             </p>
           </div>
 

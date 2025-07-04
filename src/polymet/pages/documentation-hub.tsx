@@ -143,9 +143,9 @@ export default function DocumentationHub() {
   return (
     <div className="container mx-auto py-8 px-4">
       <div className="mb-8 space-y-4">
-        <h1 className="text-3xl font-bold">BuildConnect Documentation Hub</h1>
+        <h1 className="text-3xl font-bold">MerchantDeals.ai Documentation Hub</h1>
         <p className="text-muted-foreground">
-          Comprehensive documentation for the BuildConnect application
+          Comprehensive documentation for the MerchantDeals.ai application
           components, pages, and implementation guidelines
         </p>
 
@@ -195,16 +195,16 @@ export default function DocumentationHub() {
             <CardHeader>
               <CardTitle>Getting Started</CardTitle>
               <CardDescription>
-                Introduction to the BuildConnect documentation
+                Introduction to the MerchantDeals.ai documentation
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
               <div>
                 <h3 className="text-lg font-medium mb-2">
-                  Welcome to BuildConnect
+                  Welcome to MerchantDeals.ai
                 </h3>
                 <p className="text-muted-foreground">
-                  BuildConnect is a comprehensive platform connecting the UK
+                  MerchantDeals.ai is a comprehensive platform connecting the UK
                   Building Merchant ecosystem. This documentation provides
                   detailed information about all components, pages, and
                   implementation guidelines.
@@ -247,7 +247,7 @@ export default function DocumentationHub() {
                   </CardHeader>
                   <CardContent className="text-sm">
                     Learn best practices for implementing components and pages
-                    in your BuildConnect application.
+                    in your MerchantDeals.ai application.
                   </CardContent>
                 </Card>
               </div>
@@ -267,7 +267,7 @@ export default function ExampleComponent() {
         <CardTitle>Example Card</CardTitle>
       </CardHeader>
       <CardContent>
-        <p>This is an example of how to use BuildConnect components.</p>
+        <p>This is an example of how to use MerchantDeals.ai components.</p>
         <Button className="mt-4">Click Me</Button>
       </CardContent>
     </Card>
@@ -406,7 +406,7 @@ export function ProductSelector({ onSelect }) {
                   Theme Customization
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  BuildConnect components can be customized to match your
+                  MerchantDeals.ai components can be customized to match your
                   organization's branding by modifying the Tailwind CSS
                   configuration:
                 </p>

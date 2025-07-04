@@ -120,7 +120,7 @@ const PreviewPage = () => {
                 <strong>NMBS</strong> - "Empowering Independent Merchants"
               </div>
               <div style={{ padding: '0.5rem', backgroundColor: '#fae8ff', borderRadius: '0.375rem' }}>
-                <strong>IBC</strong> - "UK's Largest Builders' Merchant Buying Group"
+                <strong>BMN</strong> - "UK's Largest Builders' Merchant Buying Group"
               </div>
               <div style={{ padding: '0.5rem', backgroundColor: '#ffedd5', borderRadius: '0.375rem' }}>
                 <strong>BMF</strong> - "Representing the Building Materials Industry"

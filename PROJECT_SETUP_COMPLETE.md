@@ -43,7 +43,7 @@ uk-building-merchant-saas/
 - **MAINTAIN the existing design system and Tailwind classes**
 
 ### 2. Multi-Organization Architecture
-- **ALWAYS support Toolbank, NMBS, IBC, BMF, and future organizations**
+- **ALWAYS support Toolbank, NMBS, BMN, BMF, and future organizations**
 - **IMPLEMENT organization-specific branding and business rules**
 - **MAINTAIN proper data isolation with configurable sharing**
 - **PRESERVE each organization's unique value propositions**
@@ -95,7 +95,7 @@ uk-building-merchant-saas/
 
 1. **Toolbank** (Wholesaler): "Keeping the Tool Trade Local"
 2. **NMBS** (Buying Group): 1,250+ merchant members
-3. **IBC** (Buying Group): 220+ merchants, 300+ locations
+3. **BMN** (News Organization): Builders' Merchants News
 4. **BMF** (Trade Association): 1,020+ companies
 
 ## 📱 User Personas

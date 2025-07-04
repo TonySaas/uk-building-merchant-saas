@@ -10,6 +10,8 @@ import {
 import { Progress } from "@/components/ui/progress";
 import { ArrowLeftIcon, ArrowRightIcon, CheckIcon } from "lucide-react";
 import UserTypeSelector from "@/polymet/components/user-type-selector";
+import SupplierSearch from "@/polymet/components/supplier-search";
+import MerchantSearch from "@/polymet/components/merchant-search";
 import MultiOrganizationSelector from "@/polymet/components/multi-organization-selector";
 import RoleSelector from "@/polymet/components/role-selector";
 import RegistrationForm from "@/polymet/components/registration-form";
@@ -28,6 +30,9 @@ export default function RegistrationWizard({
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     userType: "",
+    selectedSupplier: null as any,
+    selectedMerchant: null as any,
+    subscribeToBMN: false,
     organizationIds: [] as string[],
     role: "",
     firstName: "",
@@ -51,6 +56,35 @@ export default function RegistrationWizard({
 
   const handleBack = () => {
     setStep((prev) => prev - 1);
+  };
+
+  const handleSupplierSelect = (supplier: any, subscribeToBMN?: boolean) => {
+    updateFormData({ 
+      selectedSupplier: supplier,
+      subscribeToBMN: subscribeToBMN || false,
+      // Pre-populate form data if supplier is selected
+      ...(supplier && {
+        companyName: supplier.name,
+        email: "", // Keep empty for user to fill
+        // We could pre-populate more fields if the supplier data includes them
+      })
+    });
+  };
+
+  const handleMerchantSelect = (merchant: any, subscribeToBMN?: boolean) => {
+    updateFormData({ 
+      selectedMerchant: merchant,
+      subscribeToBMN: subscribeToBMN || false,
+      // Pre-populate form data if merchant is selected
+      ...(merchant && {
+        companyName: merchant.name,
+        email: "", // Keep empty for user to fill
+        // Pre-populate organization IDs based on merchant memberships
+        organizationIds: merchant.organization_memberships?.map((membership: any) => 
+          membership.organization.id
+        ) || []
+      })
+    });
   };
 
   const handleSubmit = async () => {
@@ -78,6 +112,10 @@ export default function RegistrationWizard({
         jobTitle: formData.jobTitle || undefined,
         termsAccepted: formData.termsAccepted,
         privacyAccepted: formData.privacyAccepted,
+        // Include additional data
+        selectedSupplierId: formData.selectedSupplier?.id,
+        selectedMerchantId: formData.selectedMerchant?.id,
+        subscribeToBMN: formData.subscribeToBMN,
       };
       
       const result = await RegistrationService.registerUser(registrationData);
@@ -97,7 +135,7 @@ export default function RegistrationWizard({
           onComplete(result.user);
         }
         
-        setStep(isConsumer ? 3 : 5);
+        setStep(isConsumer ? 3 : getLastStep());
       } else {
         console.error('❌ Registration failed:', result.error);
         toast.error(`Registration failed: ${result.error}`);
@@ -111,7 +149,22 @@ export default function RegistrationWizard({
   };
 
   const isConsumer = formData.userType === "consumer";
-  const totalSteps = isConsumer ? 3 : 5;
+  const isSupplier = formData.userType === "supplier";
+  const isMerchant = formData.userType === "merchant";
+  
+  // Calculate total steps based on user type
+  const getTotalSteps = () => {
+    if (isConsumer) return 3; // 1: User Type, 2: Registration Form, 3: Success
+    if (isSupplier) return 6; // 1: User Type, 2: Supplier Search, 3: Organizations, 4: Role, 5: Registration Form, 6: Success
+    if (isMerchant) return 6; // 1: User Type, 2: Merchant Search, 3: Organizations, 4: Role, 5: Registration Form, 6: Success
+    return 6;
+  };
+
+  const getLastStep = () => {
+    return getTotalSteps();
+  };
+
+  const totalSteps = getTotalSteps();
   const progress = ((step - 1) / (totalSteps - 1)) * 100;
 
   const getStepTitle = () => {
@@ -119,12 +172,18 @@ export default function RegistrationWizard({
       case 1:
         return "Select User Type";
       case 2:
-        return isConsumer ? "Complete Registration" : "Select Organizations";
+        if (isConsumer) return "Complete Registration";
+        if (isSupplier) return "Search for Supplier";
+        if (isMerchant) return "Search for Merchant";
+        return "Search for Company";
       case 3:
-        return isConsumer ? "Registration Complete" : "Select Role";
+        if (isConsumer) return "Registration Complete";
+        return "Select Organizations";
       case 4:
-        return "Complete Registration";
+        return "Select Role";
       case 5:
+        return "Complete Registration";
+      case 6:
         return "Registration Complete";
       default:
         return "";
@@ -142,13 +201,38 @@ export default function RegistrationWizard({
         );
 
       case 2:
-        return isConsumer ? (
-          <RegistrationForm
-            formData={formData}
-            onChange={updateFormData}
-            userType="consumer"
-          />
-        ) : (
+        if (isConsumer) {
+          return (
+            <RegistrationForm
+              formData={formData}
+              onChange={updateFormData}
+              userType="consumer"
+            />
+          );
+        } else if (isSupplier) {
+          return (
+            <SupplierSearch
+              onSelect={handleSupplierSelect}
+              selectedSupplier={formData.selectedSupplier}
+              subscribeToBMN={formData.subscribeToBMN}
+            />
+          );
+        } else if (isMerchant) {
+          return (
+            <MerchantSearch
+              onSelect={handleMerchantSelect}
+              selectedMerchant={formData.selectedMerchant}
+              subscribeToBMN={formData.subscribeToBMN}
+            />
+          );
+        }
+        return null;
+
+      case 3:
+        if (isConsumer) {
+          return <RegistrationSuccess userType="consumer" />;
+        }
+        return (
           <MultiOrganizationSelector
             organizations={[
               {
@@ -165,8 +249,8 @@ export default function RegistrationWizard({
               },
               {
                 id: "e54f041a-2afe-40df-906b-58ad958df5cb",
-                name: "IBC",
-                description: "Independent Builders Merchant Buying Group - 220+ merchants",
+                name: "BMN",
+                description: "Builders' Merchants News",
                 logo: "https://picsum.photos/seed/ibc/200/200",
               },
               {
@@ -181,10 +265,8 @@ export default function RegistrationWizard({
           />
         );
 
-      case 3:
-        return isConsumer ? (
-          <RegistrationSuccess userType="consumer" />
-        ) : (
+      case 4:
+        return (
           <RoleSelector
             userType={formData.userType}
             selectedRole={formData.role}
@@ -192,7 +274,7 @@ export default function RegistrationWizard({
           />
         );
 
-      case 4:
+      case 5:
         return (
           <RegistrationForm
             formData={formData}
@@ -202,7 +284,7 @@ export default function RegistrationWizard({
           />
         );
 
-      case 5:
+      case 6:
         return (
           <RegistrationSuccess
             userType={formData.userType as "supplier" | "merchant"}
@@ -229,11 +311,14 @@ export default function RegistrationWizard({
             formData.privacyAccepted
           );
         }
-        return Array.isArray(formData.organizationIds) && formData.organizationIds.length > 0;
+        // For supplier/merchant search, allow proceeding regardless of selection
+        return true;
       case 3:
         if (isConsumer) return true;
-        return !!formData.role;
+        return Array.isArray(formData.organizationIds) && formData.organizationIds.length > 0;
       case 4:
+        return !!formData.role;
+      case 5:
         return (
           !!formData.firstName &&
           !!formData.lastName &&
@@ -248,8 +333,8 @@ export default function RegistrationWizard({
     }
   };
 
-  const isLastStep = (isConsumer && step === 2) || (!isConsumer && step === 4);
-  const isSuccessStep = (isConsumer && step === 3) || (!isConsumer && step === 5);
+  const isLastStep = (isConsumer && step === 2) || (!isConsumer && step === 5);
+  const isSuccessStep = (isConsumer && step === 3) || (!isConsumer && step === 6);
 
   return (
     <Card className="w-full max-w-2xl mx-auto shadow-lg">

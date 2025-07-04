@@ -10,14 +10,12 @@ import { Separator } from "@/components/ui/separator";
 import { SearchIcon, FilterIcon, SaveIcon, XIcon } from "lucide-react";
 
 import OffersDataTable from "@/polymet/components/offers-data-table";
-import { 
-  ViewToggleDisplay, 
-  KanbanOfferBoard, 
-  PromotionCalendar, 
-  MerchantTreeView, 
-  FilterPanel, 
-  SearchResultsDisplay 
-} from "@/polymet/components/missing-components";
+import ViewToggleDisplay from "@/polymet/components/view-toggle-display";
+import KanbanOfferBoard from "@/polymet/components/kanban-offer-board";
+import PromotionCalendar from "@/polymet/components/promotion-calendar";
+import MerchantTreeView from "@/polymet/components/merchant-tree-view";
+import FilterPanel from "@/polymet/components/filter-panel";
+import SearchResultsDisplay from "@/polymet/components/search-results-display";
 
 export default function ContentOrganizationPage() {
   const [activeTab, setActiveTab] = useState("table");

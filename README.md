@@ -1,6 +1,6 @@
 # UK Building Merchant SaaS
 
-A comprehensive digital marketing platform for the UK Building Merchant sector, digitizing special offer promotions across suppliers, merchants, and consumers. Inspired by Toolbank's successful "Real Deals for You" promotion and designed to serve multiple organizations (Toolbank, NMBS, IBC, BMF) while preserving their unique identities.
+A comprehensive digital marketing platform for the UK Building Merchant sector, digitizing special offer promotions across suppliers, merchants, and consumers. Inspired by Toolbank's successful "Real Deals for You" promotion and designed to serve multiple organizations (Toolbank, NMBS, BMN, BMF) while preserving their unique identities.
 
 ## 🏗️ Project Overview
 
@@ -8,7 +8,7 @@ This platform connects:
 - **Suppliers** (Tool and building material manufacturers)
 - **Merchants/Retailers** (Local building merchants and trade suppliers)  
 - **End Consumers** (Trade professionals and DIY customers)
-- **Organizations** (Toolbank, NMBS, IBC, BMF, and other buying groups)
+- **Organizations** (Toolbank, NMBS, BMN, BMF, and other buying groups)
 
 ### Key Features
 - Multi-organization architecture with custom branding
@@ -40,7 +40,7 @@ All project documentation is located in the `/docs` folder:
 5. **RESPECT the component hierarchy documented in Components_06.rtf**
 
 ### Multi-Organization Architecture
-- Support Toolbank, NMBS, IBC, BMF, and future organizations
+- Support Toolbank, NMBS, BMN, BMF, and future organizations
 - Maintain organization-specific branding and business rules
 - Implement proper data isolation with configurable sharing
 - Preserve each organization's unique value propositions

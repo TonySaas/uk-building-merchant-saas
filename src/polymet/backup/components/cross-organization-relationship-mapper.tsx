@@ -94,7 +94,7 @@ export default function CrossOrganizationRelationshipMapper({
     },
     {
       id: "org3",
-      name: "IBC",
+      name: "BMN",
       logo: "https://picsum.photos/seed/ibc/200/200",
       type: "Buying Consortium",
     },
@@ -132,7 +132,7 @@ export default function CrossOrganizationRelationshipMapper({
     {
       id: "rel2",
       sourceOrgId: "org1", // Toolbank
-      targetOrgId: "org3", // IBC
+      targetOrgId: "org3", // BMN
       type: "Supplier",
       status: "active",
       permissions: ["view_catalog", "place_orders", "view_pricing"],
