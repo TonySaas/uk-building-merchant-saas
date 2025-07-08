@@ -1,0 +1,91 @@
+{
+  "projectName": "UK Building Merchant SaaS",
+  "description": "AI-powered digital marketing platform digitizing Toolbank's 'Real Deals for You' promotion model for the broader UK Building Merchant sector",
+  "version": "0.1.0",
+  "framework": "React + TypeScript + Vite + Supabase",
+  
+  "projectContext": {
+    "type": "multi-organization-saas",
+    "domain": "building-merchant-promotions",
+    "organizations": ["toolbank", "nmbs", "ibc", "bmf"],
+    "userTypes": ["supplier", "merchant", "consumer", "admin"],
+    "keyFeatures": [
+      "Multi-organization architecture",
+      "Offer creation and management",
+      "Progressive Web App",
+      "Merchant website widgets",
+      "Analytics and reporting",
+      "Location-based merchant discovery"
+    ]
+  },
+
+  "codebase": {
+    "structure": {
+      "src/polymet": "Sacred component library - NEVER modify directly",
+      "src/components": "Application-specific components",
+      "src/pages": "Page components and routing",
+      "src/contexts": "React context providers",
+      "src/services": "API and external service integrations",
+      "src/types": "TypeScript type definitions",
+      "database": "Supabase database schemas and migrations"
+    },
+    
+    "criticalRules": [
+      "NEVER modify components in src/polymet - they are sacred",
+      "ALWAYS support multi-organization architecture",
+      "MAINTAIN proper data isolation between organizations",
+      "ENSURE mobile-first responsive design",
+      "PRESERVE existing component styling and UX patterns"
+    ],
+
+    "techStack": {
+      "frontend": "React 18 + TypeScript + Vite",
+      "backend": "Supabase (PostgreSQL + Auth + Storage)",
+      "styling": "Tailwind CSS + Radix UI",
+      "routing": "React Router DOM",
+      "forms": "React Hook Form + Zod",
+      "maps": "Leaflet + React-Leaflet",
+      "pwa": "Vite PWA Plugin + Workbox"
+    }
+  },
+
+  "development": {
+    "serverCommand": "npm run dev",
+    "buildCommand": "npm run build",
+    "testCommand": "npm run test",
+    "lintCommand": "npm run lint",
+    "formatCommand": "npm run format",
+    "typeCheckCommand": "npm run type-check"
+  },
+
+  "apiKeys": {
+    "required": [
+      "VITE_SUPABASE_URL",
+      "VITE_SUPABASE_ANON_KEY",
+      "SUPABASE_SERVICE_ROLE_KEY"
+    ],
+    "optional": [
+      "VITE_GOOGLE_MAPS_API_KEY",
+      "VITE_STRIPE_PUBLISHABLE_KEY",
+      "VITE_ANALYTICS_ID"
+    ]
+  },
+
+  "permissions": {
+    "allowedCommands": [
+      "npm run dev",
+      "npm run build", 
+      "npm run lint",
+      "npm run type-check",
+      "npm install",
+      "git status",
+      "git add",
+      "git commit"
+    ],
+    "restrictedPaths": [
+      "src/polymet/**/*",
+      ".env",
+      "node_modules/**/*"
+    ]
+  }
+}
