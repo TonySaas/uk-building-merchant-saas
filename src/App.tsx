@@ -10,6 +10,7 @@ import OrganizationsPage from './polymet/pages/organizations-page'
 import PricingPage from './polymet/pages/pricing-page'
 import AboutPage from './polymet/pages/about-page'
 import ContactPage from './polymet/pages/contact-page'
+import NewsPage from './polymet/pages/news-page'
 import SupplierDashboard from './polymet/pages/dashboard-supplier'
 import MerchantDashboard from './polymet/pages/dashboard-merchant'
 import ConsumerDashboard from './polymet/pages/dashboard-consumer'
@@ -31,6 +32,7 @@ function App() {
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/news" element={<NewsPage />} />
           
           {/* Protected dashboard routes */}
           <Route 

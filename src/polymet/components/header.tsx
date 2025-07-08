@@ -57,17 +57,20 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden items-center space-x-6 md:flex">
-          <Link to="/features" className="text-sm font-medium hover:text-primary transition-colors">
-            Features
+          <Link to="/about" className="text-sm font-medium hover:text-primary transition-colors">
+            About
           </Link>
           <Link to="/organizations" className="text-sm font-medium hover:text-primary transition-colors">
             Organizations
           </Link>
+          <Link to="/features" className="text-sm font-medium hover:text-primary transition-colors">
+            Features
+          </Link>
+          <Link to="/news" className="text-sm font-medium hover:text-primary transition-colors">
+            News
+          </Link>
           <Link to="/pricing" className="text-sm font-medium hover:text-primary transition-colors">
             Pricing
-          </Link>
-          <Link to="/about" className="text-sm font-medium hover:text-primary transition-colors">
-            About
           </Link>
           <Link to="/contact" className="text-sm font-medium hover:text-primary transition-colors">
             Contact
@@ -141,11 +144,11 @@ export default function Header() {
         <div className="container mx-auto px-4 pb-4 md:hidden">
           <nav className="flex flex-col space-y-2">
             <Link
-              to="/features"
+              to="/about"
               className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Features
+              About
             </Link>
             <Link
               to="/organizations"
@@ -155,18 +158,25 @@ export default function Header() {
               Organizations
             </Link>
             <Link
+              to="/features"
+              className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Features
+            </Link>
+            <Link
+              to="/news"
+              className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              News
+            </Link>
+            <Link
               to="/pricing"
               className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Pricing
-            </Link>
-            <Link
-              to="/about"
-              className="rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              About
             </Link>
             <Link
               to="/contact"

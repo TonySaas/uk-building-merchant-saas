@@ -18,6 +18,13 @@
                 "AZURE_OPENAI_API_KEY": "AZURE_OPENAI_API_KEY_HERE",
                 "OLLAMA_API_KEY": "OLLAMA_API_KEY_HERE"
             }
+        },
+        "brightdata": {
+            "command": "npx",
+            "args": ["-y", "@brightdata/mcp"],
+            "env": {
+                "BRIGHTDATA_API_KEY": "4011255714419db8a1812995aebff62f8f2678726cbd9672d8bc3db1300fff83"
+            }
         }
     }
 }

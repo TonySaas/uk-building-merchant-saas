@@ -38,6 +38,7 @@ import {
   BookmarkIcon,
   ShareIcon,
   ArrowUpIcon,
+  ExternalLinkIcon,
 } from "lucide-react";
 import { BLOG_POSTS, BLOG_CATEGORIES } from "@/polymet/data/blog-post-data";
 import { BlogPost } from "@/polymet/data/blog-post-data";

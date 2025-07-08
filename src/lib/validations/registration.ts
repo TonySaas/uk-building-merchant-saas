@@ -110,7 +110,8 @@ export const registrationSchema = z.object({
   
   // Step 4: Personal information
   ...userInfoSchema.shape,
-  ...passwordSchema.shape,
+  password: z.string().min(8, 'Password must be at least 8 characters'),
+  confirmPassword: z.string(),
   
   // Step 5: Company information (conditional)
   companyName: z.string().optional(),
@@ -122,6 +123,15 @@ export const registrationSchema = z.object({
   // Step 7: Agreements
   ...agreementSchema.shape
 }).superRefine((data, ctx) => {
+  // Password confirmation validation
+  if (data.password !== data.confirmPassword) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      message: "Passwords don't match",
+      path: ['confirmPassword']
+    })
+  }
+  
   // Conditional validation based on user type
   if (data.userType === 'supplier' || data.userType === 'merchant') {
     // Company name is required for suppliers and merchants
@@ -149,7 +159,13 @@ export const stepSchemas = {
   1: userTypeSchema.pick({ userType: true }),
   2: z.object({ organizationIds: z.array(z.string()).optional() }),
   3: userTypeSchema.pick({ role: true }),
-  4: userInfoSchema.merge(passwordSchema),
+  4: userInfoSchema.merge(z.object({
+    password: z.string().min(8, 'Password must be at least 8 characters'),
+    confirmPassword: z.string()
+  })).refine((data) => data.password === data.confirmPassword, {
+    message: "Passwords don't match",
+    path: ["confirmPassword"]
+  }),
   5: companyInfoSchema.partial(),
   6: addressSchema,
   7: agreementSchema
@@ -183,5 +199,5 @@ export const validateEmail = (email: string) => {
 }
 
 export const validatePassword = (password: string) => {
-  return passwordSchema.pick({ password: true }).safeParse({ password })
+  return z.object({ password: z.string().min(8, 'Password must be at least 8 characters') }).safeParse({ password })
 }

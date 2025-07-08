@@ -1,0 +1,4632 @@
+[
+  {
+    "action": "imported_new",
+    "retailer": "4 Shires Builders Merchants Llp",
+    "merchant_id": "d06f34f6-32e0-4b4f-b1b2-0d5ab4ee46de"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A C Jones",
+    "merchant_id": "55500649-43ce-4f99-8909-9491eca85368"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A G & R Equipment",
+    "merchant_id": "2bfd9c1b-cbca-4969-953c-4d01e6c82f27"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A J Ferguson & Co Limited",
+    "merchant_id": "7ba52f3e-be96-4e31-8a19-f5890cf99806"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A J M Fixings and Power Tools Limited",
+    "merchant_id": "68990f8d-bc52-4872-8833-14e676d7046f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A J Philpott and Sons Limited",
+    "merchant_id": "80f35ec5-28f2-4464-bc98-e094480eee55"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "A K Timms & Sons Limited",
+    "existing_merchant": "A K Timms & Sons Ltd",
+    "existing_merchant_id": "21647dbe-f242-437f-867f-e48487aa0dc8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A M Phillip Agritech",
+    "merchant_id": "d619b22a-954f-42a5-9a46-3345cfa13431"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A One Tools & Fixings Ltd",
+    "merchant_id": "4a77cc19-f9c6-4c8e-8ad0-e33621053602"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A T A Builders & Plumbers Merchant",
+    "merchant_id": "2801f3be-9497-4810-bfda-8a992cbde787"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A T Engineering Supplies Limited",
+    "merchant_id": "4b0dd13e-5b35-44b2-a23f-f144e0c38496"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A T Johnson Limited",
+    "merchant_id": "a2aa006e-1e52-476a-8fe5-9753294bdc9b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A W Champion Limited",
+    "merchant_id": "df33cc07-96e9-4795-8cde-ab0a43ef24e2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A W Lumb (Northern) Ltd",
+    "merchant_id": "b48544cf-03d1-4483-bbd2-4dc4d99b7de0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A.A.A. Decorating Centre",
+    "merchant_id": "360e004e-b8c4-4aa3-bb22-19a592ee2469"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A.C. Leigh Ltd",
+    "merchant_id": "69277bec-8436-4606-a26a-090430ac6897"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A.R.Aspinall & Sons Ltd",
+    "merchant_id": "4407699e-5110-48b9-ba1d-a37ee1fae2c3"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "A1 Ironmongery Limited",
+    "existing_merchant": "A1 Ironmongery Ltd",
+    "existing_merchant_id": "6ad00f77-4666-42e8-8310-44b05025b95f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A1 Tools & Fixings Ltd",
+    "merchant_id": "e5621ec3-dd4a-4d83-925a-4b545ddafbf1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "A2Z Plumbing & DIY Ltd",
+    "merchant_id": "66319e9a-c5c3-40ae-b633-a31f28ac2f65"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "AB McIntosh",
+    "merchant_id": "990c2968-ed85-45f5-bf0a-2b3646771bb3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Abbey Architectural Ironmongery",
+    "merchant_id": "3910e359-d0ca-4c22-99fc-a176894a18b0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Abbotts DIY",
+    "merchant_id": "9184631f-bed0-4a5a-a852-18db266cd97f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "ABS Building Supplies & DIY",
+    "merchant_id": "4d10bd09-3404-43c6-bae4-44095f922288"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Absolute Power Tools",
+    "existing_merchant": "Absolute Power Tools Ltd",
+    "existing_merchant_id": "02a7c049-85e2-4b98-9d8b-2d844aef5b51"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "ABW Hardware",
+    "merchant_id": "6f614ac6-5779-4f36-a396-6d936d58fc48"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "AC Supply Limited",
+    "merchant_id": "eca7db37-1c83-42a1-b96a-1bc6103ed343"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Ace Mica Hardware",
+    "merchant_id": "058e66cc-2613-4444-ae88-b7e42a109793"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Action Building & Electrical Supplies Limited",
+    "existing_merchant": "Action Building & Electrical Supplies Ltd",
+    "existing_merchant_id": "fda248ed-97d4-464a-b6ea-673210e67864"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Ada Fastfix Ltd",
+    "existing_merchant": "ADA Fastfix Limited",
+    "existing_merchant_id": "daea1f21-9c87-4e56-afd3-825e8fe9d317"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "ADP Diamond Cutting Solutions Ltd",
+    "merchant_id": "834e5e70-f481-48ce-b829-e13fd4884a70"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Affordable Tool Supplies Ltd",
+    "merchant_id": "aa1da2ef-5393-442d-bca7-ff2ecf335c4c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Afl Building Supplies",
+    "merchant_id": "f4b76e9f-8f13-4b81-afc8-b786b33ea831"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Aitken Electrics Limited",
+    "merchant_id": "b18e773f-faa5-4fdd-85e4-9089e22e4f0d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Akro Plant Limited",
+    "merchant_id": "3d7e8996-7753-4529-b8ca-c830cac2eda5"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Alca Tools Ltd ",
+    "existing_merchant": "Alca Tools Ltd",
+    "existing_merchant_id": "c98e0101-1a3b-4a1c-9c28-53e98f5d8372"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "ALLCAP Ltd",
+    "existing_merchant": "Allcap Ltd",
+    "existing_merchant_id": "f08a0532-8d3d-468f-af45-9458a7a2feb9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Allens Ironmonger",
+    "merchant_id": "bde08993-b099-4814-ac0b-f1ac2586895d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Allfix (Uk) Ltd",
+    "merchant_id": "3ef0edfc-a93b-4177-b8bd-8e8ad185fde4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Allfix Distributors",
+    "merchant_id": "15c25dd3-a1d5-4240-bbee-144ee43e3769"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Allmat (East Surrey) Ltd",
+    "existing_merchant": "Allmat (East Surrey) Limited",
+    "existing_merchant_id": "1af88766-96ad-4b6b-9ee0-c810df13075e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "AllThread Tools & Fasteners Limited",
+    "merchant_id": "42912bd5-1864-42ee-a20c-18993b456e64"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Altis Industries Limited",
+    "merchant_id": "fe09578a-0a3a-46d8-82de-2815e84465a4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Alton Bolt & Tool Co (Alton) Limited",
+    "merchant_id": "93bc5bf2-daf1-4c9f-ad69-5f64e3ac5f9a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Alton Hardware ",
+    "merchant_id": "36d90b18-fb44-4898-94f1-7b4bd8521bf8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Andrew & Co",
+    "merchant_id": "ba2f83ae-717a-4c6d-974e-d46e031c3328"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Andy Hire Sales & Service Ltd",
+    "merchant_id": "188de300-3aab-445d-aa6b-6d42248ed08f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Anglefix Ltd ",
+    "merchant_id": "8c30ce03-cca1-4671-9208-53322ba78838"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Anglia Hose & Hydraulics",
+    "merchant_id": "9e0a3262-b656-4950-85fc-d13a2d0d2146"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Anglia Tool Centre",
+    "merchant_id": "3432b66d-954f-4748-a094-0623bd631e1d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Anixter Industrial ",
+    "merchant_id": "05df29b4-5464-45eb-b806-b5754e1f42de"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Arbor Timber & Build Merchants Ltd",
+    "merchant_id": "fcf4231d-2dc5-4854-a8e4-b218b42207c0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Armstrong Builders Merchants Limited",
+    "merchant_id": "11f86fce-4c1e-460d-8e1a-02a8d85d39b3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Arnold Laver & Co. Ltd",
+    "merchant_id": "2ee3f02f-6a03-460e-a494-6875d37ab5ee"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Arnold Swift & Son Limited",
+    "merchant_id": "9b559aff-6dc6-4a14-a79f-e36939a6ff80"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Arrow Plant & Tool Hire Ltd.",
+    "merchant_id": "a806ff30-f62d-4870-9030-9514c3143977"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Arthur Ibbett Limited",
+    "merchant_id": "81c1a9e9-59cc-4cad-898e-e55301ae0b48"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Arthur Mcgee D.I.Y",
+    "merchant_id": "1e1644a9-9fc3-4689-9c0f-d27e5e40527e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Ask Millers Ltd.",
+    "merchant_id": "6ccb95b5-b079-4f4f-8c5b-58a0e3dfa239"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "ATF Supplies",
+    "merchant_id": "2b8f24c7-12ba-4892-bd6b-54f0e8a1c3cc"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Atkins (Clonalilty) Limited",
+    "merchant_id": "d316cd71-98a1-425e-b990-b91917e4cbf4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Atlas Trading Group",
+    "merchant_id": "0df4c92f-38b1-48d6-87fc-667d287abfa4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Austen Knapman",
+    "merchant_id": "f7c58074-6158-4bf6-bc22-8e8793851769"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Austens Home Hardware",
+    "merchant_id": "e530855d-1ee8-43a2-b08d-5674472c3916"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Avenue Tools (Slough)",
+    "merchant_id": "0422be0f-765e-4321-851d-60f3ac6289c1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "B & A Scaffolding Hire & Sales",
+    "merchant_id": "f0c4a928-52d0-4daf-8293-9cd5169684e3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "B & T S Builders Merchants",
+    "merchant_id": "a6f1cf27-f60f-4042-8382-e95c52154156"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "B and D Tools (Enfield)",
+    "merchant_id": "88ea06af-b8e5-40be-b1d1-f19f20dc60b7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "B B N Fastnet",
+    "merchant_id": "1a7f2d16-6c9f-4e7a-ac15-0ce0d4e01290"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "B C Fisher",
+    "merchant_id": "60f0883b-0c88-4495-9479-635146ef888a"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "B G Romeril & Co Ltd",
+    "existing_merchant": "B G Romeril & Co Limited",
+    "existing_merchant_id": "9837d258-1890-4a3a-bb01-3f49dffcc548"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "B H C Ltd",
+    "merchant_id": "f0ac3811-49d0-455a-9a30-76de1d7d7a09"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "B M G Hardware Ltd",
+    "merchant_id": "92b090e2-8e4c-4758-89db-9a80be444fd3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Baca Workwear And Safety Ltd",
+    "merchant_id": "6d1fa359-41b0-4cdf-a909-4b7847198b5b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "BAKER AND BAKER",
+    "merchant_id": "b8065e3b-6412-418f-a7a2-f52cf43c0408"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bakers & Larners of Holt",
+    "merchant_id": "8aa81a5a-ce04-4e81-86a3-8e9e69fed01f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Balcombes",
+    "merchant_id": "946ba048-4666-4ae4-864e-89adb28f7c33"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bapp Industrial Supplies",
+    "merchant_id": "f9b98f5c-5570-4d93-b388-204a3e4a3669"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Barnes JB Ltd",
+    "merchant_id": "1e8110a3-7aa6-48a1-bb4f-5dd280dd93d7"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Barnitts Limited",
+    "existing_merchant": "Barnitts Ltd",
+    "existing_merchant_id": "e1ce584f-eae4-4ccd-b98a-7c0cf5f268cb"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Basingstoke Bolt & Tool",
+    "merchant_id": "d81d372c-dba6-49a4-b855-12c482f30829"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "BBS Plumbing & Heating Ltd",
+    "merchant_id": "761d900b-be9e-446b-ad6b-5ea77e55fb28"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Beatson's Building Supplies Ltd",
+    "merchant_id": "8d6e40d9-0a57-4822-8034-2a32d5fef4b8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Beattys",
+    "merchant_id": "04b36705-948d-47c8-abe7-1ddf6dc12973"
+  },
+  {
+    "action": "added_affiliation_to_existing",
+    "retailer": "Beattys",
+    "existing_merchant_id": "04b36705-948d-47c8-abe7-1ddf6dc12973"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bedford Building Plastics",
+    "merchant_id": "991120b5-eece-4ddb-b728-0aae74b1d5f1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Beers Timber and Building Supplies Ltd.",
+    "merchant_id": "62ab0441-b03b-42ce-add0-7f0260461c2c"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Beesleys Tools",
+    "existing_merchant": "Beesleys Tools (T/A Howard Partnership)",
+    "existing_merchant_id": "826bbf69-2e4d-43d2-ae77-83efe6b3ade6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bell Plumbing Supplies - Kings Norton",
+    "merchant_id": "90fe011c-0b42-4511-9dc2-9a7a26f8d8ca"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bell Tools",
+    "merchant_id": "3400f1f9-90be-45f7-8d7d-bbe136206f6b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Belton & Slade",
+    "merchant_id": "3cecc510-7ffa-43cf-b64f-f2673f51cabf"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Big Red Toolbox Ltd",
+    "merchant_id": "e9c7e577-f070-4fa5-90c6-25c32fedbffe"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bill's Tool Store",
+    "merchant_id": "37f62b22-edad-489a-9791-7b16b97c3a1a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Billericay Homecare",
+    "merchant_id": "83652d4a-ae27-4eef-bda9-95f1f0b856f7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bishops Castle Building Supplies",
+    "merchant_id": "9d4ecb22-9587-432c-ae8d-604af5704678"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Blake & Beeley",
+    "merchant_id": "e699627a-7b62-4655-8371-a218d6de8b1d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Blanchards Building Supplies Limited",
+    "merchant_id": "a260eedd-314b-451b-a001-d7ceb7776ad2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Blanchford Building Supplies",
+    "merchant_id": "3cdf0abb-d26d-4201-8883-87124a9abe52"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Blyth & Wright Limited.",
+    "merchant_id": "9d8d31cc-0fab-48fa-906e-c857e62cc28f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bob Richardson Tools & Fasteners Ltd",
+    "merchant_id": "37f5993f-8d5b-4e50-a721-349c30b77c74"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bolt & Nut Supplies Ltd",
+    "merchant_id": "bda95091-a98d-47fe-9db4-9da24a1d1738"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bolt Building Supplies Limited",
+    "merchant_id": "8ac9b55c-f293-4c80-a76a-c093b4dd3fe7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bonnypack Scotland Limited",
+    "merchant_id": "7ce89e41-18a4-411b-bf1f-acf9e86961a0"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Bradfords Building Supplies",
+    "existing_merchant": "Bradfords Building Supplies Limited",
+    "existing_merchant_id": "5b384b7e-d351-4e7a-b5ab-a21e605e27f8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Brians DIY",
+    "merchant_id": "a417d5f2-5e9b-42b1-9e34-4bca2dd58f90"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Brianson Electrical",
+    "merchant_id": "911a8ee8-0213-42ed-98c6-7b54b23a98cd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bridge Hardware",
+    "merchant_id": "96d3f69f-cfb9-4aea-811b-7d0114b6344c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bridge Tools",
+    "merchant_id": "f8e88cc4-d94a-42e3-9e4f-f90e56ddd17e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "British Gates",
+    "merchant_id": "1aee4b59-5fb0-4e7f-b526-1bc1ec29933d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Brook Supplies",
+    "merchant_id": "27980c79-204b-4245-abe2-1a2170f09b04"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Brooke Supplies",
+    "merchant_id": "e3b97072-067b-494c-8d15-3e8b520b6ff0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Brundall Pet & Hardware",
+    "merchant_id": "715424af-150c-4761-ba82-3e9a939095e5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bryan Watkins & Son Ltd (Handyman)",
+    "merchant_id": "3e1d7a59-55d2-4c05-83cb-a7bf57bb9ade"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Bryant Fixings Limited",
+    "existing_merchant": "Bryant Fixings Ltd",
+    "existing_merchant_id": "6c71a358-d804-4d23-a715-d500cbfaed47"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bucan Power Tools",
+    "merchant_id": "72e774a6-7313-410f-953f-3c7010d1b7fe"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Buicks (Alloa) Ltd",
+    "merchant_id": "7da95bad-c6bc-4c4c-a077-32ad6d420479"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Buildbase Ltd",
+    "merchant_id": "1a2b566c-a88e-41e9-ae82-ca0d0e751a1c"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Builder Depot Limited",
+    "existing_merchant": "Builder Depot Ltd",
+    "existing_merchant_id": "e2bcb4bd-7a4c-4d41-af22-7be0c209e2e7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Builders Supplies",
+    "merchant_id": "8e1e31b3-85bd-474f-881a-7d627bb15f99"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Building Equipment Supplies Ltd",
+    "merchant_id": "5fb38e54-1dd1-4df7-bf45-638082e07600"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Buildland Ltd - Coventry",
+    "merchant_id": "d0df079d-0a35-46f3-983c-ce465e724b4b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bunce & Co (Worthing) Ltd",
+    "merchant_id": "9a78e4f4-9b8f-4d61-9a75-debd5d393e0e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Burfords Locksmiths",
+    "merchant_id": "eab8db95-4da2-4689-ba94-12bd9dd58a6c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Bussens & Parkin Ltd",
+    "merchant_id": "e8a3fbe2-a39f-43c4-975b-dda7fef902c1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Buttle's St Albans",
+    "merchant_id": "22bd9d48-b71a-44de-87c6-d4893fdda57c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Buxton Woodworks (2014) Limited",
+    "merchant_id": "f5e4ba28-8547-49ee-8c1a-b9aa061d013e"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "C & C Supplies Limited",
+    "existing_merchant": "C & C Supplies (Collinson) Ltd",
+    "existing_merchant_id": "16739da6-67c2-4be4-83c8-f4df2850ddcc"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "C & S Builders Merchants Limited",
+    "merchant_id": "e3d8f922-7efc-4e8d-b5d6-d8b4645c4710"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "C + D Home & Hardware",
+    "merchant_id": "67377310-62ed-4374-acae-1148c09b18f0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "C A M Limited",
+    "merchant_id": "121d2f1d-56f3-41a6-8c53-0db30ecf5ddb"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "C B L Supplies Ltd",
+    "merchant_id": "f45890ce-497a-4475-870c-cf061da1639f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "C Booth & Son",
+    "merchant_id": "451d3f82-95f2-4e12-bd63-d0f5bc9d8f9f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "C Brewer & Sons Ltd Horsham",
+    "merchant_id": "ba926ca4-4361-4c32-ab61-5bd1dbd0f2c0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "C C Betts & Son",
+    "merchant_id": "e088106d-01ec-4a7e-9bde-711b839cff27"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "C D Supplies",
+    "existing_merchant": "C D Supplies Ltd",
+    "existing_merchant_id": "5e5671ff-a60b-4e09-af1b-8048b14c6a25"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "C H Fowler and Co Limited",
+    "merchant_id": "d27b2862-8666-40a0-9ce0-e23ecc52fda4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "C J Webster Electrical Supplies",
+    "merchant_id": "b91c00f8-8336-4d1f-b866-704a6a489948"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "C T Baker Builders Merchant",
+    "merchant_id": "7509d7c8-8f7a-4eea-bafa-e8d5c1015e23"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "C W Berry Limited",
+    "merchant_id": "ba3649fe-9fd6-4650-a23d-0b533a4f428b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "C.H. Morgan & Co. Limited",
+    "merchant_id": "822adb56-2b60-4aca-a859-eb6cb3035fa2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Caldwell Wright & Co Ltd",
+    "merchant_id": "424448b1-4368-437e-bc72-b0b3c9486c8b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Cambabest",
+    "merchant_id": "bbfdc3d6-419b-49b8-9213-b924a3914d2b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "CAN Fixings Limited",
+    "merchant_id": "9e4eef88-1ad3-44a4-b246-45970090d230"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Canvey Supply Co Ltd",
+    "merchant_id": "b1c5b1b5-4229-4bf2-a823-86794217183e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Cardigan Building Supplies Ltd",
+    "merchant_id": "2fcdc09e-d356-4daf-acb5-3d3f104aefe1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Carey Tool Hire Ltd",
+    "merchant_id": "512831c8-e7ef-4cf6-b96d-754ffbd4e2bd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Carrs Billington Agriculture Ltd",
+    "merchant_id": "823e2cfd-db75-474c-ab62-5de626bf3ed8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Carryduff Building Supplies",
+    "merchant_id": "6eef82ea-f27a-4b7c-b50e-e5870a03c290"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Carters Tools Limited",
+    "merchant_id": "42fffc90-bd65-4b51-85f7-46fd5b3b8a07"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Carver Ltd",
+    "merchant_id": "85a56b60-61f2-4eca-96b6-b15511ab009b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Caspian Access & Plant Hire Limited",
+    "merchant_id": "c338623b-7c9c-47dc-9e14-6dd3afaf8f72"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Castles Ironmongers",
+    "merchant_id": "1372a54e-2237-403a-9134-7c76cb03485c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Caxton Décor",
+    "merchant_id": "dac4ec55-974a-42d0-b944-45d8ead8926d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "CBS Power Tools Ltd",
+    "merchant_id": "de4ea57a-d159-41f0-a50e-3e3b0d4c74d2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Ceridigion Plumbing Supplies Ltd",
+    "merchant_id": "0510c503-5104-4f1c-912e-037f19fced59"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "CG Fixings T/a Powertoolworld.co.uk",
+    "merchant_id": "cfffd73f-441e-4f7c-a134-fd33e71faafb"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Chandler Material Supplies Ltd",
+    "merchant_id": "cd0b6e80-1d4a-473f-b477-3f68edbed97f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Chandlers Building Supplies Ltd",
+    "merchant_id": "26079438-ad46-47b0-8585-4e9d780ef0a1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Chapel DIY Centre Limited",
+    "merchant_id": "9a82c66b-7369-44fd-9146-2196decf131f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Charles Dickens Tool Store",
+    "merchant_id": "62f2b0ce-7081-47a4-bc50-6ba973b8df57"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Charles Watson (Ironmongers) Limited",
+    "merchant_id": "899d74d9-d638-459d-a745-2320eeb7b8b3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Chestnut Roofing & Building Supplies Limited",
+    "merchant_id": "9c0697f1-7675-4464-97ee-bc6f3831a76d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Christchurch Timber and Trading Ltd",
+    "merchant_id": "5e3ed9e1-cca4-4773-8c28-0cf5100c8263"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "City Electrical Factors",
+    "merchant_id": "8427e4e3-cad8-4b39-aea5-813e9810c1a8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "CL Plant",
+    "merchant_id": "f313f495-4895-419f-ae95-684437c250e6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Clacton Tool Hire Limited",
+    "merchant_id": "10258459-39f4-4a82-af80-c3ae633a261e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Clarik Engineering Supplies",
+    "merchant_id": "d9b592f1-ac66-4dce-b793-038a5e21dc58"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Clarkes of Walsham Ltd",
+    "merchant_id": "6975d174-689c-4bb6-be7b-cdc9833fe9eb"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Claymore Ltd",
+    "merchant_id": "eeecda95-fee9-4e58-9ddd-b06ec4ddb7f6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Clondalkin Builders Providers Ltd",
+    "merchant_id": "319b4c2d-601a-4add-9215-c019080a5cad"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Clynderwen & Cardigan Farmers",
+    "merchant_id": "9620087a-f1a3-4f6a-adc6-28442a4ef166"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Coastal Building Supplies",
+    "merchant_id": "d82c9eb3-4d4e-4cd0-aeff-5dd8b210d0d8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Colin Myers Timber Ltd",
+    "merchant_id": "df61fb1c-207a-4fb4-9a5a-149bee4a1355"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Collier & Catchpole Ltd",
+    "existing_merchant": "Collier & Catchpole Limited",
+    "existing_merchant_id": "a9cf5e45-2e55-46e9-be2e-da751d8dc714"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Commons Hardware Ltd",
+    "merchant_id": "426caa16-8ca5-4537-95ca-5cbbc90f1bca"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Connie Briody Limited Sterling",
+    "merchant_id": "a9bbe1ef-b94e-4707-bce6-fd6c838c43f5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Connolly's Topline Hardware",
+    "merchant_id": "73bb6fb2-30b8-40ee-a4a3-a4d2109186c0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Cooks of Bedford Limited",
+    "merchant_id": "7494f42e-cb29-4494-9a78-10a41ae0a29c"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Coomers Limited",
+    "existing_merchant": "Coomers Limited",
+    "existing_merchant_id": "41d2b8fb-ad7c-4634-b5fe-e127044e6e60"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Coopers Limited",
+    "existing_merchant": "Coopers (Great Yarmouth) Limited",
+    "existing_merchant_id": "f74e64ce-daff-44f5-b76d-248186b5e68f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Coopers of Stortford",
+    "merchant_id": "32586e52-844e-451a-a861-eab3a1b5c2f1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Cork Builders Providers",
+    "merchant_id": "e76b041a-cde1-43ac-a0e4-f4763d7f8a2f"
+  },
+  {
+    "action": "added_affiliation_to_existing",
+    "retailer": "Cork Builders Providers",
+    "existing_merchant_id": "e76b041a-cde1-43ac-a0e4-f4763d7f8a2f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Cornish Fixing Co",
+    "merchant_id": "a6f40c1d-67ef-49e5-bfb5-928352983c40"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Cornmeter",
+    "merchant_id": "d6ef0532-bcee-4d26-8322-bfe8d1b69faf"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Cotswold Building Supplies Limited",
+    "merchant_id": "ac8a3acb-39e3-40d1-926f-b215180ce1e6"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "County Building Supplies Limited",
+    "existing_merchant": "County Building Supplies (Holdings) Limited",
+    "existing_merchant_id": "fc98ccb0-ece7-445f-be21-2bc10156c24d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "County Hardware",
+    "merchant_id": "eeb61e40-02e4-4758-828d-0f069d5e8ed8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Covers Timber & Builders Merchants",
+    "merchant_id": "367e233a-f784-4b21-90e4-41cb2250f6fd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Cox Industrial Supplies",
+    "merchant_id": "08bcd8d9-cf7f-4eb9-ae26-863a611d4274"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Cranbrook DIY Limited",
+    "merchant_id": "198e6225-bd22-47e5-8b0a-1c2eafe5b418"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Crescent Building Supplies",
+    "merchant_id": "aba827db-7290-46f6-a283-cc7656d75d38"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Cross Tool Hire (Fleetgate Glass Co Limited)",
+    "merchant_id": "181bf64d-ae49-4121-8659-6b0a1b5f276f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Crossford Oil & Tool Supplies Ltd",
+    "merchant_id": "8ba9aebc-6c2a-4dee-bddb-e9aea357cbe8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Crossy's Home and Garden",
+    "merchant_id": "0c361f62-c8ae-436f-8ce4-a59dc1f142f6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Crowthorne Fencing Ltd",
+    "merchant_id": "d1e9d7ab-865c-4388-ad59-6aafdbb62a35"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "CRS Building Supplies Ltd",
+    "merchant_id": "fdbae44c-055c-4d9c-86af-d68f492e61d2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Crumlin Expert Hardware",
+    "merchant_id": "a3cf9b0e-26f2-4c64-841a-78d8754b2d54"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "CSS (NORTH WEST) LTD",
+    "merchant_id": "b65050d2-c84e-4ef3-82c6-dd66119aa09b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "CTE Supplies Ltd",
+    "merchant_id": "a1dd4f0a-c9e1-49a3-a870-df6d1fe05537"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "CTS Ironmongery Ltd",
+    "merchant_id": "61f799b5-222b-455d-a972-dc4856abafea"
+  },
+  {
+    "action": "added_affiliation_to_existing",
+    "retailer": "CTS Ironmongery Ltd",
+    "existing_merchant_id": "61f799b5-222b-455d-a972-dc4856abafea"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "CU-PLAS SUPPLIES LIMITED",
+    "merchant_id": "ceebb05c-dfd8-4419-bc08-df711bcf543d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Curran",
+    "merchant_id": "06cd1f5a-9e77-498d-bd3f-c45f4051afef"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "D & I Bridgman & Son Ltd",
+    "merchant_id": "8a61e5a0-bb3b-4b86-9208-c8dd5baf01ce"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "D & J Toolbar",
+    "merchant_id": "d8cca9c7-5a66-4009-bd5c-753633a594c6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "D & M Tools",
+    "merchant_id": "fadb1bec-cefe-47e5-b9ee-0df7c24299b1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "D & S Hardware Ltd (Euro)",
+    "merchant_id": "80e1d022-1f74-4a18-a94f-4e6d0321651d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "D H Jones Ltd",
+    "merchant_id": "eaf98a71-d2ca-48ec-8f1c-23712c7be488"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "D J Evans",
+    "merchant_id": "fdbefaa5-d116-48e5-9856-a03757a2ae80"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "D Lynch & Sons Limited",
+    "merchant_id": "70543c0c-1bb2-42ac-b148-30bfee242db5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "D.L. Williams Building Supplies",
+    "merchant_id": "90d29676-d659-43aa-bd11-89f5e017110f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "D.P. Building Supplies",
+    "merchant_id": "d4043d89-6fbb-49df-a911-6dd8cba1d410"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Dads Shop Ltd",
+    "merchant_id": "d23bedf8-fcc5-4192-ade0-23138127e6fc"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Dae It Yersel",
+    "merchant_id": "451da60d-65d2-4d3a-b5a5-b457289b4453"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Dagar Tools Limited",
+    "existing_merchant": "Dagar Tools Ltd",
+    "existing_merchant_id": "e486ad26-b128-43d9-9b5d-926b0cc62bb3"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Data Powertools Limited",
+    "existing_merchant": "Data Powertools Ltd",
+    "existing_merchant_id": "38eefdac-7d67-4d88-937e-8c382c87814c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Daves Trade Centre",
+    "merchant_id": "60528c16-82ef-44e5-96ff-dc2253f00637"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "David Hunt Tool Merchant",
+    "merchant_id": "02e8fbc8-a0a5-4d51-b576-bbcb02410eb5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Davies Timber Ltd.",
+    "merchant_id": "40563e92-5379-491f-a5e9-ec67354f58c2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "DECOR EXPRESS LTD",
+    "merchant_id": "28430a07-3b94-4fb8-91f5-b893d9891a77"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Decora Limited",
+    "merchant_id": "8f675a41-53e0-43e3-ba6e-76f567a69eb4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Decwells DIY",
+    "merchant_id": "98860952-b58f-41f3-8252-8c58be8aed63"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Deepings Trading Company Limited",
+    "merchant_id": "9479e94f-c35c-4a21-a8d8-50d8340a0140"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Delta Industrial Limited",
+    "merchant_id": "679e4abb-94d7-4c34-99f0-dcd7d721d6c4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Dereham Hire & Sales",
+    "merchant_id": "30d1ac53-a36e-4f10-9410-018eb0ce923f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Dermot Kehoe Supply & DIY",
+    "merchant_id": "8f5d44ed-488c-4a1b-b968-ccd7de3890a2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Dfs Fixings Ltd.",
+    "merchant_id": "b40bf548-98d8-4431-8e08-c47f052b81b1"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Direct Tool Sales Ltd",
+    "existing_merchant": "Direct Tool Sales Ltd",
+    "existing_merchant_id": "83198b7b-9446-4819-9319-c405e5fb08cb"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "DIY Rainbows",
+    "merchant_id": "f85d8493-5f4a-4c2a-8e42-3d91d5e02a89"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Do It Yourself (UK) Ltd",
+    "merchant_id": "d775f58b-4c5d-4634-97a5-d09ae388152a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Dockerills (Brighton) Ltd",
+    "merchant_id": "12dce1e7-f925-4996-942a-4f3ad8e90ead"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Donegal Town Hardware",
+    "merchant_id": "e183b5e7-149c-4175-b454-9750050d430b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Doorfit Products Limited",
+    "merchant_id": "825ac0f6-9eb4-48b1-8be5-693db779e718"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Dorchester Timber Ltd",
+    "merchant_id": "a7c7e8d9-09e5-4338-9502-560d7d5e3fac"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Double Tee Tools",
+    "merchant_id": "71b5baaa-c4e5-4d30-8cf0-284be7c396c4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Douglas Yeadon Hardware",
+    "merchant_id": "9b247c46-f06f-4ed8-ae5f-c76a9f243b34"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "DPR (Retail) Ltd",
+    "merchant_id": "c9695dd0-9001-41d4-8e23-56a3e0ac3527"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Drews Limited",
+    "merchant_id": "7d87e46c-08cf-48aa-9158-ff787308f2f8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Drinagh Co-op",
+    "merchant_id": "62c6abf4-073e-4d18-8efe-ca7526afca1a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Duchy Fasteners Limited",
+    "merchant_id": "4d3ec036-7cb9-473c-b589-2e4425f78898"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Duffys Home Hardware",
+    "merchant_id": "fc84ff7d-8675-4fa6-b9ae-f0306e35ee7c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Dulwich DIY",
+    "merchant_id": "8dac7b22-dbbb-426c-8d62-72a77476bfc2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Duotool Direct Ltd",
+    "merchant_id": "9adead73-1e69-41d3-b218-6504ee54eaa0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "E Bentley Limited",
+    "merchant_id": "110c213c-ca07-4dc0-bb52-85a55e1f0c86"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "E E C Hardware Limited",
+    "merchant_id": "97e3fcd7-100c-4573-aa35-4441b9bc311d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "E J Tong & Sons",
+    "merchant_id": "8c4b1c6f-263c-408a-b60a-f8b17ff4a442"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "E W Moore & Son Ltd",
+    "merchant_id": "3f523270-e3a7-41a1-85ea-ae4ee2026ad8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "E. B. Smith Ltd",
+    "merchant_id": "4eec68a5-e129-4d1e-9a1d-40945db56419"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "E.C.A Supplies (Coventry) Ltd",
+    "merchant_id": "8160030a-99d7-427b-b99c-08c8c23eb5e4"
+  },
+  {
+    "action": "added_affiliation_to_existing",
+    "retailer": "E.C.A Supplies (Coventry) Ltd",
+    "existing_merchant_id": "8160030a-99d7-427b-b99c-08c8c23eb5e4"
+  },
+  {
+    "action": "added_affiliation_to_existing",
+    "retailer": "E.C.A Supplies (Coventry) Ltd",
+    "existing_merchant_id": "8160030a-99d7-427b-b99c-08c8c23eb5e4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "E.D. Elson Ltd",
+    "merchant_id": "b0f8389c-36d0-4188-a328-d41061ff7435"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "E.R Supplies Ltd",
+    "merchant_id": "bcbde4d8-f5a0-4c48-8f0c-e1870be54102"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Eagle Plant",
+    "merchant_id": "bcb2e428-fc85-4e42-a6aa-dd0b4857c78a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Eagledale (Mercia Hardware Ltd T/a)",
+    "merchant_id": "c8c12b5a-b936-4d4a-b379-786d63cba5d0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Eakers Ltd",
+    "merchant_id": "011b710d-148a-412d-87fa-b972b40569ff"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Earlswood Garden & Landscape Centre",
+    "merchant_id": "565e2e87-99d7-4cd3-9e40-482bee085ddf"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "East Coast Sales Limited",
+    "merchant_id": "1b003c01-2e01-42d6-a005-76c5d9b3c149"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "East Cornwall Trading",
+    "merchant_id": "30176e88-684a-435a-ba7d-71cc8e882ab9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "East of Scotland Farmers Limited",
+    "merchant_id": "53c3bc3f-e604-49b3-867f-4e6eba52f3c1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Electrical Wholesale Supp Flint Ltd",
+    "merchant_id": "a6f8098f-63d6-48b1-99ea-f4d1d60b053a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Elliott Brothers Ltd (Winchester)",
+    "merchant_id": "cd242bc3-f600-4073-a83b-5d50c4480cdc"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Elliotts",
+    "merchant_id": "eb44cb43-bd86-4b72-9d30-80b70f34b533"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Ellis Direct Limited",
+    "merchant_id": "ac60089d-6b9e-46c0-864e-8fa59b9fccef"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Elmers Limited",
+    "merchant_id": "e7cb91c6-eaac-4896-82c5-5a3f985f56a8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Elson (Healy Tools)",
+    "merchant_id": "beeb46b0-862b-4cbc-98c5-73295f3c330d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Eltham DIY",
+    "merchant_id": "1108fe82-babc-430b-b848-9951aa879e68"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Elvington",
+    "merchant_id": "48199937-b5c8-4edf-9a2f-04a3d459c92e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Emsworth Hardware",
+    "merchant_id": "e667dc46-4dc0-4cec-8585-aa2f6f0397b9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Engineering & Factory Supplies Ltd",
+    "merchant_id": "9f8188e9-ac8b-4db3-91eb-4aca0b497ee8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Engineering & Power Tools Ltd",
+    "merchant_id": "428d6f19-32cd-49b2-9496-6b0a5c4b9e48"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Enterprise Plant Service",
+    "merchant_id": "3ef7bad8-5ec7-485d-8c3e-2670e09f7236"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Epic Tools",
+    "merchant_id": "98a8cd8d-3d64-4406-8944-9c600fc16322"
+  },
+  {
+    "action": "added_affiliation_to_existing",
+    "retailer": "Epic Tools",
+    "existing_merchant_id": "98a8cd8d-3d64-4406-8944-9c600fc16322"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Essex Industrial Supplies Ltd",
+    "existing_merchant": "Essex Industrial Supplies Ltd",
+    "existing_merchant_id": "1032f033-5130-420a-b5c1-22da1b8cda59"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Eurofasteners Ltd",
+    "merchant_id": "cb1b65c8-5d09-4150-ac0e-18baac07fc41"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Exall & Jones Limited",
+    "merchant_id": "8deaa8e5-34a6-42b1-abd3-f59495bab912"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Exeter Tool Shop",
+    "existing_merchant": "Exeter Tool Shop Ltd",
+    "existing_merchant_id": "1d4f3e48-80f9-4e5d-be25-0f62a1e07a2b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Exmouth Power Tools Ltd",
+    "merchant_id": "5988b9a5-6a30-4993-9df0-b1c09997a2b0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Extra Electrical & Hardware",
+    "merchant_id": "1b120569-3779-4954-9c72-e6588ae955fc"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "F G Lang (Grays) Ltd",
+    "existing_merchant": "F G Lang (Grays) Ltd",
+    "existing_merchant_id": "d4d0ce20-5086-4fdc-a354-16e6cbee7de4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "F R Scott Ltd",
+    "merchant_id": "714d4096-d2a5-4e58-82d7-4a26cde847f7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "F Slee & Sons Limited",
+    "merchant_id": "62f9ccd4-65e7-431f-8d1d-7b4e3f6687e6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "F W Myhill & Son Ltd",
+    "merchant_id": "e68ee57b-4116-475b-b2e4-48d86e3f9b99"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "F.E. Maughan",
+    "merchant_id": "6bdac43c-4cd9-4897-9edf-fa0c46982f12"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "F.J. Williams & Sons",
+    "merchant_id": "fd6bafc6-6b77-4d04-8139-3b48e2eeb85a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "F.T.B. Lawson Ltd",
+    "merchant_id": "e206d011-b048-40f4-bbe4-e052fa5cc4be"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "F.T.C. Hire & Sales Ltd.",
+    "merchant_id": "b481f798-3a48-442e-912e-22b386e97896"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "F.W Metcalfe & Sons",
+    "merchant_id": "ece43a70-7f3a-4647-a318-be923cd5e791"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Fairalls Builders Merchants Ltd",
+    "merchant_id": "27a198df-cd1a-4bb2-b973-607eabc6d043"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Fairfield Builders Supplies",
+    "merchant_id": "6c21769e-5eca-4a51-b8d8-354ae3e0698d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Fascia & Glazing Supplies Ltd",
+    "merchant_id": "ca606b87-7adc-46ac-bbcb-1d6952f6170e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Fastco Fasteners & Fixing Ltd",
+    "merchant_id": "9f93d0fe-c7cb-42a6-851e-54cbb33f7f50"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Fengate Fasteners Limited",
+    "merchant_id": "e739725f-c66f-4e37-9466-52a8bf9bcdba"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "FFX Tools (Folkestone Fixings Ltd)",
+    "merchant_id": "0dcd6f3f-be32-4b69-b036-49d304e5f103"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Fielden Factors",
+    "merchant_id": "deec752b-6d25-4000-90f4-958bc2f0c189"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Fitzgerald Homevalue Hardware",
+    "merchant_id": "b9c1c252-c10d-41a7-9f9a-698ddf6b5093"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Fixings & Power Tool Center Ltd",
+    "merchant_id": "891c82ec-0892-4476-9c7b-cd4711ede7b9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Fixings North West Limited",
+    "merchant_id": "ce3bf7a0-1d9b-4c9f-b9ab-f71460845f2d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Fixings Warehouse",
+    "merchant_id": "a5173b7e-bb62-44e5-a98a-84803cd29543"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Flanagan Timber Ltd",
+    "merchant_id": "15dbd172-4c2d-40c4-99a3-2420480a039f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Flynns",
+    "merchant_id": "7bc8c853-54a7-4667-a19f-366bd9e9733a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Flynns Hardware Ltd",
+    "merchant_id": "66e8761a-de3d-4e33-9264-c01d04dc7627"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Forest Architectural Supplies Ltd",
+    "merchant_id": "406cce83-6d21-4e70-b08d-47892a0e3166"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Forest Heath Fasteners",
+    "merchant_id": "b5c09be1-7e49-4a1f-9ee9-f74496279f6e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Fowler Hire and Sales Ltd",
+    "merchant_id": "773330ec-afcd-48e8-b885-07b3a26d6f3d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Fram DIY & Building Supplies Limited",
+    "merchant_id": "5c7ae6cc-06b4-43c5-bbb0-e31a1e36a6f5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Franchi Locks & Tools",
+    "merchant_id": "50424631-c0c9-4efb-8a1d-b44bfe688091"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Francis Kirk and Son Ltd",
+    "merchant_id": "583adb04-7a7d-45a7-8d93-3d846ba5deed"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Frank Blakeley & Son Ltd",
+    "merchant_id": "638491e6-fd17-41bf-8ec4-7e8f7a56d047"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Frank Clark Ltd",
+    "merchant_id": "f0d8f46a-3f48-45db-a5a2-d341d27dc62f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Frank Howard Tools & Fixings Ltd",
+    "merchant_id": "98d93e48-7b4b-4dcf-a8ef-38120f0c8ebb"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Franklin Industrial Supplies",
+    "merchant_id": "fc5fe415-851e-4dca-9318-d463450f7ed3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Frosts Home Hardware",
+    "merchant_id": "ec1c9a38-dccb-4918-bd05-c0deff499a81"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "FS Trade LTD",
+    "merchant_id": "15777481-85c4-40ce-8cd5-f736b5165a17"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "G Denny & Sons Limited",
+    "merchant_id": "723bebc0-73eb-4532-b4bb-62b884362e4a"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "G E Tools Ltd",
+    "existing_merchant": "G E Tools Limited",
+    "existing_merchant_id": "2749f374-012f-4f29-ad95-87cec68602e6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "G L & D M Davies",
+    "merchant_id": "0b0cbc92-e4bf-46e2-9916-1bb8099f231c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "G Orpin & Son",
+    "merchant_id": "34ee87df-8efd-433f-8d4a-f551441e2b2b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "G R Fasteners & Engineering Supplies Ltd",
+    "merchant_id": "d26801b6-a8e3-4adc-9b57-67489a329c0f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "G S Hire Centres",
+    "merchant_id": "a1a56da6-32b2-44a1-a78d-f28a523a6aa8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "G S Lattimer",
+    "merchant_id": "58eb24de-c260-4a81-8345-5ea9d02a4a2d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "G T Electric Sterling",
+    "merchant_id": "73024ad1-6835-434e-89fe-e29f5e4bc524"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "G. Kelly & Co.",
+    "merchant_id": "d9059320-3d6c-499b-b5c1-6ac006691718"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Gaggero Cemats",
+    "merchant_id": "649a01a5-66d5-459e-9a9d-4e0b6a1ddcd3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Galloway Hire Tools",
+    "merchant_id": "120c0a3d-2f93-409d-a67e-75f44c4638ef"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Ganly's of Longford",
+    "merchant_id": "5ae30cbc-5567-431e-add1-fb092480828d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Gardner & Scardifield Ltd",
+    "merchant_id": "5b92e277-fe68-41fe-832a-eda3f13150a9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Gem Tool Hire",
+    "merchant_id": "c9efb1b7-8692-4912-996b-1e15db6add9c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Gemini Supplies (Scotland) Limited",
+    "merchant_id": "29151a93-f18c-465d-a5e8-8268bd25d133"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Geo. Spence & Sons Limited",
+    "merchant_id": "2ba2c241-bd54-4954-85f3-9cc71c6230d1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "George Bence",
+    "merchant_id": "33882995-c6b5-40ce-b529-ef4c2d252df6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "George Browns Ltd",
+    "merchant_id": "b1b929be-943b-41b5-81d5-e07c8d8c095b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "George Cooper & Sons",
+    "merchant_id": "2aef782a-e9e4-4a8f-94f8-e0040977eb79"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "George Hill (Oldham) Limited",
+    "merchant_id": "bd3224cb-8547-41ca-84b4-a085526b77de"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "George Tufts & Son Limited",
+    "merchant_id": "ba556e5b-b243-41a2-b4ae-c9fc5d7f0942"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Gibbs & Dandy",
+    "merchant_id": "a32379c8-b4cd-47a2-8aa3-41b37f0bfa02"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Gilbert Laurence Ltd",
+    "merchant_id": "df6c32e9-34db-42e5-9d3c-5dfae36b3132"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Gill & Co Ironmongers Limited",
+    "merchant_id": "03bb2667-82bb-4d26-8a87-85948ee68696"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Glendale Paints",
+    "merchant_id": "c961dd9c-f334-49b9-a5c9-e302ad57f323"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Glowbar Supplies & Power Tools",
+    "merchant_id": "e63f8df4-c67c-4140-b092-a4191dab9ea4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "GMD Mowers Tools & Hardware Ltd",
+    "merchant_id": "01cde019-242a-42ac-b860-b7f8ebb5630b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Godfreys",
+    "merchant_id": "038023fa-b094-4a25-9f09-2251072b0d39"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Godfreys (I.T.) Ltd",
+    "merchant_id": "bf3f29b9-4af8-4162-942c-ab5d436770c5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Goodrowes of Chichester Ltd",
+    "merchant_id": "68426fbb-9cec-4f63-8871-6803ff76c328"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Goodwins Power Tools",
+    "merchant_id": "9b4ef964-0963-4e83-a642-e134d87443d1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Goring Hardware",
+    "merchant_id": "c13c5f85-bd0c-4877-b56c-d86af137548b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "GPH Builders Merchants Ltd",
+    "merchant_id": "a54b7537-17db-40d1-95f3-652c2100b584"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Grange Builders Providers",
+    "merchant_id": "5b6852ff-6da7-4ef2-bc88-90792d92f747"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Great Barr Saw Mills Limited",
+    "merchant_id": "4725a8df-ea7c-4131-8686-d43eb602851f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Green & Son Building Supplies Ltd",
+    "merchant_id": "a2d6948d-a6ae-4321-bacd-476658088fe6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Green DIY",
+    "merchant_id": "937056fd-7389-4d8f-82d1-b73288fc4dd6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Greenford Timber and Builders Merchants",
+    "merchant_id": "d1507e05-dda6-4d2b-b543-d760bdb3d4f3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Groundhog Home Hardware",
+    "merchant_id": "48b334b6-2731-47ca-8bd1-5cae8e7af5c7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Grundys Ironmongers Limited",
+    "merchant_id": "e86d4509-892f-4a2f-a17a-df0b9c12c0f7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Gwynedd Welding Supplies",
+    "merchant_id": "658298db-e886-45c7-b6d5-0e0a771bfec9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "H L S",
+    "merchant_id": "b059b613-b829-41cd-a7c3-e525d576d946"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "H Pigney & Son",
+    "merchant_id": "c3cf473f-1c50-4e54-9770-2423f5d1a714"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "H Rothwell & Co Limited",
+    "merchant_id": "d7449a91-7261-4ad1-a435-07d81f5f1fb1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "H T S",
+    "merchant_id": "1d430f92-846f-4ea5-8e83-9360947fc2bd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Haldane Fisher",
+    "merchant_id": "179f8c39-d0fa-4803-a631-c71f76799aa7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hallgate Timber Limited",
+    "merchant_id": "4f2d6ccf-7369-4dfd-b5ce-55c13198807f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hammels Expert Hardware",
+    "merchant_id": "83314044-e995-4b77-af62-b2281796e2cd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hancock & Brown (Timber) Ltd",
+    "merchant_id": "1eec7c51-2859-4934-bf29-77b97e323e09"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Handicentre Ltd",
+    "existing_merchant": "Handicentre(Bingham)Limited",
+    "existing_merchant_id": "7f3e7fdf-c5b3-4b57-be06-de5ae69d0914"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Handyman House",
+    "merchant_id": "fd49bed9-a990-40c7-b1d5-1ae36b773fca"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hanger 4 Limited",
+    "merchant_id": "886b3d0f-adf7-44ef-bab7-24301c27c7b2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hardcores Building & Paving",
+    "merchant_id": "be766458-7bfe-4c0c-b8cf-8c382b89796e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hardys Hardware & General Store",
+    "merchant_id": "b48bebe0-c581-4806-85fb-4d07053e660b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hargrave Agriculture Ltd",
+    "merchant_id": "c08094de-1d5f-4de5-8dd5-b35bcdda3922"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Harlequin Fixings & Sealants Ltd",
+    "merchant_id": "d811ce99-36b0-464d-a115-1c4d7fcb7fdd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Harlow Bros. Ltd - Derby",
+    "merchant_id": "9dcc8ec4-2aa0-4209-9edc-d3ae9b56ebf8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Harlow Bros. Ltd - Loughborough",
+    "merchant_id": "4ec8b966-20a2-4212-afbc-c3d7ec3a4434"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Harris & Bailey Ltd",
+    "existing_merchant": "Harris & Bailey Ltd",
+    "existing_merchant_id": "920a274f-5c73-42ad-9c0c-5dea81ceee19"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Harrison & Dunn",
+    "merchant_id": "9ebf968c-8aa9-40ed-92cd-33af1bfc9bc5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Harrow Glass & Building Supplies",
+    "merchant_id": "fba5e0b0-d4ea-49da-9cee-90250c67c231"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hart & Sons Limited",
+    "merchant_id": "b203d1b2-fe33-4862-94ff-0852958c49d8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hastings Hire Centre Ltd",
+    "merchant_id": "96661243-bedf-456a-b522-33dceb2e3d1b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hayling Hardware Limited",
+    "merchant_id": "393c7943-698a-4700-900e-54f7e793f89f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hayway Tool & Hardware Co Ltd",
+    "merchant_id": "633a96aa-dca8-4887-b4c1-edf6e12c1a1c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hedley & Ellis Ltd",
+    "merchant_id": "57949a76-047d-4b31-b1fd-0f448f03e19f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Heiton Buckley Builders Merchants",
+    "merchant_id": "51736ed2-671f-4a56-9707-2d5f02c1b61e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Henlow Building Supplies Ltd",
+    "merchant_id": "40a1add1-3a1e-4f82-952a-573a2c24e164"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hereford Industrial Supply Co Limited",
+    "merchant_id": "c4bb804f-5135-4da3-aaae-739b8a9582d2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hertfordshire T & BS Ltd",
+    "merchant_id": "21e7a155-b949-441c-99a1-5441addf9ed0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hevey Timber",
+    "merchant_id": "ebb994fb-6ccf-40f7-9b0a-00192743f5e3"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Highland Fasteners Limited",
+    "existing_merchant": "Highland Fasteners Ltd",
+    "existing_merchant_id": "ffa845b2-6c68-4d7f-92a0-02623781c79e"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Highland Industrial Supplies Ltd",
+    "existing_merchant": "Highland Industrial Supplies Ltd",
+    "existing_merchant_id": "afe9072e-3fa0-4725-ade5-43fc652949bd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hire Equipment (Ludlow) Ltd",
+    "merchant_id": "019695d3-d9c1-47c0-94ec-15e302bb0571"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Hire Or Buy Group Limited",
+    "existing_merchant": "Hire or Buy Group Ltd",
+    "existing_merchant_id": "93317ec7-3b71-4d63-81ec-4766acd5ff8b"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Hire Or Buy Group Limited",
+    "existing_merchant": "Hire or Buy Group Ltd",
+    "existing_merchant_id": "93317ec7-3b71-4d63-81ec-4766acd5ff8b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hire-Me Tool Hire",
+    "merchant_id": "06dded8d-04f2-40cf-a663-fcb57bf58d6e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hoey's Timber Sales Ltd (Sterling)",
+    "merchant_id": "b3800f75-3cce-4cc2-8015-5e900705e57b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Holbury Hardware Stores",
+    "merchant_id": "8c1510a4-07da-4742-aae3-2f45e528ba6d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Home Image DIY Limited",
+    "merchant_id": "68dad815-a6c1-4f42-b8c6-0f02d85ad907"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Home Improvement Centre",
+    "merchant_id": "ae6db3fd-5700-4960-9a2d-9ef66d8651d0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Homeflair DIY Limited",
+    "merchant_id": "287935cd-977a-477c-8c49-9f091ac12a27"
+  },
+  {
+    "action": "added_affiliation_to_existing",
+    "retailer": "Homeflair DIY Limited",
+    "existing_merchant_id": "287935cd-977a-477c-8c49-9f091ac12a27"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Homeleigh Building Supplies Ltd",
+    "merchant_id": "ab2d8a08-58ce-4232-9522-10694e508d19"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Horizon Plastics",
+    "merchant_id": "82876318-2fbc-4aed-8c56-3ba0c85b5afd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hornchurch Hire & Sales Ltd",
+    "merchant_id": "f5bc0377-e214-4438-9be5-043c867c6f78"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Houseproud DIY",
+    "merchant_id": "cda74df0-7dd7-4fc8-add5-efdc0222bddf"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Howard Lee & Son Limited",
+    "merchant_id": "e8949cc2-c986-4b1b-adde-456c664ac676"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Howarth Timber",
+    "merchant_id": "95a7290b-38c5-4d99-8860-97319f7d1eea"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hughes Forest Ltd",
+    "merchant_id": "50faff66-b735-49ff-aa8c-52999bec6407"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hull Powertools Limited",
+    "merchant_id": "92ecd57e-bb80-40c6-bade-62f185e1651b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Humber Merchants Limited",
+    "merchant_id": "7e0bbee6-6728-479c-9c59-6c123f719487"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hutchings Timber",
+    "merchant_id": "81f8015e-e317-45df-839c-5e84137b171f"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Huws Gray Limited",
+    "existing_merchant": "Huws Gray Limited",
+    "existing_merchant_id": "1e823f49-4896-4cbe-b36e-56712d80a935"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Huws Gray Limited",
+    "existing_merchant": "Huws Gray Limited",
+    "existing_merchant_id": "1e823f49-4896-4cbe-b36e-56712d80a935"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hydraflo",
+    "merchant_id": "8e95fb6f-dfb8-4932-a796-323682505bb1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hydramex Limited",
+    "merchant_id": "6b6c46c5-6c3f-454e-baa6-c4e74871de5b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Hykeham DIY",
+    "merchant_id": "12502c64-18fe-478a-958e-5b678073b051"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Ilford Building Supplies",
+    "merchant_id": "5c9da736-c967-4b8e-bade-905c405f5f3e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Inifer Potter & Son Limited",
+    "merchant_id": "0f4c4146-97ca-4b76-a659-2f10c7956352"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Inter-Line (South West) Limited",
+    "merchant_id": "271d54af-4ad3-4d91-b385-567f93017b90"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Intro Industrial Supplies",
+    "merchant_id": "fa4fbbc4-83f1-4560-98f7-57a19e552515"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Invicta Tools & Fixings Limited",
+    "merchant_id": "61ca875e-cdbc-4755-a32b-8e8941380c70"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "IPC Fixings Ltd",
+    "merchant_id": "f865dd91-ea91-4a8c-9c86-3d742e1b0928"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Isaac Lord Limited",
+    "existing_merchant": "Isaac Lord Limited",
+    "existing_merchant_id": "0b1946d7-9bc0-43af-85bb-2290a4906fb3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J & H Leeke",
+    "merchant_id": "b0035ad7-d875-4224-947b-f58068d816e5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J & M Hardware Ltd",
+    "merchant_id": "3707d89b-b715-404c-84e3-8886e5367a60"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J and B Electric Power Tool Co Limited",
+    "merchant_id": "42b8956a-a5e2-490a-831a-7126693fd1c5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J BLEWER & SON LTD",
+    "merchant_id": "fa167110-8c5d-4cba-a348-3d6d7ceb00a4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J Bradley & Sons",
+    "merchant_id": "79cb9674-33aa-4e46-9cff-f556e081f199"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J Cavanagh Ltd T/a",
+    "merchant_id": "7aa5a229-d6ed-41b4-9cbb-d7e7412ae726"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J G Engineering Supplies Ltd",
+    "merchant_id": "cb12f6d7-5603-4493-9446-f47abbf77c89"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J J Mcquillan Son & Co Ltd",
+    "merchant_id": "0901023d-0ee7-4d5d-9037-616daa884140"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J J Roofing Supplies Ltd",
+    "merchant_id": "bf531324-eb2d-48e7-ba58-048fb64997a6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J K M Industrial Supply Merchants",
+    "merchant_id": "174fe1e0-c009-4956-9e8a-3447ec502491"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J Mc Kenna Ltd",
+    "merchant_id": "952ef4fa-4fc8-433e-834a-3c03397194cd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J O' Toole & Sons (Galway) Ltd",
+    "merchant_id": "45381b35-db07-4371-9f79-b9d3100751f0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J R D Equipment",
+    "merchant_id": "8805959a-ffcf-4370-8b9a-c1aff1555eb2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J Rouse & Son",
+    "merchant_id": "77870c58-2285-48c8-b805-e46fa9f58480"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J S C Builders Merchants",
+    "merchant_id": "d91fc1b9-9545-4ea5-9b0e-32ef69b34617"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J S Pearson Ltd",
+    "merchant_id": "a97778a8-c684-499c-b5aa-5760e941d037"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J Todd & Son",
+    "merchant_id": "b4497138-beba-4b4a-bc16-17bedc0775e3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J W C I LTD",
+    "merchant_id": "d5e80b65-2384-4dbc-bf79-00f8e8c88526"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J. Kelsall Builders Merchants",
+    "merchant_id": "70629af7-aa6f-4967-bbd4-5adac870a059"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "J.F. Martin & Son",
+    "merchant_id": "d7f60d65-1d37-4d2a-ab08-b992217a572a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "JAC Distribution Ltd",
+    "merchant_id": "4f6e1f5f-cf19-40f8-90ff-1346c2432ead"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Jackdaw (Tools) Ltd",
+    "merchant_id": "80e0cddb-4645-46b5-afbf-e5a5803fc29e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Jacks The Ironmonger",
+    "merchant_id": "46fde6fd-1ef3-42e9-9170-05be4dc545b4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Jacksons of Saintfield",
+    "merchant_id": "d5f5ed8b-f68a-4a39-99da-0ee3367e3c17"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Jacksons Timber Limited",
+    "merchant_id": "de9cab5b-c8eb-4397-ad4c-99496636f0e3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "James A Gordon & Sons Limited",
+    "merchant_id": "d616cabf-284c-4711-8a15-f73b678e0fe6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "James Annand",
+    "merchant_id": "0e927819-654f-45a3-9ec1-b9547e52d1ef"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "James Gibson Limited",
+    "existing_merchant": "James Gibson (Darwen) Ltd",
+    "existing_merchant_id": "b53c9cc5-7fd5-45c5-be05-183c951e8f84"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "James Knox & Sons Limited",
+    "merchant_id": "d38b5e7a-646f-44c4-bdb2-7bb8046a5623"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "James Lister & Sons Ltd",
+    "existing_merchant": "James Lister & Sons Limited",
+    "existing_merchant_id": "792af2ad-c35a-41fd-a0c4-d12bb4764092"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "James McNeill Hardware",
+    "merchant_id": "030b901f-086b-40e4-a23f-5d5f7723c138"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Jasonic Limited",
+    "existing_merchant": "Jasonic Limited",
+    "existing_merchant_id": "a797f44f-c442-4b06-a350-e5592620cc73"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Jaymac (Derby) Ltd",
+    "merchant_id": "5a2f693b-ccbe-4c95-ad6e-099a83e0c01b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Jewson Limited",
+    "merchant_id": "ac1956e7-eb15-47dd-a9fe-e074615b8c7d"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "JJ Roofing Supplies Ltd",
+    "existing_merchant": "JJ Roofing Supplies Limited",
+    "existing_merchant_id": "bfff4852-88a1-4856-a219-b1eefa53eef4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Joe Mckenna Ltd",
+    "merchant_id": "b494be0c-c7bd-4e1c-a311-4db28f82fb2a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "John Brown",
+    "merchant_id": "75ed870a-918c-47c2-b364-981cbafbc960"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "JOHN D FALLA & SON",
+    "merchant_id": "8bd4f97d-a0ab-4f73-aa2f-c89600a91206"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "John Hearn (Hardware) Limited",
+    "merchant_id": "7b795eb6-e6d3-4e0d-81ec-11dd06482b4f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "John J Ronayne Limited",
+    "merchant_id": "861b09a7-896c-451d-b22e-15acf21b1052"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "John Nicholls Ltd",
+    "merchant_id": "49645b38-11ac-40d9-a66c-b5701e6fccd5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "John R Mccarthy Limited",
+    "merchant_id": "20012031-fc55-4013-8e15-a478d4974b91"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "John Richardson & Son (Timber) Ltd",
+    "merchant_id": "23ca4a48-96ca-42f8-98b6-92a8d5985663"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "John Shilliday",
+    "merchant_id": "076ff53c-9a52-4931-9b20-09555a89a484"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Johnston Bros",
+    "merchant_id": "779178e4-1728-44b0-982a-6de8b28f10b5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Johnstones",
+    "merchant_id": "e9dbf1b9-711a-49e0-9478-04a788d7a2c0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Jones & Shufflebottom Limited",
+    "merchant_id": "cd337725-57a2-4271-bec9-5a5f5fb15fbd"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Joseph Parr (Middlesbrough) Ltd",
+    "existing_merchant": "Joseph Parr(Alco)Limited",
+    "existing_merchant_id": "fcc542c3-82f4-43db-a09b-ccf1105f87d3"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Joseph Parr Ltd",
+    "existing_merchant": "Joseph Parr(Alco)Limited",
+    "existing_merchant_id": "fcc542c3-82f4-43db-a09b-ccf1105f87d3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Joseph Wallace Ltd",
+    "merchant_id": "056755a6-c5cb-469d-918a-854cfb4dea36"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Joyce & Sons (Headford) Ltd",
+    "merchant_id": "f15aa325-7b49-446e-8cf6-c693b2320957"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "JT Atkinson & Sons Ltd",
+    "merchant_id": "c384e057-a2e6-48c8-a410-b1570791e3a2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Jubilee Building Supplies Limited",
+    "merchant_id": "c77988e3-74ad-4c52-a96c-e763296a300b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "K F Supplies",
+    "merchant_id": "6bc756aa-0719-4c10-90ca-8015b87cf315"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "KC Hire & Sales Ltd",
+    "merchant_id": "a0212000-4aa6-44f3-92d6-bed2edc130ed"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Keans Arro Home & Garden Ltd.",
+    "merchant_id": "81c8df1b-53a9-4e9f-b41d-015060fe0a7b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Keith Builders Merch Limited",
+    "merchant_id": "66c69879-506d-4d3f-9e58-bc53500895c1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Keitom Supply Company Limited",
+    "merchant_id": "3043db12-7f6c-48a9-932d-efb2bb26efd3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Kellehers Hardware",
+    "merchant_id": "6b04202d-b45c-46a4-b004-ec3fe4f15338"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Kelvin Timber Limited",
+    "merchant_id": "28f619b9-ccc3-4e05-9334-43155baeb851"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Kent Blaxill & Co Limited",
+    "merchant_id": "80101563-66fe-4e56-bb65-03916a717c67"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Kentec Tool Hire Ltd",
+    "merchant_id": "38ab5afb-b4a8-4d1b-9f78-b3c5ec41c141"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Keynsham Timber & Hardware Ltd",
+    "merchant_id": "199173cb-41c8-4839-aa58-892ab62ebfe3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Killeen Hardware Inc Hillocks",
+    "merchant_id": "53af5a27-8235-44d4-ad75-71a546d3be07"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Kings DIY Tadley",
+    "merchant_id": "66319be0-e9ba-40a2-b878-10df85d2f28e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Kings Langley Builders Supplies Limited",
+    "merchant_id": "82ec82d7-1c64-48a8-9f5a-6558d3f917e7"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Kington Building Supplies Limited",
+    "existing_merchant": "Kington Building Supplies Ltd",
+    "existing_merchant_id": "af9ae4d8-6b8a-4998-b91a-e254c5246062"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Kingtools",
+    "merchant_id": "de441da1-41cf-4928-9cfc-d342b0af1e77"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Kirby & Wells Ltd",
+    "merchant_id": "ebcc7242-32ad-4137-8cd4-6b1f86bab61a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Kl Nuts Bolts Eng Supplies",
+    "merchant_id": "bfa99aa8-d109-4eed-a85e-dbc8b983fbb2"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "KSP Tooling Limited",
+    "existing_merchant": "KSP Tooling Ltd",
+    "existing_merchant_id": "cda03f12-361c-4785-82fc-36e3405bdf7d"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Lakedale Power Tools",
+    "existing_merchant": "Lakedale Power Tools",
+    "existing_merchant_id": "b7c87736-79ba-425a-b92f-dbdf70da9017"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Lakedale Power Tools",
+    "existing_merchant": "Lakedale Power Tools",
+    "existing_merchant_id": "b7c87736-79ba-425a-b92f-dbdf70da9017"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Lakeside Timber",
+    "merchant_id": "1ceb52d5-951d-41bc-928a-5a4ce20934e1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Lamberts Ltd (Norwich)",
+    "merchant_id": "87e3e253-f36d-4135-84b3-ce9dccfea1d8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Lamberts Tool & Welding Supplies Ltd",
+    "merchant_id": "8e97fc66-90f8-47e6-8446-4fe5066e3d35"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Lawson HIS LTD",
+    "existing_merchant": "Lawson HIS Limited",
+    "existing_merchant_id": "ecd7d981-c427-4be3-baa7-868bdca41c7b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Lawson Limited",
+    "merchant_id": "4b01ebbb-abb3-49b2-97ff-9f83eea93318"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Lawsons (Colney Heath)",
+    "existing_merchant": "Lawsons (Whetstone) Limited",
+    "existing_merchant_id": "72278b35-96f1-4ad2-8123-11edc1218080"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "LBS Builders Merchants Limited",
+    "existing_merchant": "LBS Builders Merchants Ltd",
+    "existing_merchant_id": "58ea1648-b8d2-4271-a470-a1ad21a7d4a2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Leathleys House & Home",
+    "merchant_id": "e9702ff2-3590-43cf-af9e-015c04cc5f93"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Led Scotland Ltd",
+    "merchant_id": "c99dfdae-186a-4d4e-bf8d-ec5e4806a6ff"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Lee Industrial",
+    "merchant_id": "4ac4d7f3-9469-4555-b22f-d288b1896eed"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Leominster Building Supplies",
+    "merchant_id": "7af661b8-77e7-4e64-af57-e2147a59b0c2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Lester Lowe Ltd",
+    "merchant_id": "88452278-b2e8-4650-bd67-8df2b880e1f4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Linacre Plant & Power Tools",
+    "merchant_id": "4573c856-48eb-4c27-9d56-3c5cdbe7df90"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Lincs Electrical Wholesalers Ltd",
+    "existing_merchant": "Lincs Electrical Wholesalers Limited",
+    "existing_merchant_id": "3123cfa6-3831-433f-a073-9817e30bfb43"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Lindsay & Co",
+    "merchant_id": "1853fa89-e00a-420f-8ef6-9c1d7b53df0b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Lisavaird Co-Op",
+    "merchant_id": "48b76a54-8a74-4be9-87be-53eb59eaa0f9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "LL DIY Home & Garden CTR LTD",
+    "merchant_id": "6956a7f7-17a1-4224-b83e-438736152063"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "LLIW Building Supplies Ltd",
+    "merchant_id": "f0af4b9a-e084-41e4-ae2c-336b2c0f0949"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Loch Gas & Industrial Supplies",
+    "merchant_id": "49aeec9b-c3a3-4dad-924a-3ef5803e732c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Lodges Arro",
+    "merchant_id": "dd40bc1a-d85f-4d30-9f69-54bdb4ac1d70"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "London Decorators Merchants",
+    "merchant_id": "e88fa129-29ce-46d6-a69e-b10766b8f75c"
+  },
+  {
+    "action": "added_affiliation_to_existing",
+    "retailer": "London Decorators Merchants",
+    "existing_merchant_id": "e88fa129-29ce-46d6-a69e-b10766b8f75c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "London DIY Centre",
+    "merchant_id": "3842ea60-2d59-4ee2-b056-3a6c27d31997"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "London Power Tools & Fixings",
+    "merchant_id": "71b2067a-fe59-4f88-8ebd-80bac8938a16"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Longhorn",
+    "merchant_id": "25c28423-4c0e-4143-859e-037d1047545a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "LORDS",
+    "merchant_id": "4d1aaec1-8717-40bb-990a-cdca2077e390"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Lords Builders Merchants",
+    "merchant_id": "e2693ce9-f68f-4c1f-b5d1-b86a734b40a2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Lothian Building Supplies Limited",
+    "merchant_id": "e2a3d377-e0ff-4633-a8e9-b7c4620640c0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Louth Building Supplies",
+    "merchant_id": "fb63476e-6cd0-40bd-afff-8266bd134d57"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Lovedean Hardware Ltd",
+    "merchant_id": "fc830ae9-741a-4697-931b-e43c03f9689f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "LSW Workshop Supplies",
+    "merchant_id": "382bc83f-f4c9-4043-8c0f-41cdd23b2fcb"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Luck Trading",
+    "merchant_id": "0d048ff9-1b19-4699-b673-6ba8d97b8841"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Luton Hire Centre.",
+    "merchant_id": "b8a8e6fd-a71d-459f-b12b-03ef2fafc5c7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "M & J Supplies",
+    "merchant_id": "f5d9aa2c-905b-4ca7-8057-69f306f4df8a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "M & S Supplies",
+    "merchant_id": "a73a791a-1b2e-48b0-802c-624341fb7c68"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "M H Southern",
+    "merchant_id": "7465a3a2-0111-4452-9310-2fdb3f70d2a4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "M J Carroll Ltd Sterling",
+    "merchant_id": "7ad6d68a-6030-481f-a496-02fbb9ede1eb"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "M J Plastics Limited",
+    "merchant_id": "80094427-a67f-49ef-8ffc-89e7528b70f4"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "M Markovitz Limited",
+    "existing_merchant": "M Markovitz Limited",
+    "existing_merchant_id": "35c5fb4b-d622-488b-a659-fc44e175ba8f"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "M P Moran & Sons Limited",
+    "existing_merchant": "M P Moran & Sons Ltd",
+    "existing_merchant_id": "352e45be-1872-4cbb-9132-5c4182c54674"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "M W Hire Services",
+    "merchant_id": "e0a56192-fc87-4953-a57f-76a4929d4f6b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "M. Graham & Son",
+    "merchant_id": "751db4ec-62d6-4594-b9eb-599fe0549d88"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "M.A.C. Building Products Limited.",
+    "merchant_id": "b832be01-8061-45ce-afbf-2255d29b902a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "M.B.S.",
+    "merchant_id": "892cc749-61d2-4ad2-a134-dcfe32936a1c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "M.D. O'Shea & Sons",
+    "merchant_id": "0f56a7a3-1e3d-4a24-ae54-6dd20b41fa66"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "M.J.R Ryall Building Supplies Limited.",
+    "merchant_id": "3adbe034-2b35-4682-8d33-2f14c075582c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "M.K.M. Building Supplies Limited",
+    "merchant_id": "9404cb59-669b-4bd1-9b41-19b77ffa1741"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "M.T. Builders Merchants",
+    "merchant_id": "90da52cd-7e6a-40e5-927d-755017bc1624"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Macey Industrial Fixings",
+    "merchant_id": "caa88e29-054e-4cfa-ad1f-d44b2336a2cc"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Machine Sales & Services (Poole) Ltd",
+    "merchant_id": "ad3b0f5f-8671-43c1-a7e6-413de7b83d45"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mackays of Cambridge Ltd",
+    "merchant_id": "bfedd5ff-0bcf-411e-9d31-038d6b751b7e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Macs Builders Merchants",
+    "merchant_id": "624733d9-1a92-45e8-8e18-31bea57a6ced"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mad Supplies Limited",
+    "merchant_id": "fe1dd0e9-a42c-487e-9840-57cdb05ea9b8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Magnus INDUSTRIAL SUPPLIES LTD",
+    "merchant_id": "e1bb886a-ac1c-440e-ba2f-ddd84ac50cae"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Main Man Supplies Ltd",
+    "merchant_id": "484a37d8-610b-44e8-bdb4-f2137518d401"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Malletts Home Hardware",
+    "merchant_id": "e8ad6616-2389-450c-8928-5c70d1850328"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Maloney Hardware Limited",
+    "merchant_id": "6d7d1e5b-ec2e-4dc9-b1c4-bdfc576377f7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Manningham Concrete Ltd",
+    "merchant_id": "4fc6b3df-a440-4bfe-9b3f-261c84378a69"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Marchstream Tool Hire",
+    "merchant_id": "98ea6676-b1d5-42e2-a3aa-925be9d207ae"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Marine Suppliers + Co Ltd",
+    "merchant_id": "c17d3d3a-546e-461a-a2cf-631f9c685ed3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Marshall & Parsons",
+    "merchant_id": "9f1dd2f8-1e58-4619-aa01-8e26652023be"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Martin and Partners Limited",
+    "merchant_id": "37304aca-a7fe-45dd-916a-3a8459053555"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Martindale Industrial Fasteners",
+    "merchant_id": "f1e34130-e30f-4a4e-bf16-fd8aa3a657dd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mathias Mica Hardware",
+    "merchant_id": "4ae09b77-0231-4aee-b00b-abc7284aa1a7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Maurice Doody Sales Ltd",
+    "merchant_id": "0a9e05ff-31f6-44e6-8f4e-2264979aeec6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Maxwells DIY Ltd",
+    "merchant_id": "c327a801-2413-4582-a648-5f69578b5aa9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mc Keogh",
+    "merchant_id": "aab4fea6-7ad6-464d-bd93-e86134995b7e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "McCarthy's Prosperous",
+    "merchant_id": "56e5a555-f45d-47bf-b567-0a4ee54cf5e1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "McLaughlin Brothers",
+    "merchant_id": "57cf4f23-e7aa-42ae-8599-2453a12f1271"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mclean Toolbox Ltd",
+    "merchant_id": "0a59eaed-fbcd-4233-baa9-d95dfd816e50"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "McNairs Building & Timber Merchants",
+    "merchant_id": "f8799df1-fb58-4822-b062-f43ee7d053ab"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "MD Thompson Electrical Wholesaler",
+    "merchant_id": "4e4d579d-a015-411c-b99e-6f5d7721498f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mearns Hardware Ltd(g/trading)",
+    "merchant_id": "a607bb1e-df49-45db-968f-67d5b4b63d5f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mechanical & Electrical Fixings",
+    "merchant_id": "cd74df25-67b8-4142-ab10-998e43bb93f2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Megachoice Timber",
+    "merchant_id": "12028fcb-d65f-4829-97aa-2ccb731f084c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Melton Hardware Ltd",
+    "merchant_id": "9eb978dd-bd9a-4c9c-a91f-855a5c4a5f5e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mems Builders and DIY Suppliers",
+    "merchant_id": "fb289c42-c847-4db1-99fb-96810ab0d3ce"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mercer & Sons Limited",
+    "merchant_id": "41f76ba5-1023-45ad-a5d3-026fe7dd5611"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Merritt & Fryer",
+    "merchant_id": "8ec502eb-7d98-4046-a95d-b02697525485"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Metal Work Supplies",
+    "merchant_id": "966e1e90-359e-45c2-935f-874e15911c22"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Metro Timber Limited",
+    "existing_merchant": "Metro Timber Limited",
+    "existing_merchant_id": "ca748bcd-7e24-4073-b703-0cf9f4547ac0"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "MGM Timber (Scotland) Limited",
+    "existing_merchant": "MGM Timber (Scotland) Limited",
+    "existing_merchant_id": "f9a28fe2-c7db-447c-890a-acaf39bf784d"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "MGM Timber (Scotland) Ltd",
+    "existing_merchant": "MGM Timber (Scotland) Limited",
+    "existing_merchant_id": "f9a28fe2-c7db-447c-890a-acaf39bf784d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mid Build Plast-Derby",
+    "merchant_id": "611f1b81-dc4d-4ded-9c0c-d37cd1b09e03"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mid Kent Tools & Fixings Ltd",
+    "merchant_id": "01c72cbe-fbff-4495-97d6-8e8396429c7c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mid-Sussex Timber",
+    "merchant_id": "d0e2af0f-9d75-4118-95c2-7935f44d7d42"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Middlesbrough Tool Centre Limited",
+    "merchant_id": "5248ef3b-496a-48f9-9305-525ad8e7a283"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Middletons Homehardware",
+    "merchant_id": "4fc1a7a4-4cfa-4256-973b-d5832162eb51"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Midway Tools Ltd - Telford",
+    "merchant_id": "fda63689-709c-4b11-aa9c-2ae7275900ff"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Milford Merchants Ltd",
+    "merchant_id": "c80b84ee-ce98-4384-923e-33ab70a3fad9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Millcot Tools",
+    "merchant_id": "65d55441-967f-4782-9508-cf54243c431b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Millennium Group",
+    "merchant_id": "53c8d561-c81a-43f7-b7cb-7c136e594c33"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mitcham Building Supplies Ltd",
+    "merchant_id": "6b3277fa-53c0-41da-9d5e-02839bb0276a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mitchells Ironmongers Ltd",
+    "merchant_id": "73e26c61-0a5e-44c1-8485-0b6ecc8be38e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mitchells of Horley",
+    "merchant_id": "5676f414-6b32-49f9-9318-2b53bcdabeae"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mod Fix Ltd",
+    "merchant_id": "099c0741-3b4f-4a0c-b70d-ba122ab1ddec"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mole Avon Town & Country Stores",
+    "merchant_id": "88e549f2-872b-41ef-8c58-46be621a41b0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Montravia Limited",
+    "merchant_id": "f4419ba3-abf2-42e8-93d5-d7fe882627d5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mooney Boats Ltd",
+    "merchant_id": "01b85c53-1784-4600-84ce-48e839d17508"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "More Handles Ltd",
+    "merchant_id": "9dfd4693-1559-4254-8c1b-5720c279c2fa"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Morgans of Deeside",
+    "merchant_id": "d45f360d-80e7-427b-a7c1-be79479caa7c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Morrells Stores (Ironmongery) Ltd.",
+    "merchant_id": "b4de97a0-2b9a-4a9b-8adc-aadb41915703"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Morris Brothers",
+    "merchant_id": "8dee05fc-2121-4d71-8471-f5e4031cb25f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Morris Builders Providers",
+    "merchant_id": "5afb30b1-5a7a-4d98-94b6-91c31a2bc169"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Morris Mica Hardware",
+    "merchant_id": "963d5784-1d32-4b71-8365-6d406c3b2f26"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Mosswood Industrial Supplies",
+    "existing_merchant": "Mosswood Industrial Supplies Ltd",
+    "existing_merchant_id": "ef71e0fe-a111-4f0d-bc12-4a863802bbe3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "MTS (Power Tools)",
+    "merchant_id": "579ceee0-c5bd-4963-9491-c8d742d4d70a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Mumford Tool Hire & Sales",
+    "merchant_id": "697a3b26-845b-4132-b676-15aa153c9c71"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "My Tool Shed",
+    "merchant_id": "1ab4345c-1bb4-4f56-8a60-09f0df896f63"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "N & C Building Materials",
+    "merchant_id": "8d7ea77d-92b3-44aa-aa80-f321233f2d87"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "N G Bell",
+    "merchant_id": "9b5f9019-9a7d-4221-8c20-e4f1ec607739"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Nailfast",
+    "merchant_id": "3b4e8f3f-2cf2-4ba2-ac36-5c9c17a5257d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Naylor Myers Limited",
+    "merchant_id": "8bf22bc5-ce09-4173-ac53-5ed900b9751b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Neasden DIY & Hardware Centre",
+    "merchant_id": "2da2c80f-88c1-410b-82df-a2076437b448"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Newbury Tools Limited",
+    "merchant_id": "da2ad1ee-d514-4980-b8ca-cec56ab46d0f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Newline Building Products Limited",
+    "merchant_id": "471dcbce-e34c-43d8-95a5-a2ef1aefe377"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Newmarket Plant Hire Ltd",
+    "merchant_id": "22c5fde1-119d-4168-b359-e2f1c236333a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Nibletts Hardware",
+    "merchant_id": "4a563343-9056-4ebe-af34-5d149542da7a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Nicholas O'connor Sterling",
+    "merchant_id": "c3437060-d589-4e15-9a92-ccdc2f5b3b3c"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Nilco Ltd",
+    "existing_merchant": "Nilco Limited",
+    "existing_merchant_id": "6cb5cf9e-21bb-4f8e-8daa-e6a145f9f74b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Nmbs/plumbco (Midlands) Ltd",
+    "merchant_id": "dab6d6f3-9c5d-47d5-92e3-d0979350bbed"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Norburys Bldg & Landscape Supp Ltd",
+    "merchant_id": "d807f8fe-0c6a-4fba-9aae-5348aa975fc8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Norfolk Bearings Limited",
+    "merchant_id": "f81e2b3b-628e-436c-acf7-8c6e4fec1c40"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Nortech Services Limited",
+    "merchant_id": "52471cc1-99cc-4a6e-b9d3-db6d21e7c021"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "North West Timber Treatments Ltd",
+    "merchant_id": "81973301-313f-45c4-8d6c-ae8ca10c222a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Nu-line Builders Merchant",
+    "merchant_id": "861fe40f-37b1-4d80-968d-0977e570cb23"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Nuts & Bolts",
+    "merchant_id": "a2c76eed-7ed2-4c87-a91b-6ca78b9bc865"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Oaks Plant Hire",
+    "merchant_id": "ff998ce4-3b6a-49de-a8a1-e2c9048820fc"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Oaktree Builders Merchants",
+    "merchant_id": "8e294e55-0c5b-42b8-a4d5-21e0f844ef17"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Ocean Supplies Ltd",
+    "merchant_id": "575bbe48-276e-4aff-b0a3-578b436ccec0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Odell & Co Limited.",
+    "merchant_id": "28a17030-af18-4a4d-8eaa-89700cb86cf7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Original Fixings Limited",
+    "merchant_id": "15584984-7be7-497f-8b86-c710af6fc453"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Orkney Factors Ltd.",
+    "merchant_id": "fb55c4cb-d2ee-41cf-b26f-b3f3fc32f8b9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Overt Locke Limited",
+    "merchant_id": "cec110f8-5b71-40d2-8c63-2cc9cda8d800"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Owens DIY. Limited",
+    "merchant_id": "cc03c378-b16a-4cb7-994f-424eee043e33"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Oxon Fastening Systems Ltd.",
+    "merchant_id": "b7ee0831-3344-4d45-8db6-c728f96d8c88"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "P & M Brill Ltd",
+    "merchant_id": "83588767-cdce-47bf-9753-5a14ecf76873"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "P Boland",
+    "merchant_id": "e05b4e78-a3f4-42b1-b554-a8153206f2ee"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "P. Glanville",
+    "merchant_id": "7fdd1c28-8cf8-4e12-b342-709644452722"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "P.C. Building Supplies",
+    "merchant_id": "d4bd022e-644c-4089-a003-72faa8fa39da"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "P.T.R.S Ltd",
+    "merchant_id": "bddecc24-d4d2-4573-bb53-433724528200"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Paddington Hardware Ltd",
+    "merchant_id": "0c42a0d5-5f48-41d0-9622-e8d67ca7a76b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Paddy O'keeffe",
+    "merchant_id": "1ce68b34-4503-4883-8ff0-f01805cec058"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Pagets Builders Merchants LTD",
+    "merchant_id": "79afda52-9ed9-441f-ad62-2d03a189ab24"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Paint It Hardware",
+    "merchant_id": "492607c2-b6de-4360-94ce-483422f36404"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Palladium Builders Merchants",
+    "merchant_id": "56b3c094-a7f3-4617-9f82-986eef4e2542"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Pam Ties Ltd",
+    "merchant_id": "4feeea17-5ed3-4f1d-ae63-7a8a84e4148a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "PARAMOUNT TOOLS & FASTENERS LTD",
+    "merchant_id": "50f1d151-0dde-4b94-bee3-20c9d2cc0088"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Parker Building Supplies Ltd",
+    "merchant_id": "2338d266-3d21-421f-a5e1-6752664d206a"
+  },
+  {
+    "action": "added_affiliation_to_existing",
+    "retailer": "Parker Building Supplies Ltd",
+    "existing_merchant_id": "2338d266-3d21-421f-a5e1-6752664d206a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Parkers DIY",
+    "merchant_id": "c4454547-145e-4da4-bddb-31ff27d738e7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Parkway",
+    "merchant_id": "6cfab7ed-a1d6-4c2c-a850-69ff995a62f5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Patrick Rogers Ltd",
+    "merchant_id": "b82dfb21-9d35-4bed-8f09-34cf4512b1ac"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Paull & Co. Ltd",
+    "merchant_id": "28ccb237-810b-4204-8fe7-0e2c8b46fd6c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Pearsons of Duns Ltd",
+    "merchant_id": "21780842-d21d-4ece-860c-a449dd9ce4f1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Pen Tools Limited",
+    "merchant_id": "18dfa161-bb77-4a97-905a-20ac044f59bf"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Penrhos Hire & Sales Ltd",
+    "merchant_id": "69f7d8f5-abca-4816-ac6c-9d8c429e8cef"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Peppard Building Supplies",
+    "merchant_id": "f0b4d9bd-aff6-439c-a647-45afc8f4179c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Peppers Builders Merchants",
+    "merchant_id": "05dcb6fd-c686-4105-bbc6-d7be593afac1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "PERTONSTORE.COM",
+    "merchant_id": "1870673c-9a0a-4e97-be17-b920223595f8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Phoenix Tools",
+    "merchant_id": "6de61581-552b-40b8-a4ea-5ef47a1060a4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Pinder & Sims",
+    "merchant_id": "74ea50c7-bb7d-4682-88de-28496eef1957"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "PJS Industrial Supplies Ltd",
+    "existing_merchant": "PJS Industrial Supplies Ltd",
+    "existing_merchant_id": "625050eb-35c8-43c7-ad88-1f62726e9f14"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Plough Homecraft Co",
+    "merchant_id": "9512747e-c5e6-41f3-abb5-53e51c2acb3c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Pontrilas Timber Limited",
+    "merchant_id": "23b6d8e2-24ce-4d2b-b4ef-3ff41ec6b77e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Poplar Building & Drainage Supp Ltd",
+    "merchant_id": "ecdd4f89-edc6-4593-b4e7-e37ff43e68b3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Porta Tool Fixings Ltd",
+    "merchant_id": "6617c396-3a6e-4c69-939c-7d4ddc7bf2e7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Portland Tools (1998) Ltd",
+    "merchant_id": "69232915-8807-4f99-9d3e-eea0eed34e8f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Power Fix",
+    "merchant_id": "1cd84db3-2baf-4506-a017-194647787c3d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Power Point (Northern) Ltd",
+    "merchant_id": "e74791cd-d806-4ef7-bff3-8fbc507e59b4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Power Saver Electrical Supplies Ltd",
+    "merchant_id": "569e3649-44a0-405e-b77f-e600671057aa"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Power Tool Warehouse Supplies Ltd",
+    "merchant_id": "218cd63f-da3a-4596-a58b-3ce87480191f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Power Tools Direct Online",
+    "merchant_id": "21db3ae7-e47f-4e6f-8dcb-826f2e8c827b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Power Tools Plus Ltd.",
+    "merchant_id": "117947a7-8a3b-4047-a239-c2036aaec317"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Powerdrive Systems",
+    "merchant_id": "0f19486c-01ce-41b4-a5bb-5e58e61dafb7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "PR Industrial",
+    "merchant_id": "91be7e2e-d26e-44d0-81ba-1455ff6ee426"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Premier Cutting Tools Limited",
+    "merchant_id": "df257b29-b478-47a2-92b7-0d06453dd603"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Presteigne Building Supplies Ltd",
+    "merchant_id": "171acb77-cb23-4bcd-9990-4d4b7aa5afe9"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Professional Traders Ltd",
+    "existing_merchant": "Professional Traders Limited",
+    "existing_merchant_id": "f15bd787-1b92-4d4d-8601-ccd5940c7367"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Protech Supplies Ltd",
+    "merchant_id": "2e12e089-57de-4001-8f17-66a7dffe11c8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Quality Tooling (North East)",
+    "merchant_id": "1835209d-45f3-4616-ae95-9e4b47654a4d"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Quinn Building Supplies Ltd",
+    "existing_merchant": "Quinn Building Supplies Ltd",
+    "existing_merchant_id": "3c87ce5f-7c70-4b35-8f8c-343d878ec78d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Qwikfast Trade & DIY Supplies",
+    "merchant_id": "127950b2-03b6-4df8-8137-ab9b8f2ee88f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R & L Superfix",
+    "merchant_id": "5b7e863b-703a-430d-a8de-6d54a84fa8fc"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R & T Fabrications Ltd",
+    "merchant_id": "fcb6ee50-f395-40dd-a38c-3872500740e7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R E Dawson Limited",
+    "merchant_id": "b75e98dd-d1d1-4dc3-a5de-f023add8e4e8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R E Thorns & Co",
+    "merchant_id": "43909cc2-8a77-4ce6-8276-6fbeb052151b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R H Gaudion & Sons Limited",
+    "merchant_id": "7ebf6d33-ba7a-491f-8dc6-0501568064a7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R J Pryce and Co Limited",
+    "merchant_id": "2dbea3a4-1472-4023-a9ea-a663b4dd80de"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R Macleod & Son",
+    "merchant_id": "0e24fb77-1d99-41aa-abce-8ab926a8eebe"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R W Morten",
+    "merchant_id": "59c1b2e3-199d-4eca-9e73-a350aa165b44"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R Watson Home Hardware",
+    "merchant_id": "0cb542e0-3812-41c6-a698-f9b5e397d0b8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R Winchester & Son Ltd",
+    "merchant_id": "59162304-31b5-473d-a7bc-c569ebdf7d2e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R. Massey & Son (Woodville) Ltd.",
+    "merchant_id": "1b3dada3-4677-4d10-9547-8c94fe5fee82"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R. Mountford",
+    "merchant_id": "a42d06de-ca67-4d43-8c03-7115ab1fc5dd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R. Sleep Ltd",
+    "merchant_id": "8ac75583-9406-42ac-8095-918d34dd8f72"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "R.S. Miller Roofing (W'hampton) Ltd",
+    "merchant_id": "08511587-7a8c-47c9-9915-884b736d3fdb"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Radcliffe Building Supplies",
+    "merchant_id": "d209f142-0beb-4f46-bb88-6c6d15fea4b2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Ralph Yates & Son",
+    "merchant_id": "da032a41-f36c-4a4e-919f-105d9b140b32"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Ranger Fixings Limited",
+    "merchant_id": "c72c8243-4536-4e42-82db-441f93fc6715"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Raphoe Hardware & Grain Co. Limited",
+    "merchant_id": "d5e1be2d-3484-4747-84de-710ad8f67291"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Rawle Gammon & Baker",
+    "merchant_id": "16cb0cd2-94f4-46f6-9a25-4d353f173406"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Ray Grahams Limited",
+    "existing_merchant": "Ray Grahams Ltd",
+    "existing_merchant_id": "5bd9db61-dd7b-4c07-9a84-c0793ec5d831"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Readyfix",
+    "merchant_id": "071e0c23-74c7-44e3-b077-5e396a55661a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Red Security & Hardware",
+    "merchant_id": "10f8ebc1-c3e3-4fb7-82ca-83f41b062ff3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Redline Tools",
+    "merchant_id": "85036361-f0fe-45f7-9d7a-33c80e2c2ef9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Redwood Hire",
+    "merchant_id": "09495709-9a7d-4b49-b5a8-d19bcd0e1d0b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Reeds Wantage",
+    "merchant_id": "b5954030-bd33-427e-97c7-6b0da5f44ac1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Reepham Home Hardware",
+    "merchant_id": "6c73eb68-5bc4-4a97-99d4-1d8e56c0541e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Regional Paintd Ltd",
+    "merchant_id": "36bebd21-4e19-49c9-b014-3cff523dd1d7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Remitools Ltd",
+    "merchant_id": "71653652-7793-42a9-84bd-6c41c559977e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "RGC (South West) Limited",
+    "merchant_id": "a11803cd-acd8-437e-a1b1-27810a830261"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Richard Boyle & Sons",
+    "merchant_id": "0058a108-cd75-4090-953d-f5a40f6c9502"
+  },
+  {
+    "action": "added_affiliation_to_existing",
+    "retailer": "Richard Boyle & Sons",
+    "existing_merchant_id": "0058a108-cd75-4090-953d-f5a40f6c9502"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Richard Williams Limited",
+    "merchant_id": "7c90341b-988e-4046-9e6b-d0d9ba5d1791"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Richards Builders Merchants",
+    "merchant_id": "79baea82-62da-4ec2-b1ab-ddb10e4c4336"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Ridgeons Limited",
+    "merchant_id": "f3d4adb6-a0a0-47de-931a-525d87c85339"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Ripon Builders Merchants Limited",
+    "merchant_id": "8f54f194-4234-4070-b06d-cd966b35c508"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Ripon Engineering Supplies Ltd",
+    "merchant_id": "1129c08c-d95f-40df-bb7d-20979927b357"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Robert Pochin Limited",
+    "existing_merchant": "Robert Pochin Limited",
+    "existing_merchant_id": "a748a7fb-5357-4652-9028-013a45beece7"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Romanys Ltd (Soho)",
+    "existing_merchant": "Romanys Ltd",
+    "existing_merchant_id": "aace3a25-2b6e-4dfb-b67b-63e935d95f27"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Romford Tools",
+    "merchant_id": "d43a3c27-d14d-4fd7-93d5-a0527c3256a6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Romsey Home Hardware",
+    "merchant_id": "41956f27-f00a-40dd-971d-eedca6c2e305"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Roofing & Building Telferton",
+    "merchant_id": "0c9c995f-b80b-47c1-8c4a-170cb13f20a7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Roses Ironmongers",
+    "merchant_id": "b6603b24-81c6-4285-bc4f-2027d95d5d55"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Rowe",
+    "merchant_id": "78c9ad29-4cf2-4f47-8bc4-f458d781498c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Rowlands Castle Hardware",
+    "merchant_id": "bd7b337e-6f9f-40d0-9957-fca02b2027b0"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Roy Wilkerson",
+    "merchant_id": "ec7e9a89-59c0-4869-bcbb-7f38f8616e12"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Roys (Wroxham) Limited",
+    "merchant_id": "c5f88fd5-24ca-485f-a403-a11506ff7ea2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "RS Industrial Services Ltd",
+    "merchant_id": "c91e64fa-adc1-4965-9ba1-4b3c0229c220"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Russells",
+    "merchant_id": "ff15e9e5-d493-47a3-9f48-62772e026c75"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "S & M Supplies",
+    "existing_merchant": "S & M Supplies (Aylsham) Ltd",
+    "existing_merchant_id": "b27a4f12-7bd9-4a17-b873-80d84eb53459"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "S & M Supplies Limited",
+    "existing_merchant": "S & M Supplies (Aylsham) Ltd",
+    "existing_merchant_id": "b27a4f12-7bd9-4a17-b873-80d84eb53459"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "S C & P Jones",
+    "merchant_id": "52c98ac3-c38d-4f24-829d-7997d35cba03"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "S.J. Andrews",
+    "merchant_id": "61eaf610-8afa-4dbf-8764-d2b31d538d7d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Safety-Site",
+    "merchant_id": "a3296adf-7ccb-459b-80be-96ba1ecbf8d2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Sandbeck Garage Acc Shop Ltd",
+    "merchant_id": "af6e44a3-0f96-4853-93ce-1987914b1397"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Sealants & ToolsDirect",
+    "merchant_id": "4b5a2b9d-c611-4ca4-bd54-e35c4998c0f2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Shannonside Building Supplies",
+    "merchant_id": "e16d89a0-33dd-4e3e-b713-5f422e3f63bc"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Shaw Electrical Limited",
+    "merchant_id": "50988c87-fb78-420e-b82a-e0ddb44aa40f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Sheahans Hardware Limited",
+    "merchant_id": "a0d0de93-9c95-433a-90e2-1f7aa0f6fac6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Sheffield Insulation",
+    "merchant_id": "9fb7a94a-ab15-466a-ba07-c1f93fe5b766"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Shepherd & Miller",
+    "merchant_id": "dc38f194-c3c1-4a46-9ddb-3d45bfce1ba7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Shetland Powertools Ltd",
+    "merchant_id": "8f413481-b6ad-49bd-a0f8-55d27cb56271"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Shorts Group Ltd",
+    "merchant_id": "454481f6-1b8b-4ab7-a3d2-21a313c1066b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Sibbons Plant Hire",
+    "merchant_id": "4a0c6716-e771-4d55-9ebe-61f6159d0d0e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "SIG INTERIORS",
+    "merchant_id": "a0e3ef44-dee4-4f7d-bea5-c78b0d39deb9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "SIG Technical Insulation Pmouth",
+    "merchant_id": "ce67b05c-4708-4099-a543-b90c222140bf"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "SIIS Limited",
+    "merchant_id": "37ddac80-eea9-4488-8f12-78b935973f67"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "SJS Building Supplies Ltd",
+    "merchant_id": "d641d2ca-18bf-40be-a42f-49d8e4caf67a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Skuma Timba Ltd",
+    "merchant_id": "b53d8c7b-bf2c-44a4-a8bc-6abbb6e7ee58"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Sky Blue Fixings Ltd.",
+    "merchant_id": "91ef451b-dc3a-4000-99b4-7fd27bacc83b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Smart Image Workwear",
+    "merchant_id": "e39d9236-0521-43dc-b759-8884d1c70207"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Smith & Low",
+    "merchant_id": "3286da89-8c73-4b59-88d2-34f827143dec"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Smith Brothers Timber Limited",
+    "merchant_id": "15205055-7917-4aa4-9b54-e61c826013f7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Smiths Equipment Hire",
+    "merchant_id": "28c595fa-5414-4646-8583-5581dd2f0779"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Smyths Arro",
+    "merchant_id": "9689b1d7-f38c-491b-b947-95e986e00b4f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "South Lanarkshire Building & D.I.Y Supplies",
+    "merchant_id": "614e9848-c717-4e7b-a56a-836b516614e8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Sparks & Co B.M. Limited",
+    "merchant_id": "dd2e4a62-16e7-42cf-ad89-b6b75ac64fea"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Staffordshire Farm Supplies Ltd",
+    "merchant_id": "714506ee-86fd-4582-b086-42e1e86f2cc9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Staines & Brights Limited",
+    "merchant_id": "0be60220-bffb-4425-b720-6d0b79535312"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Stakelums Hardware Ltd",
+    "merchant_id": "f0292951-ab80-4f3e-9b24-52ab2b626125"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Stalbridge Building Supplies",
+    "merchant_id": "1c1fb5b5-ad97-434e-960f-56ec41c15752"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Stamco Timber",
+    "merchant_id": "50524184-244f-4b4c-8cfb-3b7ed831ea29"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Standard Engineering Supplies Ltd",
+    "merchant_id": "842c12a0-5ed6-4142-91a9-d545bf4453d5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Stanley George (DIY)",
+    "merchant_id": "0e271dd3-6b1b-4edf-8a26-6bf8d0daf175"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Steane & Co",
+    "merchant_id": "4f61f07f-f127-44d3-80a9-0aff1b296786"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Sterling Bolt & Nut Co Ltd",
+    "merchant_id": "6a72304b-51c9-4e42-a14c-0a0cf5a8cac4"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Sterling Power Tools & Fixings",
+    "existing_merchant": "Sterling Power Tools & Fixings Ltd",
+    "existing_merchant_id": "7a924947-09ab-46df-a10f-64b4b79210df"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Stewarts Building Services Ltd",
+    "merchant_id": "b28f08e7-ab52-4d44-a6c1-7b907967021a"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Still Tools Limited",
+    "existing_merchant": "Still Tools Ltd",
+    "existing_merchant_id": "8c0a007b-0a36-4820-b06f-701102572031"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Stuart Douglas Hardware Store",
+    "merchant_id": "d6f66199-bcf8-4085-aa16-70265f9cae48"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Stuarts Hardware",
+    "merchant_id": "95367e69-d48f-4aa5-b294-9aacfba04832"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Supa Roofing & Power Tools Ltd",
+    "merchant_id": "26cd7fbb-bd62-4d83-a393-160267cd27c2"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Swansea Fasteners & Engineering Supplies",
+    "existing_merchant": "Swansea Fasteners & Engineering Supplies Ltd",
+    "existing_merchant_id": "eae65be2-d109-4d93-b64e-42ef41be317f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Swansea Timber & Plywood Co Limited",
+    "merchant_id": "6ab096ca-e42c-4a18-8212-d08a89150405"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Swift Trading",
+    "merchant_id": "e380d332-4ac0-490d-9b7a-1689b4177f6c"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Sydenhams Limited",
+    "existing_merchant": "Sydenhams Limited",
+    "existing_merchant_id": "222eb15e-4a2d-45f3-9f23-6dc131d006c9"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "T Brooker & Sons",
+    "existing_merchant": "T Brooker & Sons Limited",
+    "existing_merchant_id": "9401e0a9-b8fe-439b-8d83-30348117f9d2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "T E Hughes",
+    "merchant_id": "26d56a6f-daba-49ca-a208-f65b667873f5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "T G Hawthorne",
+    "merchant_id": "a186c51e-5bdd-4dd9-806a-ce9b38926472"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "T J O'Mahony & Sons Ltd",
+    "merchant_id": "14afe9f8-353e-4b0a-8006-af2d7fedf2cc"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "T L Thomas & Son",
+    "merchant_id": "fca32a6b-461f-4104-899e-42ccf4d67f42"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "T W Wholesale Ltd",
+    "merchant_id": "b54a7c9c-2233-4b0a-a5bf-f0f5744855dd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "T. Mc Donogh",
+    "merchant_id": "729e4ab8-6110-4420-a741-f0f93d38ab98"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "T.C.L Tool Sales",
+    "merchant_id": "f4d9c3ce-aead-4a15-858f-a4e63201719f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "T.H.Wiggans Ironmongers Ltd",
+    "merchant_id": "73f2e3ec-fab1-403a-a876-1d076bb52a60"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "T.O.Y. Trading Limited",
+    "merchant_id": "93794ef1-9467-412e-9471-9e2dc09503f4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "T.W. Relph & Sons Ltd",
+    "merchant_id": "a5a63415-0d1c-408e-ab5a-caf67ca58a44"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Talbot Timber Ltd",
+    "merchant_id": "29579c2d-9b2a-4a03-ac26-d41c6b633d32"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Taskers DIY Limited",
+    "merchant_id": "33c73f6a-df2b-403e-b755-82b0c2e5008a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Taylor Tools Limited",
+    "merchant_id": "6e60e452-39db-4bb0-b86c-62c4cdce738b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tayside Ironmongery Ltd",
+    "merchant_id": "500d9e83-6fbe-42b1-af6a-a5b7fad943c1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "TC Fixings",
+    "merchant_id": "223a1b69-0373-4773-8bb0-ab86b6b236e8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "TCUK DIRECT LTD",
+    "merchant_id": "24fb1ee9-bbf6-4105-8ba7-9281d9946dcd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Ted Johnson Ltd.",
+    "merchant_id": "2489cddf-b8f9-44a6-8e41-7dc07f641c70"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Teknofix",
+    "merchant_id": "5bd0f294-350f-4a00-a876-8cc1a7941455"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Terratruck Dist. Serv. Ltd.",
+    "merchant_id": "a11e7aec-e4b0-481e-853a-83951e1bb706"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Thanet Tool Supplies",
+    "merchant_id": "c85a0146-cc84-40cf-a758-abd7e633ff8d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "The Downham Country Garden Store Ltd",
+    "merchant_id": "0f615132-9c15-4d72-bfd4-c5c5d4fb7b74"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "The Hardware Centre",
+    "merchant_id": "cbe902e8-22a6-4f3e-b4a7-a33cbf2d895b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "The Lakes Home Centre",
+    "merchant_id": "d62a1acc-4496-4042-aa44-da290f568b87"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "The Leicester Bearing Co. Ltd",
+    "merchant_id": "b66ac0c3-fcd7-4457-ba62-45fa24f8da6e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "The Saw Centre",
+    "merchant_id": "b90ecf43-d9d0-4a91-8424-92bb3088bbe5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "The Stores Dept (Bourne) Limited",
+    "merchant_id": "777b3b4b-a6fb-4eab-aabf-b08f12d2110b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "The Sutcliffe Tool Company",
+    "merchant_id": "11db99ae-e0f6-4fb7-860a-ffb30062b7ae"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "The Tool & Fixing Company Limited",
+    "merchant_id": "a6262b92-2bd8-4490-9fa6-ce74e72142dd"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "The Tool Shed",
+    "merchant_id": "08285fb5-ebdb-4d5a-a981-3da429c19c10"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "The Tool Shed Ltd",
+    "merchant_id": "6d5e908c-3280-4a29-9791-7511a2623394"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "The Toolite Company",
+    "merchant_id": "ff2a5b7b-5ca7-44c3-90a4-f58cbb38b389"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Thomas Archer (Ballina) Ltd",
+    "merchant_id": "a7da86aa-9a70-4b38-8bf1-67cf8fcfcdb7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Thomas Armstrong Plant Hire and Sales",
+    "merchant_id": "71390b95-d620-4c9f-9500-eae353d4b4e7"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Thomas Graham & Sons Ltd",
+    "existing_merchant": "Thomas Graham & Sons Ltd",
+    "existing_merchant_id": "ce7cd18b-a0eb-4a1b-9039-7c1baa526da3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Thomsons Hardware",
+    "merchant_id": "d7e0dba2-5675-4be6-ba0b-f5d68a4e9f91"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Thorcraft Ltd",
+    "merchant_id": "4a40fce8-b4aa-4f2e-b656-e3a87c83a897"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Thornbridge Sawmills Limited",
+    "merchant_id": "5d30e8a8-e80d-4ba5-9f0c-fe819700f4fb"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Thorncliffe Building Supplies Limited",
+    "existing_merchant": "Thorncliffe Building Supplies Ltd",
+    "existing_merchant_id": "199c47fb-cc70-4554-be3b-f1d1ac87f15c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Thurlow Nunn Standen Limited",
+    "merchant_id": "208d45b4-ffe6-4681-a07c-08f530a6f908"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Timberland DIY",
+    "merchant_id": "c3334d38-c153-4902-a701-f648d9361951"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tindalls Home Hardware",
+    "merchant_id": "e37c6c71-2bae-476c-8dac-d605f1f3c7e3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tinhay Building Supplies Ltd",
+    "merchant_id": "2e2f6448-6553-4523-9387-5eb9cef0242c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tipadel Limited",
+    "merchant_id": "72008d58-3304-437c-bb09-f373b67ccb47"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tipperary Co-op Arro",
+    "merchant_id": "d3339224-4ad9-4261-ba84-482267a729c7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "TipTree Building Supplies Limited",
+    "merchant_id": "2ad5c2bb-84c4-48d9-93f2-0c28816412c2"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tomlinson Parbans Limited",
+    "merchant_id": "b97683f0-927a-4426-ae0b-3d60a068a926"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tonwood Home Hardware",
+    "merchant_id": "72d9012d-a624-4eba-aebe-246e427266a1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tony's Handyman",
+    "merchant_id": "1234025c-c04e-4fa1-b6b3-a0aa1417fe82"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tool Depot Ltd",
+    "merchant_id": "cb7d5e66-e982-4385-96ef-acae8a6679e3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tool Options Limited",
+    "merchant_id": "730c5201-9ee8-4e10-8230-d205f55a38c3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tool Supplies Uk Ltd",
+    "merchant_id": "79d9ab6a-0d2f-4fb9-8625-a23e01d0b3be"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tool Trader Direct Ltd",
+    "merchant_id": "548a8bb5-c926-416e-8f26-f25958c9fa98"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tool-Time Limited",
+    "merchant_id": "bd51bd60-9dd5-4775-a5b9-767528db5af6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Toolbox (Cardiff)",
+    "merchant_id": "8d767fc3-6ab5-4b3f-9141-8278acdf4825"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Toolbox Omagh",
+    "merchant_id": "842ce7c7-0857-4d64-a297-56c58a98380e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Toolfix",
+    "merchant_id": "d114f473-f640-4cf0-b57d-430d99ece287"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Toolfix Joinery & Construction Supplies",
+    "merchant_id": "c0896a8c-57cb-40ca-8fef-12946c23aa2e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Toolman (Yardley)",
+    "merchant_id": "8f0a0439-df35-4845-8a2d-85042ad42e6c"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Toolmaster (Oxford) Limited",
+    "merchant_id": "cf72f0c8-28db-4626-8efd-f75ef600e4a7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Toolmonkey Ltd",
+    "merchant_id": "35449fa4-88c8-48ee-86a3-b02a0bdeb799"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tooltek Supplies Limited",
+    "merchant_id": "f51277ad-cd20-4fe9-8dfe-537c7d7c3b56"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tooltrade Sales Limited",
+    "merchant_id": "77a6c34b-abf9-41fe-9cd7-e28867b0a743"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Toss Bryan Limited",
+    "merchant_id": "3e218dbf-f384-4d6e-ad43-2215c2f766ab"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Total Tools Ltd",
+    "merchant_id": "6a1e6ba0-827c-402a-820a-ebf9f22b1ede"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Totem Timber Limited",
+    "merchant_id": "cf7cc622-0f80-43f4-b9f1-33c65994cf47"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Toucan Tool Co Ltd",
+    "merchant_id": "9fab72b4-d41c-4ec1-a068-13946220a150"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Touchwood DIY",
+    "merchant_id": "7a88a5eb-3921-4a85-b6e9-3304b64b7108"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tower D.I.Y Limited",
+    "merchant_id": "ef441481-83ea-48eb-87f6-b18f7d652116"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tower Tools & Equipment Ltd",
+    "merchant_id": "4d51cbf4-b4df-4f71-8f1b-38e5a94e76ad"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Towy Works Limited",
+    "existing_merchant": "Towy Works Ltd",
+    "existing_merchant_id": "43a59299-69b6-42ed-8727-b4227a56a206"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Trafford Timber Centre",
+    "merchant_id": "b7b5115b-d2bd-4141-9466-965466253fbe"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Transglobal Engineering Limited",
+    "merchant_id": "6810cb21-b547-433b-b26f-9caa8edfea15"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Trentside Fixings Ltd.",
+    "merchant_id": "372cb4df-7974-446e-b65e-ae77e1e56a59"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tripart Ltd",
+    "merchant_id": "31a5e387-5913-4b89-8410-42a896c5e01e"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Tripp Batt & Co Ltd",
+    "merchant_id": "b25e904f-5324-4184-b35a-a9e21ab497ef"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Turnbull Building & Plumbing Supplies",
+    "merchant_id": "c8bdab14-c97c-48f5-94b7-369627f50cd8"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Turner Hire & Sales Limited",
+    "existing_merchant": "Turner Hire & Sales Ltd",
+    "existing_merchant_id": "47ea6349-9e51-4e89-a099-a5e0cfaab804"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "TVE Hire Centre",
+    "merchant_id": "e6b4dc27-97a8-4223-9959-0fb031526542"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "U-Plastics Ltd",
+    "merchant_id": "0984e833-9e9c-47d1-b3cc-04358e015f59"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "UK Planet Tools Ltd",
+    "existing_merchant": "UK Planet Tools Limited",
+    "existing_merchant_id": "e38f8b7b-1f0b-4837-97a5-bbd69de91a93"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "UKToolbox",
+    "merchant_id": "a6e963a5-45d0-4a4e-9603-be9e5109dde1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Unimaster Components Ltd",
+    "merchant_id": "d6aeece7-132d-4271-ac13-c8eaf4ad7195"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Unique Plumbing Sup (Eastleigh)",
+    "merchant_id": "ff7debb0-68dd-49d5-9520-b77543851c61"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "United Tools & Fixings",
+    "merchant_id": "8f91b39c-838b-4bfc-899b-a95740fb20e8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Universal Hardware Limited",
+    "merchant_id": "7819b759-832b-47d2-b693-3e7078c70de9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Urban Plastics Ltd",
+    "merchant_id": "29497cdf-22e6-4a50-9277-2cd0b7c01aa6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Vargail DIY",
+    "merchant_id": "a37f272a-9cee-4dd0-89a1-731ee818877d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Vidal UK Limited",
+    "merchant_id": "d2eccd30-37ea-447a-921b-97d81b7e78b8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Viking Hardware Limited",
+    "merchant_id": "3df943ed-247d-486d-bc36-c4cfccc05161"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Vokes Hardware (Expert H/W)",
+    "merchant_id": "5d7ec5a2-9d15-4133-884b-35b485f2fac7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "W & E Rolfe & Son",
+    "merchant_id": "9bc6db9e-d721-4721-acd6-e2cc6b0c5621"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "W C Maunders",
+    "merchant_id": "d70028a1-90ba-4bcd-92e5-9c343a4e0be4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "W E Dayman & Sons",
+    "merchant_id": "7391370c-6b7d-4810-935c-931af243d7d8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "W G Burbridge",
+    "merchant_id": "161802a2-5b56-427a-8c40-003e7b82d1cd"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "W Hurst & Son (Cowes)",
+    "existing_merchant": "W Hurst & Son (I.W) Ltd",
+    "existing_merchant_id": "9855c316-98f4-4725-b6e4-fbdcd0aa4672"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "W J Lewis (Bm) Limited.",
+    "merchant_id": "ddc9fb93-f96c-45f8-9d35-6cc32c73a51d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "W L Brown Ironmongers",
+    "merchant_id": "65d34a02-a289-4e8d-908c-6022587e98c5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "W M Moore & Son (Preston) Ltd",
+    "merchant_id": "380f375f-625f-4fb1-9047-c77b9dc74635"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "W. M. McMaster Limited",
+    "merchant_id": "58693675-15d7-4fed-8050-540d665d541b"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "W.H. Raitt & Son Ltd",
+    "merchant_id": "9bd6ff49-e59b-4ebd-9c24-5b0846250c5f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Wack Wholesale Ltd",
+    "merchant_id": "0965b435-5417-4beb-a00d-0e6a034af0ff"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Wades",
+    "merchant_id": "9260d246-1217-44d7-9c6f-b14b7fd04bc5"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Walker Home & Garden Centre Ltd",
+    "merchant_id": "b9cb79fa-3c4a-464a-9801-6c0a56d6f0cb"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Walker Woodstock",
+    "merchant_id": "4d0e8aae-f3ae-4bf4-a7b2-8a08ebe3d6c7"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Walter Tipper Limited",
+    "existing_merchant": "Walter Tipper Limited",
+    "existing_merchant_id": "fd214ef4-fbb1-46b5-b628-3e2d6e37c326"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Warden Bros Ltd",
+    "merchant_id": "1a6c31d0-2c8b-419e-a0b5-4dcc9e29848f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Watkins & Williams Limited",
+    "merchant_id": "c6777344-fc62-4bd2-8221-b889dcf4e100"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Watsons for Homes Gardens & Ironmongery",
+    "merchant_id": "4baf814c-6a93-46e6-b2b7-928a7a6b6fb7"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Webster Building Supplies Ltd",
+    "merchant_id": "be5c5eca-6aba-40ee-b746-24d19d4cad81"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Welford Ironmongers",
+    "merchant_id": "df13efd3-1f17-4c66-a542-ceb1a53088a8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Wessex Fixings",
+    "merchant_id": "2b2f48a1-5c3a-4640-b298-c03b444d41bf"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "West Building Supplies Limited",
+    "existing_merchant": "West Building Supplies Ltd",
+    "existing_merchant_id": "78ac1623-905c-4e72-b313-0b1b9fa644b8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "West Cork Building Supplies Limited",
+    "merchant_id": "893ea676-ca59-4d85-904b-29219bb0f6aa"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "West End DIY",
+    "merchant_id": "870dac9d-e856-4ee8-98cc-f3201eccc9e6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Westhoughton Hardware",
+    "merchant_id": "08f07c39-6876-442e-b636-99d031acfff1"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Whewells",
+    "merchant_id": "cdf793ac-6a20-402d-b69a-75c84bdbb11a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "White Milne Co.",
+    "merchant_id": "e42e1d58-4711-48e4-9376-d6225fd93ee6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Whiting & Son",
+    "merchant_id": "1e0dda3e-8ea9-4bf1-b984-9ce1eb5f8626"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Wigley D.I.Y Limited",
+    "merchant_id": "0a8e7a36-6c4d-4c2d-9618-280996c0a6a4"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Wilf Noble Building Supplies",
+    "merchant_id": "5cac40ff-b9d3-46e9-9f08-9c4bbcbf6e2a"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Williams Distributors Limited",
+    "merchant_id": "b911dc02-8dbe-4b6f-a859-02ebeeaf623d"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Williams Ironmongers Ltd",
+    "merchant_id": "2940dd1f-1f03-41b4-81e2-e1201b703c9f"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Willoughby's",
+    "merchant_id": "04bd7236-a7d0-4521-a636-5a0c02bbb7ec"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Wilson Electrical Distributors",
+    "merchant_id": "880a0960-6499-42dd-ae53-85c3b70b15e3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Winsford Plant Hire Limited",
+    "merchant_id": "23a4caa6-74a7-4e8a-a420-59b714c93ade"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Witney Plant Hire",
+    "merchant_id": "af9dffda-440a-41cb-8ea7-de2914633bff"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "WLD Textiles",
+    "merchant_id": "60574a55-0878-453e-9c2a-7c8d2975d8f3"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Wolds Agri Limited",
+    "merchant_id": "825b0c8c-90f8-433c-95b7-9aee6733ad5d"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Wolds Engineering Services Ltd",
+    "existing_merchant": "Wolds Engineering Services Ltd",
+    "existing_merchant_id": "71aa8503-470e-424c-8d77-4677c84c33f8"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Woodcraft Hardware Limited",
+    "merchant_id": "f66cfb17-aaf4-4108-a9ae-7560fbec5df9"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Woodford Tools Ltd",
+    "merchant_id": "66db2bb5-5d66-4c63-97af-fea81e9e96d6"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Woodies Timber Limited",
+    "merchant_id": "9ea3a255-6a4b-4210-ad79-22b0d5f05f82"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Workshop DIY",
+    "merchant_id": "d63aff5e-c8c1-4018-9a97-7a1b40493ee9"
+  },
+  {
+    "action": "added_affiliation_to_duplicate",
+    "retailer": "Wrights Tools",
+    "existing_merchant": "Wrights Tools Ltd",
+    "existing_merchant_id": "dc8105a3-ff39-4f45-a7a9-df2012f01c14"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "www.tradecounterdirect.com",
+    "merchant_id": "d9962804-c71b-49b1-9e5a-788ce4e1ed96"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Youngs Timber Merchants",
+    "merchant_id": "42138aa2-2c43-4047-b389-407b618be773"
+  },
+  {
+    "action": "imported_new",
+    "retailer": "Zenith Industrial Products Limited.",
+    "merchant_id": "172c32a6-343d-44f3-a203-32b836c22dc2"
+  }
+]
