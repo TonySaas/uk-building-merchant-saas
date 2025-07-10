@@ -1,0 +1,82 @@
+[
+  {
+    "supplier_name": "STS Ltd",
+    "slug": "sts-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.sts-uk.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Stressline",
+    "slug": "stressline",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.stressline.net",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Supreme Concrete",
+    "slug": "supreme-concrete",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.supremeconcrete.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "SureCav Limited",
+    "slug": "surecav-limited",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.surecav.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Surestop LTD",
+    "slug": "surestop-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.surestop.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Swiftec Global Ltd",
+    "slug": "swiftec-global-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.swiftec.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Symphony Bathrooms",
+    "slug": "symphony-bathrooms",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.symphony-group.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "T I Midwood & Co Ltd",
+    "slug": "t-i-midwood-co-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.timco.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "T King Associates Ltd",
+    "slug": "t-king-associates-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.tkingassociates.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "TAFS (Salop) Ltd",
+    "slug": "tafs-salop-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.tafs-salop.ltd.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  }
+]

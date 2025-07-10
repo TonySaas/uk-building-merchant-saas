@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 16
+
+# L.D.D.Ltd.
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "L.D.D.Ltd.", "slug": "lddltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.leakerdirect.co.uk", "country": "United Kingdom", "is_active": true}
+
+# LPD Doors
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "LPD Doors", "slug": "lpd-doors", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.lpddoors.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Lecico
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Lecico", "slug": "lecico", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.lecico.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Liberon UK
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Liberon UK", "slug": "liberon-uk", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.liberon.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Long Rake Spar
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Long Rake Spar", "slug": "long-rake-spar", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.longrakespar.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Luceco PLC
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Luceco PLC", "slug": "luceco-plc", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.luceco.com/uk", "country": "United Kingdom", "is_active": true}
+
+# Lyreco UK
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Lyreco UK", "slug": "lyreco-uk", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.lyreco.com", "country": "United Kingdom", "is_active": true}
+
+# M. Greenaway and Son Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "M. Greenaway and Son Ltd", "slug": "m-greenaway-and-son-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.greenaways.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Manrose Manufacturing Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Manrose Manufacturing Ltd", "slug": "manrose-manufacturing-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.manrose.com", "country": "United Kingdom", "is_active": true}
+
+# Marcrist International
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Marcrist International", "slug": "marcrist-international", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.marcrist.co.uk", "country": "United Kingdom", "is_active": true}
+

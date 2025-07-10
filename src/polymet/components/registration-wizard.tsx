@@ -12,11 +12,13 @@ import { ArrowLeftIcon, ArrowRightIcon, CheckIcon } from "lucide-react";
 import UserTypeSelector from "@/polymet/components/user-type-selector";
 import SupplierSearch from "@/polymet/components/supplier-search";
 import MerchantSearch from "@/polymet/components/merchant-search";
+import CompanySearchStep from "@/components/registration/company-search-step";
 import MultiOrganizationSelector from "@/polymet/components/multi-organization-selector";
 import RoleSelector from "@/polymet/components/role-selector";
 import RegistrationForm from "@/polymet/components/registration-form";
 import RegistrationSuccess from "@/polymet/components/registration-success";
 import { RegistrationService } from "@/services/registration-service";
+import { CompanySearchResult } from "@/types/company-search";
 import { toast } from "sonner";
 
 interface RegistrationWizardProps {
@@ -32,6 +34,7 @@ export default function RegistrationWizard({
     userType: "",
     selectedSupplier: null as any,
     selectedMerchant: null as any,
+    selectedCompany: null as CompanySearchResult | null,
     subscribeToBMN: false,
     organizationIds: [] as string[],
     role: "",
@@ -87,6 +90,22 @@ export default function RegistrationWizard({
     });
   };
 
+  const handleCompanySelect = (company: CompanySearchResult | null, subscribeToBMN?: boolean) => {
+    updateFormData({ 
+      selectedCompany: company,
+      subscribeToBMN: subscribeToBMN || false,
+      // Pre-populate form data if company is selected
+      ...(company && {
+        companyName: 'supplier_name' in company ? company.supplier_name : company.merchant_name,
+        email: "", // Keep empty for user to fill
+        // Pre-populate organization IDs based on company affiliations
+        organizationIds: company.organization_affiliations?.map((affiliation: any) => 
+          affiliation.organization.id
+        ) || []
+      })
+    });
+  };
+
   const handleSubmit = async () => {
     setIsSubmitting(true);
     
@@ -115,6 +134,10 @@ export default function RegistrationWizard({
         // Include additional data
         selectedSupplierId: formData.selectedSupplier?.id,
         selectedMerchantId: formData.selectedMerchant?.id,
+        selectedCompanyId: formData.selectedCompany?.id,
+        selectedCompanyType: formData.selectedCompany ? 
+          ('supplier_name' in formData.selectedCompany ? 'supplier' : 'merchant') : 
+          undefined,
         subscribeToBMN: formData.subscribeToBMN,
       };
       
@@ -209,19 +232,12 @@ export default function RegistrationWizard({
               userType="consumer"
             />
           );
-        } else if (isSupplier) {
+        } else {
           return (
-            <SupplierSearch
-              onSelect={handleSupplierSelect}
-              selectedSupplier={formData.selectedSupplier}
-              subscribeToBMN={formData.subscribeToBMN}
-            />
-          );
-        } else if (isMerchant) {
-          return (
-            <MerchantSearch
-              onSelect={handleMerchantSelect}
-              selectedMerchant={formData.selectedMerchant}
+            <CompanySearchStep
+              userType={formData.userType as 'supplier' | 'merchant'}
+              onSelect={handleCompanySelect}
+              selectedCompany={formData.selectedCompany}
               subscribeToBMN={formData.subscribeToBMN}
             />
           );

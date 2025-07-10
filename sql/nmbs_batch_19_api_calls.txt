@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 19
+
+# Mueller Europe Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Mueller Europe Ltd", "slug": "mueller-europe-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.muellereurope.com", "country": "United Kingdom", "is_active": true}
+
+# MX Group
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "MX Group", "slug": "mx-group", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.mx-group.com", "country": "United Kingdom", "is_active": true}
+
+# National Abrasives Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "National Abrasives Ltd", "slug": "national-abrasives-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.national-abrasives.co.uk", "country": "United Kingdom", "is_active": true}
+
+# National Shower Spares
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "National Shower Spares", "slug": "national-shower-spares", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.showerspares.com", "country": "United Kingdom", "is_active": true}
+
+# Naylor Concrete Products
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Naylor Concrete Products", "slug": "naylor-concrete-products", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.naylor.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Naylor Drainage Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Naylor Drainage Ltd", "slug": "naylor-drainage-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.naylor.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Nicholls & Clarke Group
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Nicholls & Clarke Group", "slug": "nicholls-clarke-group", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.ncdirect.co.uk", "country": "United Kingdom", "is_active": true}
+
+# OmegaFlex (TracPipe)
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "OmegaFlex (TracPipe)", "slug": "omegaflex-tracpipe", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.omegaflex.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Orkla
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Orkla", "slug": "orkla", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.orkla.com", "country": "United Kingdom", "is_active": true}
+
+# Osborn Dronco
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Osborn Dronco", "slug": "osborn-dronco", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.osborn.com", "country": "United Kingdom", "is_active": true}
+

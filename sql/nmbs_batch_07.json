@@ -1,0 +1,82 @@
+[
+  {
+    "supplier_name": "Cheshire Mouldings Limited",
+    "slug": "cheshire-mouldings-limited",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.cheshiremouldings.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Chesterfelt Ltd",
+    "slug": "chesterfelt-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.chesterfelt.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Ciret",
+    "slug": "ciret",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.ciret.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Clark Drain Ltd",
+    "slug": "clark-drain-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.clark-drain.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Claygate Distribution",
+    "slug": "claygate-distribution",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.claygate.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Clear Amber Group Ltd",
+    "slug": "clear-amber-group-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.clearamber.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Cottam Brush Ltd",
+    "slug": "cottam-brush-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.cottambrush.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Coxdome",
+    "slug": "coxdome",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.coxdome.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "CQFD Profiles",
+    "slug": "cqfd-profiles",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.cqfdprofiles.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "CQI Ltd t/a Embrass Peerless",
+    "slug": "cqi-ltd-ta-embrass-peerless",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.embrasspeerless.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  }
+]

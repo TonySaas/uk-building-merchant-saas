@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 25
+
+# Smith Partnership
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Smith Partnership", "slug": "smith-partnership", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.smithpartnership.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Soudal UK
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Soudal UK", "slug": "soudal-uk", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.soudal.com", "country": "United Kingdom", "is_active": true}
+
+# Southgate Plastics Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Southgate Plastics Ltd", "slug": "southgate-plastics-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.stormbuildingproducts.com", "country": "United Kingdom", "is_active": true}
+
+# Spax (UK) Limited
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Spax (UK) Limited", "slug": "spax-uk-limited", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.spax.com", "country": "United Kingdom", "is_active": true}
+
+# Spear & Jackson
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Spear & Jackson", "slug": "spear-jackson", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.spear-and-jackson.com", "country": "United Kingdom", "is_active": true}
+
+# Stamco
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Stamco", "slug": "stamco", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.stamco.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Stearn Electric
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Stearn Electric", "slug": "stearn-electric", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.stearn.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Sterling Safetywear Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Sterling Safetywear Ltd", "slug": "sterling-safetywear-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.sterlingsafetywear.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Stone Plus UK
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Stone Plus UK", "slug": "stone-plus-uk", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.stoneplusuk.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Stax Trade Centres
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Stax Trade Centres", "slug": "stax-trade-centres", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.staxtradecentres.co.uk", "country": "United Kingdom", "is_active": true}
+

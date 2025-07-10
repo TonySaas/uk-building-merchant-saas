@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 21
+
+# Presto International UK Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Presto International UK Ltd", "slug": "presto-international-uk-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.presto-tools.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Primaflow Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Primaflow Ltd", "slug": "primaflow-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.primaflowfandp.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Principal Building Products Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Principal Building Products Ltd", "slug": "principal-building-products-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.pbpltd.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Progressive Safety Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Progressive Safety Ltd", "slug": "progressive-safety-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.psf.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Qualtex
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Qualtex", "slug": "qualtex", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.qualtexuk.com", "country": "United Kingdom", "is_active": true}
+
+# Quanti-Quote
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Quanti-Quote", "slug": "quanti-quote", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.quantiquote.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Quinn Building Products
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Quinn Building Products", "slug": "quinn-building-products", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.quinn-buildingproducts.com", "country": "United Kingdom", "is_active": true}
+
+# Red Gorilla International
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Red Gorilla International", "slug": "red-gorilla-international", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.redgorilla.red", "country": "United Kingdom", "is_active": true}
+
+# Regin Products Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Regin Products Ltd", "slug": "regin-products-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.regin.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Reisser Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Reisser Ltd", "slug": "reisser-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.reisser.co.uk", "country": "United Kingdom", "is_active": true}
+

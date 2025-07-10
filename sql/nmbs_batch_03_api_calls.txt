@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 3
+
+# Assa Abloy
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Assa Abloy", "slug": "assa-abloy", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.yale.co.uk/en/yale/couk", "country": "United Kingdom", "is_active": true}
+
+# Astroflame Fireseals Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Astroflame Fireseals Ltd", "slug": "astroflame-fireseals-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.astroflame.com", "country": "United Kingdom", "is_active": true}
+
+# Avenue Insurance Partners Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Avenue Insurance Partners Ltd", "slug": "avenue-insurance-partners-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.avenueinsurance.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Baxi Heating
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Baxi Heating", "slug": "baxi-heating", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.baxiheating.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Belgrade Insulation Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Belgrade Insulation Ltd", "slug": "belgrade-insulation-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.belgradeinsulations.com", "country": "United Kingdom", "is_active": true}
+
+# Birchwood Price Tools
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Birchwood Price Tools", "slug": "birchwood-price-tools", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.birchwoodpricetools.com", "country": "United Kingdom", "is_active": true}
+
+# Birtely Group - Lintels/Expamet/Construction
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Birtely Group - Lintels/Expamet/Construction", "slug": "birtely-group-lintelsexpametconstruction", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.birtleygroup.co.uk", "country": "United Kingdom", "is_active": true}
+
+# BIZ Power Tools Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "BIZ Power Tools Ltd", "slug": "biz-power-tools-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.bizengineering.com", "country": "United Kingdom", "is_active": true}
+
+# BLM British Lead
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "BLM British Lead", "slug": "blm-british-lead", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.britishlead.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Bostik
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Bostik", "slug": "bostik", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.bostik.com/uk", "country": "United Kingdom", "is_active": true}
+

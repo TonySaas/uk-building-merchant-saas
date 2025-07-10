@@ -1,0 +1,82 @@
+[
+  {
+    "supplier_name": "Mark Vitow Limited",
+    "slug": "mark-vitow-limited",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.markvitow.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Marley Alutec",
+    "slug": "marley-alutec",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.marleyalutec.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Marley Limited",
+    "slug": "marley-limited",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.marley.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Marshalls",
+    "slug": "marshalls",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.marshalls.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Marsh Industries",
+    "slug": "marsh-industries",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.marshindustries.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Masefield Beta",
+    "slug": "masefield-beta",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.masefield-beta.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "MasterFlow",
+    "slug": "masterflow",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.masterflow.uk.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Maurice Lay / Caple",
+    "slug": "maurice-lay-caple",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.caple.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Measure-Quip Ltd",
+    "slug": "measure-quip-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.measure-quip.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Melpass Ltd",
+    "slug": "melpass-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.melpass.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  }
+]

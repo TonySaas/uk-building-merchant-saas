@@ -1,0 +1,82 @@
+[
+  {
+    "supplier_name": "Bottom Line - energy consultants",
+    "slug": "bottom-line-energy-consultants",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.bottomlineutilities.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "BP Oil UK Limited",
+    "slug": "bp-oil-uk-limited",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.bp.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Bradstone & Charcon",
+    "slug": "bradstone-charcon",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.breedongroup.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Breedon Group",
+    "slug": "breedon-group",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.breedongroup.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Brett Landscaping",
+    "slug": "brett-landscaping",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.brettlandscaping.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Brett Martin",
+    "slug": "brett-martin",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.brettmartin.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Brian Hyde",
+    "slug": "brian-hyde",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.brianhyde.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Briggs",
+    "slug": "briggs",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.briggssafetywear.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Bristol Tile Company",
+    "slug": "bristol-tile-company",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.bristol-tile.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Bruce Douglas Marketing Ltd (Ultratape)",
+    "slug": "bruce-douglas-marketing-ltd-ultratape",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.ultratape.com",
+    "country": "United Kingdom",
+    "is_active": true
+  }
+]

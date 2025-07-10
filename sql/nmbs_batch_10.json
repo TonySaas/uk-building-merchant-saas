@@ -1,0 +1,82 @@
+[
+  {
+    "supplier_name": "Fakro GB Ltd",
+    "slug": "fakro-gb-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.fakro.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "FEIN Industrial Power Tools",
+    "slug": "fein-industrial-power-tools",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.fein.com/en_uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Fernox",
+    "slug": "fernox",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.fernox.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Fillcrete Limited",
+    "slug": "fillcrete-limited",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.fillcrete.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Filplastic",
+    "slug": "filplastic",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.filstorage.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Fischer Fixings",
+    "slug": "fischer-fixings",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.fischer.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "First Trace Heating",
+    "slug": "first-trace-heating",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.first-traceheating.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Flambeau Europlast",
+    "slug": "flambeau-europlast",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.flamcogroup.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Flamco Ltd",
+    "slug": "flamco-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.flamcogroup.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Flex Power Tools",
+    "slug": "flex-power-tools",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.flex-tools.com",
+    "country": "United Kingdom",
+    "is_active": true
+  }
+]

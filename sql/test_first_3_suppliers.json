@@ -1,0 +1,26 @@
+[
+  {
+    "supplier_name": "Acheson & Glover",
+    "slug": "acheson-glover",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.ag.uk.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Ademco 1 Ltd, Honeywell Home",
+    "slug": "ademco-1-ltd-honeywell-home",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.heatingcontrols.honeywellhome.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Adey Innovations",
+    "slug": "adey-innovations",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.adey.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  }
+]

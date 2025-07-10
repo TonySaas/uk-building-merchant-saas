@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 22
+
+# Reliance Manufacturing
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Reliance Manufacturing", "slug": "reliance-manufacturing", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.reliancewheelbarrows.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Resapol Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Resapol Ltd", "slug": "resapol-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.resapol.com", "country": "United Kingdom", "is_active": true}
+
+# Resources Group
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Resources Group", "slug": "resources-group", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.the-resources-group.com", "country": "United Kingdom", "is_active": true}
+
+# Rexel
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Rexel", "slug": "rexel", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.rexel.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Robert Bosch Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Robert Bosch Ltd", "slug": "robert-bosch-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.bosch-professional.com/gb/en", "country": "United Kingdom", "is_active": true}
+
+# Rockwool UK
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Rockwool UK", "slug": "rockwool-uk", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.rockwool.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Rodo Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Rodo Ltd", "slug": "rodo-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.prodec.uk.com", "country": "United Kingdom", "is_active": true}
+
+# Rollins & Sons
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Rollins & Sons", "slug": "rollins-sons", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.rollins.co.uk", "country": "United Kingdom", "is_active": true}
+
+# ROM Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "ROM Ltd", "slug": "rom-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.rom.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Rothenberger
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Rothenberger", "slug": "rothenberger", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.rothenberger.com/us-en", "country": "United Kingdom", "is_active": true}
+

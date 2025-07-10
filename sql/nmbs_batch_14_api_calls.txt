@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 14
+
+# Interclamp
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Interclamp", "slug": "interclamp", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.interclamp.com", "country": "United Kingdom", "is_active": true}
+
+# Irsap UK Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Irsap UK Ltd", "slug": "irsap-uk-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.irsap.co.uk", "country": "United Kingdom", "is_active": true}
+
+# James Hardie
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "James Hardie", "slug": "james-hardie", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.jameshardie.co.uk", "country": "United Kingdom", "is_active": true}
+
+# JB Kind
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "JB Kind", "slug": "jb-kind", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.jbkind.com", "country": "United Kingdom", "is_active": true}
+
+# Jefferson Professional Tools & Equipment
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Jefferson Professional Tools & Equipment", "slug": "jefferson-professional-tools-equipment", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.jeffersontools.com", "country": "United Kingdom", "is_active": true}
+
+# Jeld - Wen Uk
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Jeld - Wen Uk", "slug": "jeld-wen-uk", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.jeld-wen.co.uk", "country": "United Kingdom", "is_active": true}
+
+# John George
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "John George", "slug": "john-george", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.johngeorge.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Joule UK Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Joule UK Ltd", "slug": "joule-uk-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.jouleuk.co.uk", "country": "United Kingdom", "is_active": true}
+
+# JRC Roofing Distributors
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "JRC Roofing Distributors", "slug": "jrc-roofing-distributors", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.jrcslate.co.uk", "country": "United Kingdom", "is_active": true}
+
+# JSP
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "JSP", "slug": "jsp", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.jspsafety.com", "country": "United Kingdom", "is_active": true}
+

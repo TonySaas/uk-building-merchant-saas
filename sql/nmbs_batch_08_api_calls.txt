@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 8
+
+# Cromar Building Products
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Cromar Building Products", "slug": "cromar-building-products", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.cromar.uk.com", "country": "United Kingdom", "is_active": true}
+
+# Croydex
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Croydex", "slug": "croydex", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.croydex.com", "country": "United Kingdom", "is_active": true}
+
+# Danfoss Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Danfoss Ltd", "slug": "danfoss-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.heating.danfoss.co.uk", "country": "United Kingdom", "is_active": true}
+
+# DART Tool Group
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "DART Tool Group", "slug": "dart-tool-group", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.darttoolgroup.com", "country": "United Kingdom", "is_active": true}
+
+# Davant
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Davant", "slug": "davant", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.davant.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Deanta UK Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Deanta UK Ltd", "slug": "deanta-uk-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.deantawood.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Dickies
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Dickies", "slug": "dickies", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.dickiesworkwear.com/uk", "country": "United Kingdom", "is_active": true}
+
+# Digby Stone
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Digby Stone", "slug": "digby-stone", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.digbystone.com", "country": "United Kingdom", "is_active": true}
+
+# Duro Yokota Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Duro Yokota Ltd", "slug": "duro-yokota-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.duro-diamonds.com", "country": "United Kingdom", "is_active": true}
+
+# Easy Trim Roofing & Construction
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Easy Trim Roofing & Construction", "slug": "easy-trim-roofing-construction", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.easy-trim.co.uk", "country": "United Kingdom", "is_active": true}
+

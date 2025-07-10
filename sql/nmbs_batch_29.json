@@ -1,0 +1,82 @@
+[
+  {
+    "supplier_name": "Vaillant Group Ltd",
+    "slug": "vaillant-group-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.glow-worm.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "VADO",
+    "slug": "vado",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.vado.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "VELUX",
+    "slug": "velux",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.velux.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Viessmann",
+    "slug": "viessmann",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.viessmann.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Vista Engineering Ltd",
+    "slug": "vista-engineering-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.vistaeng.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Vogue UK",
+    "slug": "vogue-uk",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.vogueuk.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Vokera Ltd",
+    "slug": "vokera-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.vokera.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "W.Howard Ltd",
+    "slug": "whoward-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.whoward.eu",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Walsh & Blyth",
+    "slug": "walsh-blyth",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.wbtwholesale.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Warmup Plc",
+    "slug": "warmup-plc",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.warmup.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  }
+]

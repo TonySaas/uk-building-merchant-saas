@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 28
+
+# Toolstream Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Toolstream Ltd", "slug": "toolstream-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.toolstream.com", "country": "United Kingdom", "is_active": true}
+
+# Towelrads
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Towelrads", "slug": "towelrads", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.towelrads.com", "country": "United Kingdom", "is_active": true}
+
+# Tremco Illbruck
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Tremco Illbruck", "slug": "tremco-illbruck", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.tremco-illbruck.com/en_GB/home", "country": "United Kingdom", "is_active": true}
+
+# Trend Machinery
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Trend Machinery", "slug": "trend-machinery", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.trend-uk.com", "country": "United Kingdom", "is_active": true}
+
+# TT Concrete Products Limited
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "TT Concrete Products Limited", "slug": "tt-concrete-products-limited", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.ttconcreteproducts.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Ubbink UK Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Ubbink UK Ltd", "slug": "ubbink-uk-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.ubbink.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Ultimate Finance Group Limited
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Ultimate Finance Group Limited", "slug": "ultimate-finance-group-limited", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.ultimatefinance.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Unilin Distribution
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Unilin Distribution", "slug": "unilin-distribution", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.quick-step.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Univar Specialty Consumables Limited
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Univar Specialty Consumables Limited", "slug": "univar-specialty-consumables-limited", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.univarsc.com", "country": "United Kingdom", "is_active": true}
+
+# Urfic UK
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Urfic UK", "slug": "urfic-uk", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.urfic.co.uk", "country": "United Kingdom", "is_active": true}
+

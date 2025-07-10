@@ -42,6 +42,18 @@ export default function RegistrationForm({
       <div className="text-center space-y-2 mb-8">
         <h2 className="text-2xl font-semibold">Complete Registration</h2>
         <p className="text-muted-foreground">Fill out your details to create your account</p>
+        
+        {/* Selected Company Display */}
+        {!isConsumer && formData.companyName && (
+          <div className="mt-4 p-3 bg-primary/10 rounded-lg border border-primary/20">
+            <div className="flex items-center justify-center gap-2">
+              <div className="w-2 h-2 bg-primary rounded-full"></div>
+              <p className="text-sm font-medium text-primary">
+                Registering for: <span className="font-semibold">{formData.companyName}</span>
+              </p>
+            </div>
+          </div>
+        )}
       </div>
 
       <div className="grid grid-cols-2 gap-4">

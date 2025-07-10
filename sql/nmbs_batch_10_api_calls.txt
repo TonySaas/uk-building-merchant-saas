@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 10
+
+# Fakro GB Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Fakro GB Ltd", "slug": "fakro-gb-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.fakro.co.uk", "country": "United Kingdom", "is_active": true}
+
+# FEIN Industrial Power Tools
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "FEIN Industrial Power Tools", "slug": "fein-industrial-power-tools", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.fein.com/en_uk", "country": "United Kingdom", "is_active": true}
+
+# Fernox
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Fernox", "slug": "fernox", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.fernox.com", "country": "United Kingdom", "is_active": true}
+
+# Fillcrete Limited
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Fillcrete Limited", "slug": "fillcrete-limited", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.fillcrete.com", "country": "United Kingdom", "is_active": true}
+
+# Filplastic
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Filplastic", "slug": "filplastic", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.filstorage.com", "country": "United Kingdom", "is_active": true}
+
+# Fischer Fixings
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Fischer Fixings", "slug": "fischer-fixings", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.fischer.co.uk", "country": "United Kingdom", "is_active": true}
+
+# First Trace Heating
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "First Trace Heating", "slug": "first-trace-heating", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.first-traceheating.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Flambeau Europlast
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Flambeau Europlast", "slug": "flambeau-europlast", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.flamcogroup.com", "country": "United Kingdom", "is_active": true}
+
+# Flamco Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Flamco Ltd", "slug": "flamco-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.flamcogroup.com", "country": "United Kingdom", "is_active": true}
+
+# Flex Power Tools
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Flex Power Tools", "slug": "flex-power-tools", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.flex-tools.com", "country": "United Kingdom", "is_active": true}
+

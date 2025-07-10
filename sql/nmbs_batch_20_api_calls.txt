@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 20
+
+# Owlett-Jaton
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Owlett-Jaton", "slug": "owlett-jaton", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.ojtrade.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Parkes Products
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Parkes Products", "slug": "parkes-products", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.parkesgroup.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Pavestone Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Pavestone Ltd", "slug": "pavestone-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.pavestone.co.uk", "country": "United Kingdom", "is_active": true}
+
+# PC Henderson
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "PC Henderson", "slug": "pc-henderson", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.pchenderson.com", "country": "United Kingdom", "is_active": true}
+
+# Pegler Yorkshire
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Pegler Yorkshire", "slug": "pegler-yorkshire", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.pegleryorkshire.co.uk", "country": "United Kingdom", "is_active": true}
+
+# PJH Group
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "PJH Group", "slug": "pjh-group", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.pjh.uk", "country": "United Kingdom", "is_active": true}
+
+# Polydrain Civils
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Polydrain Civils", "slug": "polydrain-civils", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.polydraincivils.com", "country": "United Kingdom", "is_active": true}
+
+# Polypipe Building Products
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Polypipe Building Products", "slug": "polypipe-building-products", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.polypipe.com", "country": "United Kingdom", "is_active": true}
+
+# PPG
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "PPG", "slug": "ppg", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.ppg.com", "country": "United Kingdom", "is_active": true}
+
+# Premier Diamond Products Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Premier Diamond Products Ltd", "slug": "premier-diamond-products-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.premierdiamondproducts.co.uk", "country": "United Kingdom", "is_active": true}
+

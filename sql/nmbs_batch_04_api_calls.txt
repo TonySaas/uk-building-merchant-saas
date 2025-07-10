@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 4
+
+# Bottom Line - energy consultants
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Bottom Line - energy consultants", "slug": "bottom-line-energy-consultants", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.bottomlineutilities.com", "country": "United Kingdom", "is_active": true}
+
+# BP Oil UK Limited
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "BP Oil UK Limited", "slug": "bp-oil-uk-limited", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.bp.com", "country": "United Kingdom", "is_active": true}
+
+# Bradstone & Charcon
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Bradstone & Charcon", "slug": "bradstone-charcon", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.breedongroup.com", "country": "United Kingdom", "is_active": true}
+
+# Breedon Group
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Breedon Group", "slug": "breedon-group", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.breedongroup.com", "country": "United Kingdom", "is_active": true}
+
+# Brett Landscaping
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Brett Landscaping", "slug": "brett-landscaping", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.brettlandscaping.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Brett Martin
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Brett Martin", "slug": "brett-martin", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.brettmartin.com", "country": "United Kingdom", "is_active": true}
+
+# Brian Hyde
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Brian Hyde", "slug": "brian-hyde", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.brianhyde.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Briggs
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Briggs", "slug": "briggs", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.briggssafetywear.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Bristol Tile Company
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Bristol Tile Company", "slug": "bristol-tile-company", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.bristol-tile.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Bruce Douglas Marketing Ltd (Ultratape)
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Bruce Douglas Marketing Ltd (Ultratape)", "slug": "bruce-douglas-marketing-ltd-ultratape", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.ultratape.com", "country": "United Kingdom", "is_active": true}
+

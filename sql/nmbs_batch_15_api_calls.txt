@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 15
+
+# Just1Source & Supply Limited
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Just1Source & Supply Limited", "slug": "just1source-supply-limited", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.just1source.com", "country": "United Kingdom", "is_active": true}
+
+# Karcher UK Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Karcher UK Ltd", "slug": "karcher-uk-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.karcher.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Kendon Rope and Twine
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Kendon Rope and Twine", "slug": "kendon-rope-and-twine", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.kendon.co.uk", "country": "United Kingdom", "is_active": true}
+
+# KestrelBCE
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "KestrelBCE", "slug": "kestrelbce", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.kbp.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Keylite Roof Windows Limited
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Keylite Roof Windows Limited", "slug": "keylite-roof-windows-limited", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.keyliteroofwindows.com", "country": "United Kingdom", "is_active": true}
+
+# Keystone Lintels & IG Lintels
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Keystone Lintels & IG Lintels", "slug": "keystone-lintels-ig-lintels", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.keystonegroup.co.uk/brands/keystone-lintels", "country": "United Kingdom", "is_active": true}
+
+# Klingspor Abrasives
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Klingspor Abrasives", "slug": "klingspor-abrasives", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.klingspor.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Knauf Insulation
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Knauf Insulation", "slug": "knauf-insulation", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.knaufinsulation.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Knauf UK
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Knauf UK", "slug": "knauf-uk", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.knauf.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Kyocera Senco UK Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Kyocera Senco UK Ltd", "slug": "kyocera-senco-uk-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.kyocera-senco.co.uk", "country": "United Kingdom", "is_active": true}
+

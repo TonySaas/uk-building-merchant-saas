@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 11
+
+# Flexseal Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Flexseal Ltd", "slug": "flexseal-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.flexseal.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Floplast
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Floplast", "slug": "floplast", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.floplast.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Forgefix
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Forgefix", "slug": "forgefix", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.forgefix.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Formpave
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Formpave", "slug": "formpave", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.forterra.co.uk/formpave", "country": "United Kingdom", "is_active": true}
+
+# Franke UK
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Franke UK", "slug": "franke-uk", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.franke.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Frelan Hardware ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Frelan Hardware ltd", "slug": "frelan-hardware-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.frelanironmongery.com", "country": "United Kingdom", "is_active": true}
+
+# Frisco UK Sales Limited
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Frisco UK Sales Limited", "slug": "frisco-uk-sales-limited", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.frisco.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Garrison Dales
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Garrison Dales", "slug": "garrison-dales", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.garrisondales.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Geosynthetics Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Geosynthetics Ltd", "slug": "geosynthetics-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.geosyn.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Grant Westfield
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Grant Westfield", "slug": "grant-westfield", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.grantwestfield.co.uk", "country": "United Kingdom", "is_active": true}
+

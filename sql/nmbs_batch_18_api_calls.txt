@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 18
+
+# Mermaid Panels
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Mermaid Panels", "slug": "mermaid-panels", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.mermaidpanels.com", "country": "United Kingdom", "is_active": true}
+
+# Metabo UK Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Metabo UK Ltd", "slug": "metabo-uk-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.metabo.com/uk/en", "country": "United Kingdom", "is_active": true}
+
+# Methven UK
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Methven UK", "slug": "methven-uk", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.methven.com", "country": "United Kingdom", "is_active": true}
+
+# Midland Lead Limited
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Midland Lead Limited", "slug": "midland-lead-limited", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.midlandlead.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Milwaukee
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Milwaukee", "slug": "milwaukee", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.milwaukeetool.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Mission Rubber
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Mission Rubber", "slug": "mission-rubber", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.missionrubber.co.uk", "country": "United Kingdom", "is_active": true}
+
+# M.Marcus Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "M.Marcus Ltd", "slug": "mmarcus-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.m-marcus.com", "country": "United Kingdom", "is_active": true}
+
+# Monarch Water Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Monarch Water Ltd", "slug": "monarch-water-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.monarchwater.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Montpellier Domestic Appliances
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Montpellier Domestic Appliances", "slug": "montpellier-domestic-appliances", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.montpellier-appliances.com", "country": "United Kingdom", "is_active": true}
+
+# Monument Tools Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Monument Tools Ltd", "slug": "monument-tools-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.monument-tools.com", "country": "United Kingdom", "is_active": true}
+

@@ -1,0 +1,82 @@
+[
+  {
+    "supplier_name": "Catnic",
+    "slug": "catnic",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.catnic.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Cavity Trays Ltd",
+    "slug": "cavity-trays-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.cavitytrays.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "CDA Group",
+    "slug": "cda-group",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.cda.eu",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Cellecta Limited",
+    "slug": "cellecta-limited",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.cellecta.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Cembrit",
+    "slug": "cembrit",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.cembrit.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Cemex Concrete Products",
+    "slug": "cemex-concrete-products",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.cemex.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Centurion Europe Ltd",
+    "slug": "centurion-europe-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.centurioneurope.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Ceramic Tile Distributors",
+    "slug": "ceramic-tile-distributors",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.ctdtiles.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Chain Products",
+    "slug": "chain-products",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.chainproducts.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Charltons Gates & Fencing",
+    "slug": "charltons-gates-fencing",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.charltonsgates.com",
+    "country": "United Kingdom",
+    "is_active": true
+  }
+]

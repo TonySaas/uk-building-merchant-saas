@@ -1,0 +1,82 @@
+[
+  {
+    "supplier_name": "Rowlinson Garden Products Ltd.",
+    "slug": "rowlinson-garden-products-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.rowgar.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Roxor Group (Ultra Finishing)",
+    "slug": "roxor-group-ultra-finishing",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.premierbathroomcollection.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "ROYD Tool Group",
+    "slug": "royd-tool-group",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.roydtoolgroup.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Rustins Ltd",
+    "slug": "rustins-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.rustins.ltd",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Sabrefix (UK) Ltd",
+    "slug": "sabrefix-uk-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.sabrefix.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Saint-Gobain Abrasives",
+    "slug": "saint-gobain-abrasives",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.saint-gobain-abrasives.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Samac Fixings Ltd",
+    "slug": "samac-fixings-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.samacfixings.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Saneux",
+    "slug": "saneux",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.saneux.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "SCA Wood UK Ltd",
+    "slug": "sca-wood-uk-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.sca.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Schiedel Chimney Systems Ltd",
+    "slug": "schiedel-chimney-systems-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.schiedel.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  }
+]

@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 9
+
+# EBP Building Products
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "EBP Building Products", "slug": "ebp-building-products", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.ebpbuilding.com", "country": "United Kingdom", "is_active": true}
+
+# EJ Fabrication and Access Solutions Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "EJ Fabrication and Access Solutions Ltd", "slug": "ej-fabrication-and-access-solutions-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.ejco.com/em/en", "country": "United Kingdom", "is_active": true}
+
+# Electrolux Major Appliances
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Electrolux Major Appliances", "slug": "electrolux-major-appliances", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.electrolux.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Eliza Tinsley / Avocet Hardware
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Eliza Tinsley / Avocet Hardware", "slug": "eliza-tinsley-avocet-hardware", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.elizatinsley.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Elnur UK
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Elnur UK", "slug": "elnur-uk", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.elnur.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Encon Insulation
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Encon Insulation", "slug": "encon-insulation", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.merchantchoice.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Etex (Exteriors)UK Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Etex (Exteriors)UK Ltd", "slug": "etex-exteriorsuk-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.etexgroup.com", "country": "United Kingdom", "is_active": true}
+
+# Eucotherm
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Eucotherm", "slug": "eucotherm", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.eucotherm.com", "country": "United Kingdom", "is_active": true}
+
+# F Ball & Co Ltd - Setcrete
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "F Ball & Co Ltd - Setcrete", "slug": "f-ball-co-ltd-setcrete", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.setcrete.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Fabdec Limited
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Fabdec Limited", "slug": "fabdec-limited", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.fabdec.com", "country": "United Kingdom", "is_active": true}
+

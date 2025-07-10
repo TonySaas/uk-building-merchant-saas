@@ -1,0 +1,82 @@
+[
+  {
+    "supplier_name": "BSW Timber Ltd",
+    "slug": "bsw-timber-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.bsw.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Buckler Boots Ltd",
+    "slug": "buckler-boots-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.bucklerboots.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Building Adhesives (Dunlop)",
+    "slug": "building-adhesives-dunlop",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.dunloptrade.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Burg-Wachter UK Ltd",
+    "slug": "burg-wachter-uk-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.burg.biz/uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Business Insurance Services",
+    "slug": "business-insurance-services",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.mofs.co.uk/bis",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Calder Lead",
+    "slug": "calder-lead",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.calderlead.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Calders and Grandidge",
+    "slug": "calders-and-grandidge",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.caldersandgrandidge.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Carlisle Brass",
+    "slug": "carlisle-brass",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.carlislebrass.com",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Castacrete Ltd",
+    "slug": "castacrete-ltd",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.castacrete.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  },
+  {
+    "supplier_name": "Castle Brooke Tools",
+    "slug": "castle-brooke-tools",
+    "supplier_description": "NMBS affiliated supplier providing building materials and related products.",
+    "supplier_website": "https://www.castlebrooke.co.uk",
+    "country": "United Kingdom",
+    "is_active": true
+  }
+]

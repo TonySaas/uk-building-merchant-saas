@@ -1,0 +1,62 @@
+# API calls for NMBS Batch 1
+
+# Acheson & Glover
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Acheson & Glover", "slug": "acheson-glover", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.ag.uk.com", "country": "United Kingdom", "is_active": true}
+
+# Ademco 1 Ltd, Honeywell Home
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Ademco 1 Ltd, Honeywell Home", "slug": "ademco-1-ltd-honeywell-home", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.heatingcontrols.honeywellhome.com", "country": "United Kingdom", "is_active": true}
+
+# Adey Innovations
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Adey Innovations", "slug": "adey-innovations", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.adey.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Aerosol Solutions Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Aerosol Solutions Ltd", "slug": "aerosol-solutions-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.aerosolsolutions.co.uk", "country": "United Kingdom", "is_active": true}
+
+# AGA Rangemaster
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "AGA Rangemaster", "slug": "aga-rangemaster", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.leisuresinks.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Aggregate Industries/ Bradstone/ Charcon
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Aggregate Industries/ Bradstone/ Charcon", "slug": "aggregate-industries-bradstone-charcon", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.bradstone.com", "country": "United Kingdom", "is_active": true}
+
+# AIM Solder UK LTD
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "AIM Solder UK LTD", "slug": "aim-solder-uk-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.aimsolder.com", "country": "United Kingdom", "is_active": true}
+
+# Airflow ( Nicoll Ventilators) Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Airflow ( Nicoll Ventilators) Ltd", "slug": "airflow-nicoll-ventilators-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.airflow-vent.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Aliaxis UK (including Hunter and Marley Plumbing)
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Aliaxis UK (including Hunter and Marley Plumbing)", "slug": "aliaxis-uk-including-hunter-and-marley-plumbing", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.aliaxis.co.uk", "country": "United Kingdom", "is_active": true}
+
+# Allegion UK Ltd
+supabase:postgrestRequest
+method: POST
+path: /suppliers
+body: {"supplier_name": "Allegion UK Ltd", "slug": "allegion-uk-ltd", "supplier_description": "NMBS affiliated supplier providing building materials and related products.", "supplier_website": "https://www.allegion.co.uk", "country": "United Kingdom", "is_active": true}
+
